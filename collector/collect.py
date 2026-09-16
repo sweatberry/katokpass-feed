@@ -42,17 +42,56 @@ def env(name: str, default: str | None = None) -> str:
     return value
 
 
-async def resolve_channel(client: TelegramClient, link: str):
-    """Закрытый канал находим по ссылке-приглашению, открытый — по @имени."""
+async def find_in_dialogs(client: TelegramClient, channel_id: int | None, title: str | None):
+    """Ищет канал среди подписок аккаунта — по номеру или по части названия."""
+    wanted = (title or "").lower()
+    async for dialog in client.iter_dialogs():
+        entity = dialog.entity
+        if not getattr(entity, "broadcast", False) and not getattr(entity, "megagroup", False):
+            continue
+        if channel_id is not None and entity.id == channel_id:
+            return entity
+        if channel_id is None and wanted and wanted in (dialog.name or "").lower():
+            return entity
+    return None
+
+
+async def resolve_channel(client: TelegramClient, source: dict):
+    """Порядок поиска: номер канала → часть названия → ссылка-приглашение → @имя.
+
+    В sources.json:
+      "telegram": "-1001234567890"  — номер канала (его показывает find_channel.py)
+      "title": "чартер"             — часть названия канала среди подписок
+      "telegram": "https://t.me/+…" — ссылка-приглашение (перестаёт работать, когда истекает)
+    """
+    link = str(source.get("telegram") or "").strip()
+    if "ВСТАВЬТЕ" in link:
+        raise RuntimeError("в sources.json не вписан номер канала — запустите find_channel.py")
+    title = source.get("title")
+
+    raw_id = link[4:] if link.startswith("-100") else link
+    if raw_id.isdigit():
+        entity = await find_in_dialogs(client, int(raw_id), None)
+        if entity:
+            return entity
+        raise RuntimeError("канал с таким номером не найден среди подписок аккаунта")
+
+    if title:
+        entity = await find_in_dialogs(client, None, title)
+        if entity:
+            return entity
+
     m = re.search(r"(?:t\.me/\+|t\.me/joinchat/|^\+)([\w-]+)", link)
     if m:
         invite = await client(CheckChatInviteRequest(m.group(1)))
         if isinstance(invite, ChatInviteAlready):
             return invite.chat
         if isinstance(invite, ChatInvite):
-            sys.exit("Аккаунт не подписан на канал. Вступите в него по ссылке с этого аккаунта.")
-        sys.exit("Не удалось открыть ссылку-приглашение.")
-    return await client.get_entity(link)
+            raise RuntimeError("аккаунт не подписан на канал — вступите в него по ссылке")
+        raise RuntimeError("не удалось открыть ссылку-приглашение")
+    if link:
+        return await client.get_entity(link)
+    raise RuntimeError("в sources.json не указан ни номер, ни название канала")
 
 
 def load_config() -> dict:
@@ -67,7 +106,11 @@ def load_config() -> dict:
 async def main() -> None:
     api_id = int(env("TG_API_ID"))
     api_hash = env("TG_API_HASH")
-    session = env("TG_SESSION")
+    # Убираем пробелы и переносы, которые могли попасть при копировании.
+    session = "".join(env("TG_SESSION").split()).strip("\"'")
+    if len(session) not in (353, 369):
+        sys.exit(f"Секрет TG_SESSION повреждён: {len(session)} символов вместо 353. "
+                 "Запустите login_qr.py ещё раз — строка сама скопируется в буфер — и обновите секрет.")
     config = load_config()
     ttl = timedelta(hours=float(config.get("ttlHours") or 24))
 
@@ -84,7 +127,7 @@ async def main() -> None:
     for n, source in enumerate(config["sources"]):
         agency = source.get("name") or "Агентство"
         try:
-            channel = await resolve_channel(client, source["telegram"])
+            channel = await resolve_channel(client, source)
         except (SystemExit, Exception) as e:  # noqa: BLE001 — один сломанный источник не должен ронять остальные
             report.append(f"{agency}: не прочитан — {e}")
             continue
