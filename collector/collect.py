@@ -103,6 +103,15 @@ def departs_too_soon(departure: str, now: datetime, cutoff_hour: int) -> bool:
     return departure == local.date().isoformat() and local.hour >= cutoff_hour
 
 
+DEFAULT_MARKUP_PERCENT = 3.0
+
+
+def with_markup(price: int, percent: float) -> int:
+    """Цена для приложения: +percent % к цене из канала, округлённая вверх до 100 ₸."""
+    raised = price * (100 + percent) / 100
+    return int(-(-raised // 100) * 100)
+
+
 def load_config() -> dict:
     config = json.loads(CONFIG.read_text("utf-8"))
     sources = [src for src in config.get("sources", []) if src.get("enabled", True)]
@@ -123,6 +132,7 @@ async def main() -> None:
     config = load_config()
     ttl = timedelta(hours=float(config.get("ttlHours") or 24))
     cutoff_hour = int(config.get("sameDayCutoffHour") or 16)
+    markup = float(config.get("markupPercent", DEFAULT_MARKUP_PERCENT))
 
     now = datetime.now(timezone.utc)
     since = now - ttl
@@ -153,6 +163,7 @@ async def main() -> None:
                 if datetime.fromisoformat(deal.expiresAt.replace("Z", "+00:00")) > now \
                         and not departs_too_soon(deal.departure, now, cutoff_hour):
                     item = deal.to_json()
+                    item["price"] = with_markup(item["price"], markup)
                     item["id"] = f"{n}-{item['id']}"
                     deals.append(item)
                     found += 1
