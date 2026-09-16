@@ -107,9 +107,9 @@ DEFAULT_MARKUP_PERCENT = 3.0
 
 
 def with_markup(price: int, percent: float) -> int:
-    """Цена для приложения: +percent % к цене из канала, округлённая вверх до 100 ₸."""
+    """Цена для приложения: +percent % к цене из канала, округлённая вверх до 1 000 ₸."""
     raised = price * (100 + percent) / 100
-    return int(-(-raised // 100) * 100)
+    return int(-(-raised // 1000) * 1000)
 
 
 def load_config() -> dict:
@@ -163,6 +163,7 @@ async def main() -> None:
                 if datetime.fromisoformat(deal.expiresAt.replace("Z", "+00:00")) > now \
                         and not departs_too_soon(deal.departure, now, cutoff_hour):
                     item = deal.to_json()
+                    item["agency"] = ""  # название источника в публичный файл не попадает
                     item["price"] = with_markup(item["price"], markup)
                     item["id"] = f"{n}-{item['id']}"
                     deals.append(item)
@@ -178,7 +179,6 @@ async def main() -> None:
     settings = {"whatsApp": config.get("whatsApp"), "ttlHours": ttl.total_seconds() / 3600}
     payload = {
         "updatedAt": now.isoformat().replace("+00:00", "Z"),
-        "source": ", ".join(s.get("name", "") for s in config["sources"]),
         "settings": settings,
         "deals": deals,
     }
