@@ -1,0 +1,12 @@
+{
+  "_readme": "Настройки сборщика. Меняются прямо на GitHub, приложение обновлять не нужно. Можно указать несколько каналов.",
+  "ttlHours": 24,
+  "whatsApp": "77751649977",
+  "sources": [
+    {
+      "name": "Step to Travel",
+      "telegram": "https://t.me/+w67Y9RrjXJYzNGE1",
+      "enabled": true
+    }
+  ]
+}
