@@ -103,7 +103,7 @@ _MONTHS = {
     "янв": 1, "фев": 2, "мар": 3, "апр": 4, "мая": 5, "май": 5, "июн": 6,
     "июл": 7, "авг": 8, "сен": 9, "окт": 10, "ноя": 11, "дек": 12,
 }
-_range_re = re.compile(r"(?<!\d)(\d{1,2})\s*[-–—]\s*(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?(?!\d)")
+_range_re = re.compile(r"(?<![\d./])(\d{1,2})\s*[-–—]\s*(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?(?!\d)")
 _num_date_re = re.compile(r"(?<![\d.,])(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?(?![\d])")
 _word_date_re = re.compile(
     r"(?<!\d)(\d{1,2})\s*(?:[-–—]\s*(\d{1,2})\s*)?"
@@ -246,6 +246,7 @@ class Deal:
     postedAt: str           # ISO 8601, UTC
     expiresAt: str
     sourcePostID: int
+    seats: int | None = None
 
     def to_json(self) -> dict:
         d = asdict(self)
@@ -262,10 +263,149 @@ def _country_for(route: Route) -> str:
     return HOME_COUNTRY
 
 
+# ── посты-таблицы: «S 17.09 - 27 000 (5) 🔥» под заголовком маршрута ─────────
+
+_row_re = re.compile(
+    r"^\s*(?P<code>[A-Za-zА-Яа-яЁё*]{1,3}(?:\s*/\s*[A-Za-zА-Яа-яЁё*]{1,3})*)?\s*"
+    r"(?P<d1>\d{1,2}[./]\d{1,2}(?:[./]\d{2,4})?)"
+    r"(?:\s*[-–—]\s*(?P<d2>\d{1,2}[./]\d{1,2}(?:[./]\d{2,4})?))?"
+    r"\s*[-–—=:]\s*(?:от\s*)?"
+    r"(?P<price>\d{1,3}(?:[   .,]\d{3})+|\d{4,7})"
+    r"(?P<rest>.*)$"
+)
+_seats_re = re.compile(r"\((\d{1,3})\)")
+_legend_re = re.compile(r"^\s*(?P<name>[A-Za-zА-Яа-яЁё][\w .&'-]{1,30}?)\s*[-–—:]\s*багаж", re.IGNORECASE)
+_kg_re = re.compile(r"(\d{1,2})\s*(?:кг|kg)", re.IGNORECASE)
+_round_header_re = re.compile(r"туда[\s-]*(?:и\s*)?обратно", re.IGNORECASE)
+_foreign_currency_re = re.compile(r"\$|\busd\b|\beur\b|€|евро|\bруб|₽", re.IGNORECASE)
+_LATIN_LOOKALIKE = str.maketrans("АВЕКМНОРСТХаеорсх", "ABEKMHOPCTXaeopcx")
+
+
+def _bag_text(line: str) -> str | None:
+    nums = [int(n) for n in _kg_re.findall(line)]
+    if len(nums) >= 2:
+        return f"{nums[0]} + {nums[1]} кг"
+    if nums:
+        return f"{nums[0]} кг"
+    return None
+
+
+def _parse_date(raw: str, posted: date) -> date | None:
+    parts = re.split(r"[./]", raw)
+    year = int(parts[2]) if len(parts) > 2 else None
+    return _make_date(int(parts[0]), int(parts[1]), year, posted)
+
+
+def parse_table_post(text: str, post_id: int, posted_at: datetime, agency: str,
+                     ttl: timedelta) -> list["Deal"]:
+    lines = text.splitlines()
+    rows = [ln for ln in lines if _row_re.match(ln)]
+    if len(rows) < 1 or _foreign_currency_re.search(text):
+        return []
+
+    # Расшифровка в конце поста: «Scat - багаж 23 кг + ручная кладь 5 кг».
+    legend: dict[str, tuple[str, str | None]] = {}
+    default_bag = None
+    for ln in lines:
+        m = _legend_re.match(ln)
+        if m:
+            name = find_airline(m.group("name")) or m.group("name").strip()
+            if m.group("name").strip().lower() in ("багаж",):
+                default_bag = _bag_text(ln)
+                continue
+            legend[name[0].upper()] = (name, _bag_text(ln))
+        elif re.match(r"^\s*багаж", ln, re.IGNORECASE) and default_bag is None:
+            default_bag = _bag_text(ln)
+    single_airline = next(iter(legend.values())) if len(legend) == 1 else None
+    if not legend:
+        post_airline = find_airline(text)
+        if post_airline:
+            single_airline = (post_airline, find_baggage(text))
+
+    def airline_for(code: str | None) -> tuple[str, str]:
+        if code:
+            names, bags = [], []
+            for part in re.split(r"\s*/\s*", code.translate(_LATIN_LOOKALIKE).upper()):
+                if part in legend:
+                    names.append(legend[part][0])
+                    bags.append(legend[part][1])
+            if names:
+                if len(set(bags)) == 1 and bags[0]:
+                    bag = bags[0]
+                elif len(names) > 1:
+                    bag = "зависит от авиакомпании: " + ", ".join(
+                        f"{n} — {b}" for n, b in zip(names, bags) if b)
+                else:
+                    bag = default_bag or "уточняйте"
+                return " / ".join(dict.fromkeys(names)), bag
+        if single_airline and not code:
+            return single_airline[0], single_airline[1] or default_bag or "уточняйте"
+        return "Чартер", default_bag or "уточняйте"
+
+    posted_day = posted_at.date()
+    expires = posted_at + ttl
+    origin = dest = None
+    round_header = False
+    deals: list[Deal] = []
+    seen: set[tuple] = set()
+
+    for ln in lines:
+        row = _row_re.match(ln)
+        if not row:
+            cities = find_cities(ln)
+            if len(cities) >= 2 and cities[0].city != cities[1].city:
+                origin, dest = cities[0], cities[1]
+                round_header = len(cities) >= 3 and cities[2].city == cities[0].city
+            elif _round_header_re.search(ln) and origin is not None:
+                round_header = True
+            continue
+        if origin is None or dest is None:
+            continue
+        d1 = _parse_date(row.group("d1"), posted_day)
+        d2 = _parse_date(row.group("d2"), posted_day) if row.group("d2") else None
+        if d1 is None or d1 < posted_day:
+            continue
+        if d2 is not None and d2 < d1:
+            d2 = None
+        price = int(re.sub(r"\D", "", row.group("price")))
+        if not 5_000 <= price <= 5_000_000:
+            continue
+        seats_m = _seats_re.search(row.group("rest") or "")
+        airline, baggage = airline_for((row.group("code") or "").strip() or None)
+        key = (origin.city, dest.city, d1, d2, price, airline)
+        if key in seen:
+            continue
+        seen.add(key)
+        is_round = d2 is not None or round_header
+        deals.append(Deal(
+            id=f"{post_id}-{len(deals)}",
+            origin=origin.city,
+            destination=dest.city,
+            country=_country_for(Route(0, 0, origin, dest, is_round)),
+            fromCountry=origin.country,
+            toCountry=dest.country,
+            departure=d1.isoformat(),
+            returnDate=d2.isoformat() if d2 else None,
+            price=price,
+            trip="roundTrip" if is_round else "oneWay",
+            airline=airline,
+            baggage=baggage,
+            agency=agency,
+            postedAt=posted_at.isoformat().replace("+00:00", "Z"),
+            expiresAt=expires.isoformat().replace("+00:00", "Z"),
+            sourcePostID=post_id,
+            seats=int(seats_m.group(1)) if seats_m else None,
+        ))
+    return deals
+
+
 def parse_post(text: str, post_id: int, posted_at: datetime, agency: str,
                ttl: timedelta = timedelta(hours=24)) -> list[Deal]:
     if not text:
         return []
+    table = parse_table_post(text, post_id, posted_at, agency, ttl)
+    if table:
+        return table
     posted_day = posted_at.date()
     expires = posted_at + ttl
     routes = find_routes(text)
