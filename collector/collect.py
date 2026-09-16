@@ -94,6 +94,15 @@ async def resolve_channel(client: TelegramClient, source: dict):
     raise RuntimeError("в sources.json не указан ни номер, ни название канала")
 
 
+ALMATY = timezone(timedelta(hours=5))
+
+
+def departs_too_soon(departure: str, now: datetime, cutoff_hour: int) -> bool:
+    """После cutoff_hour по Алматы рейсы с вылетом сегодня уже не показываем."""
+    local = now.astimezone(ALMATY)
+    return departure == local.date().isoformat() and local.hour >= cutoff_hour
+
+
 def load_config() -> dict:
     config = json.loads(CONFIG.read_text("utf-8"))
     sources = [src for src in config.get("sources", []) if src.get("enabled", True)]
@@ -113,6 +122,7 @@ async def main() -> None:
                  "Запустите login_qr.py ещё раз — строка сама скопируется в буфер — и обновите секрет.")
     config = load_config()
     ttl = timedelta(hours=float(config.get("ttlHours") or 24))
+    cutoff_hour = int(config.get("sameDayCutoffHour") or 16)
 
     now = datetime.now(timezone.utc)
     since = now - ttl
@@ -140,7 +150,8 @@ async def main() -> None:
             text = message.message or ""
             # Номер источника в id, чтобы посты разных каналов не совпадали.
             for deal in parse_post(text, message.id, message.date, agency, ttl):
-                if datetime.fromisoformat(deal.expiresAt.replace("Z", "+00:00")) > now:
+                if datetime.fromisoformat(deal.expiresAt.replace("Z", "+00:00")) > now \
+                        and not departs_too_soon(deal.departure, now, cutoff_hour):
                     item = deal.to_json()
                     item["id"] = f"{n}-{item['id']}"
                     deals.append(item)
