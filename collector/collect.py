@@ -97,10 +97,9 @@ async def resolve_channel(client: TelegramClient, source: dict):
 ALMATY = timezone(timedelta(hours=5))
 
 
-def departs_too_soon(departure: str, now: datetime, cutoff_hour: int) -> bool:
-    """После cutoff_hour по Алматы рейсы с вылетом сегодня уже не показываем."""
-    local = now.astimezone(ALMATY)
-    return departure == local.date().isoformat() and local.hour >= cutoff_hour
+def departs_too_soon(departure: str, now: datetime) -> bool:
+    """Рейсы с вылетом сегодня (по Алматы) и раньше в приложение не попадают."""
+    return departure <= now.astimezone(ALMATY).date().isoformat()
 
 
 DEFAULT_MARKUP_PERCENT = 3.0
@@ -131,7 +130,6 @@ async def main() -> None:
                  "Запустите login_qr.py ещё раз — строка сама скопируется в буфер — и обновите секрет.")
     config = load_config()
     ttl = timedelta(hours=float(config.get("ttlHours") or 24))
-    cutoff_hour = int(config.get("sameDayCutoffHour") or 16)
     markup = float(config.get("markupPercent", DEFAULT_MARKUP_PERCENT))
 
     now = datetime.now(timezone.utc)
@@ -161,7 +159,7 @@ async def main() -> None:
             # Номер источника в id, чтобы посты разных каналов не совпадали.
             for deal in parse_post(text, message.id, message.date, agency, ttl):
                 if datetime.fromisoformat(deal.expiresAt.replace("Z", "+00:00")) > now \
-                        and not departs_too_soon(deal.departure, now, cutoff_hour):
+                        and not departs_too_soon(deal.departure, now):
                     item = deal.to_json()
                     item["agency"] = ""  # название источника в публичный файл не попадает
                     item["price"] = with_markup(item["price"], markup)
