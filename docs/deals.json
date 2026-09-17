@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-17T09:58:27.589602Z",
+ "updatedAt": "2026-09-17T10:20:47.206664Z",
  "settings": {
   "whatsApp": "77751649977",
   "ttlHours": 24.0
@@ -7791,25 +7791,6 @@
    "postedAt": "2026-09-17T08:28:29Z",
    "expiresAt": "2026-09-18T08:28:29Z",
    "sourcePostID": 51952,
-   "seats": null,
-   "from": "Джидда",
-   "to": "Актау"
-  },
-  {
-   "id": "0-51883-0",
-   "country": "Саудовская Аравия",
-   "fromCountry": "Саудовская Аравия",
-   "toCountry": "Казахстан",
-   "departure": "2026-09-27",
-   "returnDate": null,
-   "price": 101000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-09-16T10:00:48Z",
-   "expiresAt": "2026-09-17T10:00:48Z",
-   "sourcePostID": 51883,
    "seats": null,
    "from": "Джидда",
    "to": "Актау"
