@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-17T09:44:38.270545Z",
+ "updatedAt": "2026-09-17T09:58:27.589602Z",
  "settings": {
   "whatsApp": "77751649977",
   "ttlHours": 24.0
@@ -42,6 +42,25 @@
    "seats": 1,
    "from": "Шарм-эш-Шейх",
    "to": "Алматы"
+  },
+  {
+   "id": "0-51974-0",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-09-18",
+   "returnDate": null,
+   "price": 53000,
+   "trip": "oneWay",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-17T09:56:39Z",
+   "expiresAt": "2026-09-18T09:56:39Z",
+   "sourcePostID": 51974,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-51935-0",
