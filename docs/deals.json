@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-09-18T07:14:34.869055Z",
+ "updatedAt": "2026-09-18T07:33:39.219921Z",
  "settings": {
-  "whatsApp": "77751649977",
+  "whatsApp": "77755599977",
   "ttlHours": 24.0
  },
  "deals": [
@@ -878,6 +878,25 @@
    "seats": 1,
    "from": "Астана",
    "to": "Нячанг"
+  },
+  {
+   "id": "0-27-1",
+   "country": "Саудовская Аравия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Саудовская Аравия",
+   "departure": "2026-09-21",
+   "returnDate": "2026-09-29",
+   "price": 406000,
+   "trip": "roundTrip",
+   "airline": "Turkish",
+   "baggage": "30 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-18T07:25:29Z",
+   "expiresAt": "2026-09-19T07:25:29Z",
+   "sourcePostID": 27,
+   "seats": null,
+   "from": "Астана",
+   "to": "Джидда"
   },
   {
    "id": "0-24-68",
@@ -3367,6 +3386,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Абу-Даби"
+  },
+  {
+   "id": "0-27-0",
+   "country": "Саудовская Аравия",
+   "fromCountry": "Саудовская Аравия",
+   "toCountry": "Казахстан",
+   "departure": "2026-09-27",
+   "returnDate": null,
+   "price": 101000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "уточняйте",
+   "agency": "",
+   "postedAt": "2026-09-18T07:25:29Z",
+   "expiresAt": "2026-09-19T07:25:29Z",
+   "sourcePostID": 27,
+   "seats": null,
+   "from": "Джидда",
+   "to": "Актау"
   },
   {
    "id": "0-22-8",
