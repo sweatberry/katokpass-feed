@@ -118,6 +118,36 @@ def load_config() -> dict:
         sys.exit("В sources.json нет включённых источников")
     config["sources"] = sources
     return config
+def flight_key(item: dict) -> tuple:
+    """Один и тот же рейс: город вылета, город прилёта, дата, обратная дата и тип.
+    Авиакомпанию в ключ не берём — в разных постах её пишут по-разному."""
+    return (item["from"], item["to"], item["departure"], item.get("returnDate"), item["trip"])
+
+
+def deduplicate(items: list[dict]) -> list[dict]:
+    """Убирает повторы: если рейс публиковали несколько раз, оставляем один.
+    Из двух одинаковых берём тот, что дешевле; при равной цене — из свежего поста
+    (он дольше проживёт в ленте). Число мест берём из свежего поста."""
+    best: dict[tuple, dict] = {}
+    for item in items:
+        key = flight_key(item)
+        old = best.get(key)
+        if old is None:
+            best[key] = item
+            continue
+        newer = item["postedAt"] > old["postedAt"]
+        if item["price"] < old["price"] or (item["price"] == old["price"] and newer):
+            winner, loser = item, old
+        else:
+            winner, loser = old, item
+        # Свежий пост знает актуальные места и срок жизни лучше.
+        fresh = item if newer else old
+        winner = dict(winner)
+        winner["seats"] = fresh.get("seats")
+        winner["postedAt"] = fresh["postedAt"]
+        winner["expiresAt"] = max(winner["expiresAt"], loser["expiresAt"])
+        best[key] = winner
+    return list(best.values())
 
 
 async def main() -> None:
