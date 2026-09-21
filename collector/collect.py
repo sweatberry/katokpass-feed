@@ -118,6 +118,8 @@ def load_config() -> dict:
         sys.exit("В sources.json нет включённых источников")
     config["sources"] = sources
     return config
+
+
 def flight_key(item: dict) -> tuple:
     """Один и тот же рейс: город вылета, город прилёта, дата, обратная дата и тип.
     Авиакомпанию в ключ не берём — в разных постах её пишут по-разному."""
@@ -203,6 +205,7 @@ async def main() -> None:
     if not deals and all("постов" not in line for line in report):
         sys.exit("Ни один источник не прочитан — файл не меняем")
 
+    deals = deduplicate(deals)
     deals.sort(key=lambda d: (d["departure"], d["price"]))
     settings = {"whatsApp": config.get("whatsApp"), "ttlHours": ttl.total_seconds() / 3600}
     payload = {
