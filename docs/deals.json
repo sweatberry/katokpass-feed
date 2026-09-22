@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-22T07:17:41.249828Z",
+ "updatedAt": "2026-09-22T07:57:55.887696Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -2058,7 +2058,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-155-0",
+   "id": "0-209-0",
    "country": "Саудовская Аравия",
    "fromCountry": "Саудовская Аравия",
    "toCountry": "Казахстан",
@@ -2069,9 +2069,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-09-21T08:50:56Z",
-   "expiresAt": "2026-09-22T08:50:56Z",
-   "sourcePostID": 155,
+   "postedAt": "2026-09-22T07:57:38Z",
+   "expiresAt": "2026-09-23T07:57:38Z",
+   "sourcePostID": 209,
    "seats": null,
    "from": "Джидда",
    "to": "Актау"
@@ -2113,6 +2113,25 @@
    "seats": 2,
    "from": "Алматы",
    "to": "Дубай"
+  },
+  {
+   "id": "0-209-1",
+   "country": "Саудовская Аравия",
+   "fromCountry": "Саудовская Аравия",
+   "toCountry": "Казахстан",
+   "departure": "2026-09-27",
+   "returnDate": null,
+   "price": 150000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "уточняйте",
+   "agency": "",
+   "postedAt": "2026-09-22T07:57:38Z",
+   "expiresAt": "2026-09-23T07:57:38Z",
+   "sourcePostID": 209,
+   "seats": null,
+   "from": "Джидда",
+   "to": "Алматы"
   },
   {
    "id": "0-162-0",
@@ -5381,6 +5400,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
+  },
+  {
+   "id": "0-209-2",
+   "country": "Саудовская Аравия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Саудовская Аравия",
+   "departure": "2026-10-03",
+   "returnDate": "2026-10-10",
+   "price": 394000,
+   "trip": "roundTrip",
+   "airline": "Чартер",
+   "baggage": "уточняйте",
+   "agency": "",
+   "postedAt": "2026-09-22T07:57:38Z",
+   "expiresAt": "2026-09-23T07:57:38Z",
+   "sourcePostID": 209,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Джидда"
   },
   {
    "id": "0-203-12",
