@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-22T11:19:05.144013Z",
+ "updatedAt": "2026-09-22T11:56:49.434880Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -120,6 +120,25 @@
    "to": "Шарм-эш-Шейх"
   },
   {
+   "id": "0-235-1",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-09-23",
+   "returnDate": null,
+   "price": 81000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-22T11:54:30Z",
+   "expiresAt": "2026-09-23T11:54:30Z",
+   "sourcePostID": 235,
+   "seats": 2,
+   "from": "Алматы",
+   "to": "Нячанг"
+  },
+  {
    "id": "0-231-0",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -150,10 +169,10 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-22T05:09:03Z",
-   "expiresAt": "2026-09-23T05:09:03Z",
+   "postedAt": "2026-09-22T11:54:14Z",
+   "expiresAt": "2026-09-23T11:54:14Z",
    "sourcePostID": 184,
-   "seats": 2,
+   "seats": 1,
    "from": "Пхукет",
    "to": "Алматы"
   },
@@ -194,25 +213,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-192-1",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-09-23",
-   "returnDate": null,
-   "price": 124000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-22T06:13:06Z",
-   "expiresAt": "2026-09-23T06:13:06Z",
-   "sourcePostID": 192,
-   "seats": 9,
-   "from": "Алматы",
-   "to": "Нячанг"
   },
   {
    "id": "0-194-2",
@@ -1070,20 +1070,20 @@
    "to": "Астана"
   },
   {
-   "id": "0-184-23",
+   "id": "0-234-1",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
    "departure": "2026-09-25",
    "returnDate": null,
-   "price": 81000,
+   "price": 77000,
    "trip": "oneWay",
    "airline": "SCAT",
-   "baggage": "23 + 10 кг",
+   "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-22T05:09:39Z",
-   "expiresAt": "2026-09-23T05:09:39Z",
-   "sourcePostID": 184,
+   "postedAt": "2026-09-22T11:54:14Z",
+   "expiresAt": "2026-09-23T11:54:14Z",
+   "sourcePostID": 234,
    "seats": 2,
    "from": "Бангкок",
    "to": "Шымкент"
