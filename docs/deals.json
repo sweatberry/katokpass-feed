@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-23T08:59:26.334438Z",
+ "updatedAt": "2026-09-23T09:44:10.696648Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -745,6 +745,25 @@
    "seats": null,
    "from": "Астана",
    "to": "Дананг"
+  },
+  {
+   "id": "0-263-0",
+   "country": "Италия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Италия",
+   "departure": "2026-09-26",
+   "returnDate": null,
+   "price": 165000,
+   "trip": "oneWay",
+   "airline": "Neos",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-23T09:33:35Z",
+   "expiresAt": "2026-09-24T09:33:35Z",
+   "sourcePostID": 263,
+   "seats": 3,
+   "from": "Алматы",
+   "to": "Милан"
   },
   {
    "id": "0-238-3",
