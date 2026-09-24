@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T07:44:34.621960Z",
+ "updatedAt": "2026-09-24T07:58:39.516649Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1393,25 +1393,6 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-250-3",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-09-28",
-   "returnDate": "2026-10-06",
-   "price": 185000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-09-24T06:11:53Z",
-   "expiresAt": "2026-09-25T06:11:53Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
-  },
-  {
    "id": "0-281-3",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -1467,6 +1448,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
+  },
+  {
+   "id": "0-287-2",
+   "country": "Китай",
+   "fromCountry": "Казахстан",
+   "toCountry": "Китай",
+   "departure": "2026-09-28",
+   "returnDate": "2026-10-06",
+   "price": 227000,
+   "trip": "roundTrip",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-24T06:11:53Z",
+   "expiresAt": "2026-09-25T06:11:53Z",
+   "sourcePostID": 287,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Санья"
   },
   {
    "id": "0-266-10",
@@ -6105,25 +6105,6 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-251-11",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-10",
-   "returnDate": "2026-10-19",
-   "price": 377000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:57:02Z",
-   "expiresAt": "2026-09-24T07:57:02Z",
-   "sourcePostID": 251,
-   "seats": null,
-   "from": "Астана",
-   "to": "Санья"
-  },
-  {
    "id": "0-276-34",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -6426,25 +6407,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-251-12",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-11",
-   "returnDate": "2026-10-19",
-   "price": 433000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:57:02Z",
-   "expiresAt": "2026-09-24T07:57:02Z",
-   "sourcePostID": 251,
-   "seats": null,
-   "from": "Астана",
-   "to": "Санья"
   },
   {
    "id": "0-273-19",
@@ -7454,25 +7416,6 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-250-15",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-16",
-   "returnDate": "2026-10-24",
-   "price": 337000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:51:14Z",
-   "expiresAt": "2026-09-24T07:51:14Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
-  },
-  {
    "id": "0-272-22",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -7547,25 +7490,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-250-16",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-17",
-   "returnDate": "2026-10-25",
-   "price": 404000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:51:14Z",
-   "expiresAt": "2026-09-24T07:51:14Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
   },
   {
    "id": "0-265-4",
@@ -7720,25 +7644,6 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-251-15",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-18",
-   "returnDate": "2026-10-26",
-   "price": 442000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:57:02Z",
-   "expiresAt": "2026-09-24T07:57:02Z",
-   "sourcePostID": 251,
-   "seats": null,
-   "from": "Астана",
-   "to": "Санья"
-  },
-  {
    "id": "0-273-22",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -7870,25 +7775,6 @@
    "seats": 1,
    "from": "Актобе",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-250-18",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-19",
-   "returnDate": "2026-10-27",
-   "price": 352000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:51:14Z",
-   "expiresAt": "2026-09-24T07:51:14Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
   },
   {
    "id": "0-280-60",
@@ -8174,25 +8060,6 @@
    "seats": null,
    "from": "Костанай",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-250-19",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-21",
-   "returnDate": "2026-10-29",
-   "price": 494000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:51:14Z",
-   "expiresAt": "2026-09-24T07:51:14Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
   },
   {
    "id": "0-285-0",
@@ -8765,25 +8632,6 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-250-20",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-26",
-   "returnDate": "2026-11-03",
-   "price": 442000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:51:14Z",
-   "expiresAt": "2026-09-24T07:51:14Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
-  },
-  {
    "id": "0-286-11",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -9031,25 +8879,6 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-250-21",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-28",
-   "returnDate": "2026-11-05",
-   "price": 419000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:51:14Z",
-   "expiresAt": "2026-09-24T07:51:14Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
-  },
-  {
    "id": "0-276-14",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
@@ -9162,25 +8991,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-251-16",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-29",
-   "returnDate": "2026-11-06",
-   "price": 466000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:57:02Z",
-   "expiresAt": "2026-09-24T07:57:02Z",
-   "sourcePostID": 251,
-   "seats": null,
-   "from": "Астана",
-   "to": "Санья"
   },
   {
    "id": "0-286-12",
@@ -9504,25 +9314,6 @@
    "seats": 9,
    "from": "Астана",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-250-22",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-10-31",
-   "returnDate": "2026-11-08",
-   "price": 419000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T07:51:14Z",
-   "expiresAt": "2026-09-24T07:51:14Z",
-   "sourcePostID": 250,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
   },
   {
    "id": "0-277-4",
