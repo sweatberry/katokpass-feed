@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T11:19:53.523270Z",
+ "updatedAt": "2026-09-24T11:43:42.028191Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -384,25 +384,6 @@
    "seats": 2,
    "from": "Шарм-эш-Шейх",
    "to": "Алматы"
-  },
-  {
-   "id": "0-267-3",
-   "country": "Египет",
-   "fromCountry": "Египет",
-   "toCountry": "Казахстан",
-   "departure": "2026-09-26",
-   "returnDate": null,
-   "price": 53000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T11:42:12Z",
-   "expiresAt": "2026-09-24T11:42:12Z",
-   "sourcePostID": 267,
-   "seats": 1,
-   "from": "Шарм-эш-Шейх",
-   "to": "Астана"
   },
   {
    "id": "0-320-0",
@@ -8879,25 +8860,6 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-267-13",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-12",
-   "returnDate": "2026-10-19",
-   "price": 318000,
-   "trip": "roundTrip",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T11:42:12Z",
-   "expiresAt": "2026-09-24T11:42:12Z",
-   "sourcePostID": 267,
-   "seats": null,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-287-10",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -9753,25 +9715,6 @@
    "to": "Анталия"
   },
   {
-   "id": "0-267-14",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-15",
-   "returnDate": "2026-10-22",
-   "price": 308000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T11:42:12Z",
-   "expiresAt": "2026-09-24T11:42:12Z",
-   "sourcePostID": 267,
-   "seats": null,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-280-59",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -10625,25 +10568,6 @@
    "seats": 3,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-267-16",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-20",
-   "returnDate": "2026-10-27",
-   "price": 308000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T11:42:12Z",
-   "expiresAt": "2026-09-24T11:42:12Z",
-   "sourcePostID": 267,
-   "seats": 6,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-289-3",
