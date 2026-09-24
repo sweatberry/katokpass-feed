@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-24T13:46:37.555337Z",
+ "updatedAt": "2026-09-24T15:18:37.620068Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1222,25 +1222,6 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-271-10",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-09-27",
-   "returnDate": "2026-10-05",
-   "price": 257000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T15:17:58Z",
-   "expiresAt": "2026-09-24T15:17:58Z",
-   "sourcePostID": 271,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Нячанг"
-  },
-  {
    "id": "0-307-14",
    "country": "Китай",
    "fromCountry": "Чехия",
@@ -1580,25 +1561,6 @@
    "sourcePostID": 279,
    "seats": 2,
    "from": "Астана",
-   "to": "Нячанг"
-  },
-  {
-   "id": "0-271-11",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-09-28",
-   "returnDate": "2026-10-06",
-   "price": 205000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T15:17:58Z",
-   "expiresAt": "2026-09-24T15:17:58Z",
-   "sourcePostID": 271,
-   "seats": 9,
-   "from": "Алматы",
    "to": "Нячанг"
   },
   {
@@ -3671,25 +3633,6 @@
    "seats": 1,
    "from": "Пхукет",
    "to": "Алматы"
-  },
-  {
-   "id": "0-271-13",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-10-01",
-   "returnDate": "2026-10-09",
-   "price": 248000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T15:17:58Z",
-   "expiresAt": "2026-09-24T15:17:58Z",
-   "sourcePostID": 271,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Нячанг"
   },
   {
    "id": "0-294-5",
@@ -11062,25 +11005,6 @@
    "seats": null,
    "from": "Санья",
    "to": "Шымкент"
-  },
-  {
-   "id": "0-271-7",
-   "country": "Таиланд",
-   "fromCountry": "Таиланд",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-25",
-   "returnDate": null,
-   "price": 87000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-23T15:17:58Z",
-   "expiresAt": "2026-09-24T15:17:58Z",
-   "sourcePostID": 271,
-   "seats": null,
-   "from": "Пхукет",
-   "to": "Уральск"
   },
   {
    "id": "0-286-8",
