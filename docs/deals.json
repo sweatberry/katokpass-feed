@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T10:20:57.695637Z",
+ "updatedAt": "2026-09-25T10:44:36.266629Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -234,7 +234,7 @@
    "to": "Дананг"
   },
   {
-   "id": "0-374-0",
+   "id": "0-380-0",
    "country": "Италия",
    "fromCountry": "Казахстан",
    "toCountry": "Италия",
@@ -245,9 +245,9 @@
    "airline": "Neos",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-25T08:52:15Z",
-   "expiresAt": "2026-09-26T08:52:15Z",
-   "sourcePostID": 374,
+   "postedAt": "2026-09-25T10:39:13Z",
+   "expiresAt": "2026-09-26T10:39:13Z",
+   "sourcePostID": 380,
    "seats": 1,
    "from": "Алматы",
    "to": "Милан"
@@ -1561,25 +1561,6 @@
    "sourcePostID": 353,
    "seats": null,
    "from": "Абу-Даби",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-324-1",
-   "country": "Таиланд",
-   "fromCountry": "Таиланд",
-   "toCountry": "Казахстан",
-   "departure": "2026-09-29",
-   "returnDate": null,
-   "price": 115000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-24T10:38:45Z",
-   "expiresAt": "2026-09-25T10:38:45Z",
-   "sourcePostID": 324,
-   "seats": 1,
-   "from": "Пхукет",
    "to": "Алматы"
   },
   {
