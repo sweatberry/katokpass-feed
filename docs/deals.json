@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-27T05:43:02.203786Z",
+ "updatedAt": "2026-09-27T05:57:04.184954Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -150,10 +150,10 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
    "sourcePostID": 426,
-   "seats": null,
+   "seats": 4,
    "from": "Алматы",
    "to": "Нячанг"
   },
@@ -226,8 +226,8 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:58:40Z",
-   "expiresAt": "2026-09-27T06:58:40Z",
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
    "sourcePostID": 399,
    "seats": 1,
    "from": "Нячанг",
@@ -264,10 +264,10 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
    "sourcePostID": 391,
-   "seats": 9,
+   "seats": 4,
    "from": "Алматы",
    "to": "Нячанг"
   },
@@ -443,7 +443,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-426-27",
+   "id": "0-434-2",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -454,10 +454,10 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
-   "sourcePostID": 426,
-   "seats": null,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 6,
    "from": "Алматы",
    "to": "Нячанг"
   },
@@ -576,6 +576,25 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-392-0",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-09-29",
+   "returnDate": null,
+   "price": 146000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 392,
+   "seats": 1,
+   "from": "Шымкент",
+   "to": "Нячанг"
+  },
+  {
    "id": "0-433-16",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -593,25 +612,6 @@
    "seats": 1,
    "from": "Нячанг",
    "to": "Астана"
-  },
-  {
-   "id": "0-392-0",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-09-29",
-   "returnDate": null,
-   "price": 146000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T06:55:36Z",
-   "expiresAt": "2026-09-27T06:55:36Z",
-   "sourcePostID": 392,
-   "seats": 3,
-   "from": "Шымкент",
-   "to": "Нячанг"
   },
   {
    "id": "0-385-2",
@@ -728,21 +728,21 @@
    "to": "Мюнхен"
   },
   {
-   "id": "0-392-3",
+   "id": "0-435-3",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-09-29",
    "returnDate": "2026-10-08",
-   "price": 185000,
+   "price": 184000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:36Z",
-   "expiresAt": "2026-09-27T06:55:36Z",
-   "sourcePostID": 392,
-   "seats": 3,
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 435,
+   "seats": 1,
    "from": "Шымкент",
    "to": "Нячанг"
   },
@@ -783,6 +783,25 @@
    "seats": null,
    "from": "Мюнхен",
    "to": "Шымкент"
+  },
+  {
+   "id": "0-434-47",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-09-29",
+   "returnDate": "2026-10-07",
+   "price": 198000,
+   "trip": "roundTrip",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 3,
+   "from": "Алматы",
+   "to": "Нячанг"
   },
   {
    "id": "0-419-6",
@@ -840,25 +859,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-391-48",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-09-29",
-   "returnDate": "2026-10-07",
-   "price": 221000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Нячанг"
   },
   {
    "id": "0-400-8",
@@ -1138,12 +1138,31 @@
    "airline": "Vietjet",
    "baggage": "20 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
+   "postedAt": "2026-09-27T05:56:44Z",
+   "expiresAt": "2026-09-28T05:56:44Z",
    "sourcePostID": 426,
-   "seats": 6,
+   "seats": null,
    "from": "Дананг",
    "to": "Астана"
+  },
+  {
+   "id": "0-434-3",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-09-30",
+   "returnDate": null,
+   "price": 99000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Нячанг"
   },
   {
    "id": "0-430-1",
@@ -1163,25 +1182,6 @@
    "seats": 1,
    "from": "Астана",
    "to": "Анталия"
-  },
-  {
-   "id": "0-391-3",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-09-30",
-   "returnDate": null,
-   "price": 99000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Нячанг"
   },
   {
    "id": "0-387-11",
@@ -1450,7 +1450,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-391-49",
+   "id": "0-434-48",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -1461,9 +1461,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -1849,7 +1849,7 @@
    "to": "Мюнхен"
   },
   {
-   "id": "0-391-4",
+   "id": "0-434-4",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -1860,9 +1860,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 6,
    "from": "Алматы",
    "to": "Нячанг"
@@ -1944,21 +1944,21 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-391-50",
+   "id": "0-434-49",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-10-01",
    "returnDate": "2026-10-09",
-   "price": 212000,
+   "price": 198000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": 5,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 3,
    "from": "Алматы",
    "to": "Нячанг"
   },
@@ -2229,6 +2229,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-434-25",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-02",
+   "returnDate": null,
+   "price": 123000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 1,
+   "from": "Нячанг",
+   "to": "Алматы"
+  },
+  {
    "id": "0-402-10",
    "country": "ОАЭ",
    "fromCountry": "ОАЭ",
@@ -2248,7 +2267,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-391-6",
+   "id": "0-434-6",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -2259,9 +2278,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 3,
    "from": "Алматы",
    "to": "Нячанг"
@@ -2400,20 +2419,20 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-392-4",
+   "id": "0-435-4",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-10-02",
    "returnDate": "2026-10-12",
-   "price": 223000,
+   "price": 222000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:36Z",
-   "expiresAt": "2026-09-27T06:55:36Z",
-   "sourcePostID": 392,
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 435,
    "seats": null,
    "from": "Шымкент",
    "to": "Нячанг"
@@ -2476,7 +2495,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-391-52",
+   "id": "0-434-50",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -2487,9 +2506,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -2571,7 +2590,7 @@
    "to": "Ташкент"
   },
   {
-   "id": "0-426-33",
+   "id": "0-436-1",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -2582,9 +2601,9 @@
    "airline": "Vietjet",
    "baggage": "20 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
-   "sourcePostID": 426,
+   "postedAt": "2026-09-27T05:56:44Z",
+   "expiresAt": "2026-09-28T05:56:44Z",
+   "sourcePostID": 436,
    "seats": null,
    "from": "Дананг",
    "to": "Астана"
@@ -2647,7 +2666,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-391-25",
+   "id": "0-434-26",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -2658,10 +2677,10 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": 8,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 7,
    "from": "Нячанг",
    "to": "Алматы"
   },
@@ -2989,7 +3008,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-426-28",
+   "id": "0-434-7",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -3000,9 +3019,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
-   "sourcePostID": 426,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -3217,7 +3236,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-391-26",
+   "id": "0-434-27",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -3228,10 +3247,10 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": 7,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 5,
    "from": "Нячанг",
    "to": "Алматы"
   },
@@ -3310,6 +3329,25 @@
    "seats": null,
    "from": "Астана",
    "to": "Дубай"
+  },
+  {
+   "id": "0-434-51",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-04",
+   "returnDate": "2026-10-12",
+   "price": 296000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Нячанг"
   },
   {
    "id": "0-397-7",
@@ -3502,7 +3540,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-426-29",
+   "id": "0-434-9",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -3513,9 +3551,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
-   "sourcePostID": 426,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -3711,7 +3749,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-391-27",
+   "id": "0-434-28",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -3722,15 +3760,15 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Нячанг",
    "to": "Алматы"
   },
   {
-   "id": "0-391-55",
+   "id": "0-434-52",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -3741,9 +3779,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 9,
    "from": "Алматы",
    "to": "Нячанг"
@@ -4034,7 +4072,7 @@
    "to": "Мюнхен"
   },
   {
-   "id": "0-391-10",
+   "id": "0-434-10",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -4045,9 +4083,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -4262,20 +4300,20 @@
    "to": "Астана"
   },
   {
-   "id": "0-392-5",
+   "id": "0-435-5",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-10-06",
    "returnDate": "2026-10-15",
-   "price": 247000,
+   "price": 245000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:36Z",
-   "expiresAt": "2026-09-27T06:55:36Z",
-   "sourcePostID": 392,
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 435,
    "seats": null,
    "from": "Шымкент",
    "to": "Нячанг"
@@ -4547,7 +4585,7 @@
    "to": "Белград"
   },
   {
-   "id": "0-391-11",
+   "id": "0-434-11",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -4558,9 +4596,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -4642,7 +4680,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-391-28",
+   "id": "0-434-29",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -4653,9 +4691,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Нячанг",
    "to": "Алматы"
@@ -4775,7 +4813,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-391-56",
+   "id": "0-434-53",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -4786,9 +4824,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -5079,7 +5117,7 @@
    "to": "Мюнхен"
   },
   {
-   "id": "0-391-12",
+   "id": "0-434-12",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -5090,9 +5128,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -5269,7 +5307,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-391-57",
+   "id": "0-434-54",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -5280,9 +5318,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -5611,7 +5649,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-391-13",
+   "id": "0-434-13",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -5622,9 +5660,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -5649,7 +5687,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-391-30",
+   "id": "0-434-31",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -5660,9 +5698,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Нячанг",
    "to": "Алматы"
@@ -5763,20 +5801,20 @@
    "to": "Алматы"
   },
   {
-   "id": "0-392-6",
+   "id": "0-435-6",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-10-09",
    "returnDate": "2026-10-19",
-   "price": 269000,
+   "price": 268000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:36Z",
-   "expiresAt": "2026-09-27T06:55:36Z",
-   "sourcePostID": 392,
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 435,
    "seats": null,
    "from": "Шымкент",
    "to": "Нячанг"
@@ -6010,7 +6048,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-391-31",
+   "id": "0-434-32",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -6021,9 +6059,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 6,
    "from": "Нячанг",
    "to": "Алматы"
@@ -6314,7 +6352,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-391-14",
+   "id": "0-434-14",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -6325,9 +6363,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -6428,7 +6466,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-391-32",
+   "id": "0-434-33",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -6439,9 +6477,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Нячанг",
    "to": "Алматы"
@@ -6523,7 +6561,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-391-58",
+   "id": "0-434-55",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -6534,9 +6572,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -6656,7 +6694,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-391-16",
+   "id": "0-434-16",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -6667,9 +6705,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -6713,7 +6751,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-391-33",
+   "id": "0-434-34",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -6724,9 +6762,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 7,
    "from": "Нячанг",
    "to": "Алматы"
@@ -6770,7 +6808,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-391-60",
+   "id": "0-434-56",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -6781,9 +6819,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -7036,7 +7074,7 @@
    "to": "Мюнхен"
   },
   {
-   "id": "0-391-17",
+   "id": "0-434-17",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -7047,9 +7085,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -7245,20 +7283,20 @@
    "to": "Алматы"
   },
   {
-   "id": "0-392-7",
+   "id": "0-435-7",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-10-13",
    "returnDate": "2026-10-22",
-   "price": 269000,
+   "price": 268000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:36Z",
-   "expiresAt": "2026-09-27T06:55:36Z",
-   "sourcePostID": 392,
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 435,
    "seats": null,
    "from": "Шымкент",
    "to": "Нячанг"
@@ -7473,7 +7511,7 @@
    "to": "Белград"
   },
   {
-   "id": "0-391-18",
+   "id": "0-434-18",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -7484,9 +7522,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -7530,6 +7568,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-434-36",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-14",
+   "returnDate": null,
+   "price": 192000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Нячанг",
+   "to": "Алматы"
+  },
+  {
    "id": "0-433-11",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -7547,25 +7604,6 @@
    "seats": 8,
    "from": "Астана",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-391-35",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-14",
-   "returnDate": null,
-   "price": 192000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": null,
-   "from": "Нячанг",
-   "to": "Алматы"
   },
   {
    "id": "0-393-4",
@@ -7625,7 +7663,7 @@
    "to": "Белград"
   },
   {
-   "id": "0-391-62",
+   "id": "0-434-57",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -7636,9 +7674,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -7948,7 +7986,7 @@
    "to": "Мюнхен"
   },
   {
-   "id": "0-391-19",
+   "id": "0-434-19",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -7959,9 +7997,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 9,
    "from": "Алматы",
    "to": "Нячанг"
@@ -8117,6 +8155,25 @@
    "seats": null,
    "from": "Астана",
    "to": "Анталия"
+  },
+  {
+   "id": "0-434-58",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-15",
+   "returnDate": "2026-10-23",
+   "price": 291000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Нячанг"
   },
   {
    "id": "0-428-42",
@@ -8290,7 +8347,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-426-30",
+   "id": "0-435-1",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -8299,17 +8356,17 @@
    "price": 99000,
    "trip": "oneWay",
    "airline": "SCAT",
-   "baggage": "23 + 10 кг",
+   "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
-   "sourcePostID": 426,
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 435,
    "seats": null,
    "from": "Шымкент",
    "to": "Нячанг"
   },
   {
-   "id": "0-391-20",
+   "id": "0-434-20",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -8320,15 +8377,15 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
   },
   {
-   "id": "0-391-37",
+   "id": "0-434-38",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -8339,9 +8396,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 9,
    "from": "Нячанг",
    "to": "Алматы"
@@ -8442,7 +8499,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-392-8",
+   "id": "0-435-8",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -8453,9 +8510,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:36Z",
-   "expiresAt": "2026-09-27T06:55:36Z",
-   "sourcePostID": 392,
+   "postedAt": "2026-09-27T05:56:33Z",
+   "expiresAt": "2026-09-28T05:56:33Z",
+   "sourcePostID": 435,
    "seats": null,
    "from": "Шымкент",
    "to": "Нячанг"
@@ -8499,7 +8556,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-391-21",
+   "id": "0-434-21",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -8510,9 +8567,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -8556,6 +8613,25 @@
    "to": "Астана"
   },
   {
+   "id": "0-434-39",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-17",
+   "returnDate": null,
+   "price": 192000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Нячанг",
+   "to": "Алматы"
+  },
+  {
    "id": "0-433-12",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -8573,25 +8649,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-391-38",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-17",
-   "returnDate": null,
-   "price": 192000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": null,
-   "from": "Нячанг",
-   "to": "Алматы"
   },
   {
    "id": "0-421-3",
@@ -8765,7 +8822,7 @@
    "to": "Прага"
   },
   {
-   "id": "0-391-22",
+   "id": "0-434-22",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -8776,9 +8833,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -8841,7 +8898,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-391-39",
+   "id": "0-434-40",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -8852,9 +8909,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Нячанг",
    "to": "Алматы"
@@ -9069,7 +9126,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-391-23",
+   "id": "0-434-23",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -9080,9 +9137,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -9145,7 +9202,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-391-40",
+   "id": "0-434-41",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -9156,9 +9213,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Нячанг",
    "to": "Алматы"
@@ -9202,7 +9259,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-391-64",
+   "id": "0-434-59",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -9213,9 +9270,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -9316,6 +9373,25 @@
    "to": "Мюнхен"
   },
   {
+   "id": "0-434-42",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-20",
+   "returnDate": null,
+   "price": 192000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Нячанг",
+   "to": "Алматы"
+  },
+  {
    "id": "0-430-27",
    "country": "Турция",
    "fromCountry": "Турция",
@@ -9333,25 +9409,6 @@
    "seats": 1,
    "from": "Анталия",
    "to": "Астана"
-  },
-  {
-   "id": "0-391-41",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-20",
-   "returnDate": null,
-   "price": 192000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": null,
-   "from": "Нячанг",
-   "to": "Алматы"
   },
   {
    "id": "0-428-14",
@@ -9848,7 +9905,7 @@
    "to": "Мюнхен"
   },
   {
-   "id": "0-391-42",
+   "id": "0-434-43",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -9859,15 +9916,15 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": 3,
    "from": "Нячанг",
    "to": "Алматы"
   },
   {
-   "id": "0-391-24",
+   "id": "0-434-24",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -9878,10 +9935,10 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": 5,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 4,
    "from": "Алматы",
    "to": "Нячанг"
   },
@@ -9981,7 +10038,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-391-65",
+   "id": "0-434-60",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -9992,10 +10049,10 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": 7,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": 5,
    "from": "Алматы",
    "to": "Нячанг"
   },
@@ -10152,6 +10209,25 @@
    "to": "Шарм-эш-Шейх"
   },
   {
+   "id": "0-434-45",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-23",
+   "returnDate": null,
+   "price": 192000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Нячанг",
+   "to": "Алматы"
+  },
+  {
    "id": "0-428-29",
    "country": "Турция",
    "fromCountry": "Турция",
@@ -10168,25 +10244,6 @@
    "sourcePostID": 428,
    "seats": null,
    "from": "Анталия",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-391-44",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-23",
-   "returnDate": null,
-   "price": 192000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
-   "seats": null,
-   "from": "Нячанг",
    "to": "Алматы"
   },
   {
@@ -11482,7 +11539,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-391-66",
+   "id": "0-434-61",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -11493,9 +11550,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-09-26T06:55:22Z",
-   "expiresAt": "2026-09-27T06:55:22Z",
-   "sourcePostID": 391,
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
@@ -12544,6 +12601,25 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Санья"
+  },
+  {
+   "id": "0-434-62",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-05",
+   "returnDate": "2026-11-12",
+   "price": 338000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T05:56:16Z",
+   "expiresAt": "2026-09-28T05:56:16Z",
+   "sourcePostID": 434,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Нячанг"
   },
   {
    "id": "0-394-18",
