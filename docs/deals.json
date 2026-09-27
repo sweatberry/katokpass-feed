@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-27T08:58:04.764194Z",
+ "updatedAt": "2026-09-27T09:19:14.663751Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -101,6 +101,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-462-0",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-09-28",
+   "returnDate": null,
+   "price": 98000,
+   "trip": "oneWay",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-426-2",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -118,25 +137,6 @@
    "seats": 1,
    "from": "Астана",
    "to": "Анталия"
-  },
-  {
-   "id": "0-426-60",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-09-28",
-   "returnDate": null,
-   "price": 98000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
-   "sourcePostID": 426,
-   "seats": 1,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-426-26",
@@ -251,6 +251,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Санья"
+  },
+  {
+   "id": "0-462-5",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-09-28",
+   "returnDate": "2026-10-06",
+   "price": 267000,
+   "trip": "roundTrip",
+   "airline": "Air Cairo / SCAT",
+   "baggage": "зависит от авиакомпании: Air Cairo — 20 + 5 кг, SCAT — 23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-434-46",
@@ -1298,7 +1317,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-426-62",
+   "id": "0-462-3",
    "country": "Египет",
    "fromCountry": "Египет",
    "toCountry": "Казахстан",
@@ -1307,12 +1326,12 @@
    "price": 79000,
    "trip": "oneWay",
    "airline": "SCAT",
-   "baggage": "23 + 10 кг",
+   "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:42:15Z",
-   "expiresAt": "2026-09-27T09:42:15Z",
-   "sourcePostID": 426,
-   "seats": 4,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
+   "seats": 2,
    "from": "Шарм-эш-Шейх",
    "to": "Астана"
   },
@@ -2134,6 +2153,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-462-6",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-10-03",
+   "returnDate": "2026-10-13",
+   "price": 273000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-441-5",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -2854,6 +2892,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Санья"
+  },
+  {
+   "id": "0-462-7",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-10-05",
+   "returnDate": "2026-10-13",
+   "price": 267000,
+   "trip": "roundTrip",
+   "airline": "Red Sea / SCAT",
+   "baggage": "зависит от авиакомпании: Red Sea — 20 + 5 кг, SCAT — 23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-434-52",
@@ -4053,7 +4110,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-423-9",
+   "id": "0-462-8",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
@@ -4064,9 +4121,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
    "seats": null,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
@@ -4224,6 +4281,25 @@
    "to": "Абу-Даби"
   },
   {
+   "id": "0-462-1",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-10-09",
+   "returnDate": null,
+   "price": 131000,
+   "trip": "oneWay",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
+   "seats": null,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-424-15",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -4240,25 +4316,6 @@
    "sourcePostID": 424,
    "seats": 7,
    "from": "Шымкент",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-423-2",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-09",
-   "returnDate": null,
-   "price": 131000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
-   "seats": null,
-   "from": "Астана",
    "to": "Шарм-эш-Шейх"
   },
   {
@@ -4737,7 +4794,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-423-12",
+   "id": "0-462-10",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
@@ -4748,9 +4805,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
    "seats": 1,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
@@ -5269,7 +5326,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-423-13",
+   "id": "0-462-11",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
@@ -5280,9 +5337,9 @@
    "airline": "Air Cairo",
    "baggage": "20 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
    "seats": 7,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
@@ -5668,7 +5725,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-423-14",
+   "id": "0-462-12",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
@@ -5679,9 +5736,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
    "seats": null,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
@@ -5972,6 +6029,25 @@
    "to": "Шарм-эш-Шейх"
   },
   {
+   "id": "0-462-13",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-10-14",
+   "returnDate": "2026-10-21",
+   "price": 315000,
+   "trip": "roundTrip",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
+   "seats": null,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-428-41",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -5989,25 +6065,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-423-15",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-14",
-   "returnDate": "2026-10-21",
-   "price": 315000,
-   "trip": "roundTrip",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
-   "seats": null,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-437-18",
@@ -6390,7 +6447,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-423-16",
+   "id": "0-462-14",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
@@ -6401,9 +6458,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
    "seats": 6,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
@@ -8252,7 +8309,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-423-7",
+   "id": "0-462-4",
    "country": "Египет",
    "fromCountry": "Египет",
    "toCountry": "Казахстан",
@@ -8263,15 +8320,15 @@
    "airline": "Air Cairo",
    "baggage": "20 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
    "seats": null,
    "from": "Шарм-эш-Шейх",
    "to": "Астана"
   },
   {
-   "id": "0-423-3",
+   "id": "0-462-2",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
@@ -8282,9 +8339,9 @@
    "airline": "Air Cairo",
    "baggage": "20 + 5 кг",
    "agency": "",
-   "postedAt": "2026-09-26T09:41:31Z",
-   "expiresAt": "2026-09-27T09:41:31Z",
-   "sourcePostID": 423,
+   "postedAt": "2026-09-27T09:17:27Z",
+   "expiresAt": "2026-09-28T09:17:27Z",
+   "sourcePostID": 462,
    "seats": null,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
