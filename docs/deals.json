@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-28T12:23:51.416216Z",
+ "updatedAt": "2026-09-28T15:20:40.364294Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -3635,7 +3635,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-469-0",
+   "id": "0-522-0",
    "country": "Турция",
    "fromCountry": "Турция",
    "toCountry": "Казахстан",
@@ -3646,9 +3646,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-09-28T05:40:13Z",
-   "expiresAt": "2026-09-29T05:40:13Z",
-   "sourcePostID": 469,
+   "postedAt": "2026-09-28T14:52:55Z",
+   "expiresAt": "2026-09-29T14:52:55Z",
+   "sourcePostID": 522,
    "seats": 1,
    "from": "Анталия",
    "to": "Алматы"
