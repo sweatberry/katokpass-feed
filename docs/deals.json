@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-30T10:48:01.846689Z",
+ "updatedAt": "2026-09-30T11:17:24.902927Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -213,44 +213,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-575-0",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-10-01",
-   "returnDate": "2026-10-08",
-   "price": 233000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-09-29T10:59:30Z",
-   "expiresAt": "2026-09-30T10:59:30Z",
-   "sourcePostID": 575,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Дубай"
-  },
-  {
-   "id": "0-575-19",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-10-01",
-   "returnDate": "2026-10-08",
-   "price": 233000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-09-29T10:59:30Z",
-   "expiresAt": "2026-09-30T10:59:30Z",
-   "sourcePostID": 575,
-   "seats": null,
-   "from": "Астана",
-   "to": "Дубай"
   },
   {
    "id": "0-587-30",
@@ -614,25 +576,6 @@
    "to": "Дубай"
   },
   {
-   "id": "0-575-2",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-10-02",
-   "returnDate": "2026-10-09",
-   "price": 233000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-09-29T10:59:30Z",
-   "expiresAt": "2026-09-30T10:59:30Z",
-   "sourcePostID": 575,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Дубай"
-  },
-  {
    "id": "0-588-48",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -650,25 +593,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-575-21",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-10-02",
-   "returnDate": "2026-10-10",
-   "price": 277000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-09-29T10:59:30Z",
-   "expiresAt": "2026-09-30T10:59:30Z",
-   "sourcePostID": 575,
-   "seats": 5,
-   "from": "Астана",
-   "to": "Дубай"
   },
   {
    "id": "0-584-29",
@@ -1638,25 +1562,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Санья"
-  },
-  {
-   "id": "0-575-7",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-10-05",
-   "returnDate": "2026-10-11",
-   "price": 277000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-09-29T10:59:30Z",
-   "expiresAt": "2026-09-30T10:59:30Z",
-   "sourcePostID": 575,
-   "seats": 6,
-   "from": "Алматы",
-   "to": "Дубай"
   },
   {
    "id": "0-595-10",
@@ -3177,25 +3082,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Санья"
-  },
-  {
-   "id": "0-575-30",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-10-09",
-   "returnDate": "2026-10-17",
-   "price": 277000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-09-29T10:59:30Z",
-   "expiresAt": "2026-09-30T10:59:30Z",
-   "sourcePostID": 575,
-   "seats": 1,
-   "from": "Астана",
-   "to": "Дубай"
   },
   {
    "id": "0-584-36",
