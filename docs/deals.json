@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-02T12:23:08.732433Z",
+ "updatedAt": "2026-10-02T12:51:53.322679Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -5514,6 +5514,25 @@
    "seats": 1,
    "from": "Шарм-эш-Шейх",
    "to": "Алматы"
+  },
+  {
+   "id": "0-722-0",
+   "country": "Таиланд",
+   "fromCountry": "Таиланд",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-13",
+   "returnDate": null,
+   "price": 98000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-02T12:32:57Z",
+   "expiresAt": "2026-10-03T12:32:57Z",
+   "sourcePostID": 722,
+   "seats": 4,
+   "from": "Бангкок",
+   "to": "Шымкент"
   },
   {
    "id": "0-716-3",
