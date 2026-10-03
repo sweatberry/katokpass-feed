@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T05:16:39.058907Z",
+ "updatedAt": "2026-10-03T05:49:25.478103Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -365,25 +365,6 @@
    "seats": null,
    "from": "Шарджа",
    "to": "Алматы"
-  },
-  {
-   "id": "0-679-2",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-05",
-   "returnDate": null,
-   "price": 123000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-02T05:16:49Z",
-   "expiresAt": "2026-10-03T05:16:49Z",
-   "sourcePostID": 679,
-   "seats": 2,
-   "from": "Нячанг",
-   "to": "Шымкент"
   },
   {
    "id": "0-688-1",
@@ -899,25 +880,6 @@
    "to": "Будапешт"
   },
   {
-   "id": "0-679-0",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-10-06",
-   "returnDate": null,
-   "price": 146000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-02T05:16:49Z",
-   "expiresAt": "2026-10-03T05:16:49Z",
-   "sourcePostID": 679,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Нячанг"
-  },
-  {
    "id": "0-712-0",
    "country": "Германия",
    "fromCountry": "Казахстан",
@@ -1068,25 +1030,6 @@
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
-  },
-  {
-   "id": "0-679-4",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-10-06",
-   "returnDate": "2026-10-15",
-   "price": 192000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-02T05:16:49Z",
-   "expiresAt": "2026-10-03T05:16:49Z",
-   "sourcePostID": 679,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Нячанг"
   },
   {
    "id": "0-712-6",
@@ -1790,25 +1733,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Шарджа"
-  },
-  {
-   "id": "0-679-3",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-08",
-   "returnDate": null,
-   "price": 123000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-02T05:16:49Z",
-   "expiresAt": "2026-10-03T05:16:49Z",
-   "sourcePostID": 679,
-   "seats": 1,
-   "from": "Нячанг",
-   "to": "Шымкент"
   },
   {
    "id": "0-688-15",
@@ -2588,25 +2512,6 @@
    "seats": null,
    "from": "Шарджа",
    "to": "Алматы"
-  },
-  {
-   "id": "0-679-5",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-10-09",
-   "returnDate": "2026-10-19",
-   "price": 247000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-02T05:16:49Z",
-   "expiresAt": "2026-10-03T05:16:49Z",
-   "sourcePostID": 679,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Нячанг"
   },
   {
    "id": "0-687-6",
@@ -4148,25 +4053,6 @@
    "to": "Дубай"
   },
   {
-   "id": "0-679-6",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-10-13",
-   "returnDate": "2026-10-22",
-   "price": 247000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-02T05:16:49Z",
-   "expiresAt": "2026-10-03T05:16:49Z",
-   "sourcePostID": 679,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Нячанг"
-  },
-  {
    "id": "0-716-11",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -5362,25 +5248,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
-  },
-  {
-   "id": "0-679-7",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-10-16",
-   "returnDate": "2026-10-22",
-   "price": 293000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-02T05:16:49Z",
-   "expiresAt": "2026-10-03T05:16:49Z",
-   "sourcePostID": 679,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Нячанг"
   },
   {
    "id": "0-714-7",
