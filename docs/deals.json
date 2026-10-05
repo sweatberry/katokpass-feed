@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T09:49:49.403073Z",
+ "updatedAt": "2026-10-05T10:20:43.847756Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -25,6 +25,25 @@
    "to": "Атырау"
   },
   {
+   "id": "0-842-2",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-10-06",
+   "returnDate": null,
+   "price": 27000,
+   "trip": "oneWay",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-05T10:17:42Z",
+   "expiresAt": "2026-10-06T10:17:42Z",
+   "sourcePostID": 842,
+   "seats": 6,
+   "from": "Актобе",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-840-8",
    "country": "Египет",
    "fromCountry": "Египет",
@@ -44,22 +63,22 @@
    "to": "Актобе"
   },
   {
-   "id": "0-840-1",
+   "id": "0-842-0",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
    "departure": "2026-10-06",
    "returnDate": null,
-   "price": 32000,
+   "price": 44000,
    "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 кг",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-10-05T09:29:49Z",
-   "expiresAt": "2026-10-06T09:29:49Z",
-   "sourcePostID": 840,
-   "seats": 6,
-   "from": "Актобе",
+   "postedAt": "2026-10-05T10:17:42Z",
+   "expiresAt": "2026-10-06T10:17:42Z",
+   "sourcePostID": 842,
+   "seats": null,
+   "from": "Астана",
    "to": "Шарм-эш-Шейх"
   },
   {
