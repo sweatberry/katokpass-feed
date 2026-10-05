@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T05:37:37.866003Z",
+ "updatedAt": "2026-10-05T06:00:23.786332Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -196,6 +196,25 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-801-0",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-06",
+   "returnDate": null,
+   "price": 146000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
+   "sourcePostID": 801,
+   "seats": 2,
+   "from": "Шымкент",
+   "to": "Нячанг"
+  },
+  {
    "id": "0-781-0",
    "country": "Германия",
    "fromCountry": "Казахстан",
@@ -213,6 +232,25 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Мюнхен"
+  },
+  {
+   "id": "0-801-4",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-06",
+   "returnDate": "2026-10-15",
+   "price": 154000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
+   "sourcePostID": 801,
+   "seats": 2,
+   "from": "Шымкент",
+   "to": "Нячанг"
   },
   {
    "id": "0-778-9",
@@ -1157,8 +1195,8 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-04T10:40:47Z",
-   "expiresAt": "2026-10-05T10:40:47Z",
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
    "sourcePostID": 788,
    "seats": 1,
    "from": "Нячанг",
@@ -2151,6 +2189,25 @@
    "seats": null,
    "from": "Милан",
    "to": "Алматы"
+  },
+  {
+   "id": "0-801-5",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-09",
+   "returnDate": "2026-10-19",
+   "price": 201000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
+   "sourcePostID": 801,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Нячанг"
   },
   {
    "id": "0-799-29",
@@ -3578,6 +3635,25 @@
    "to": "Сеул"
   },
   {
+   "id": "0-801-3",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-12",
+   "returnDate": null,
+   "price": 171000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
+   "sourcePostID": 801,
+   "seats": 1,
+   "from": "Нячанг",
+   "to": "Шымкент"
+  },
+  {
    "id": "0-770-2",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
@@ -4488,6 +4564,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Дубай"
+  },
+  {
+   "id": "0-801-6",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-13",
+   "returnDate": "2026-10-22",
+   "price": 249000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
+   "sourcePostID": 801,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Нячанг"
   },
   {
    "id": "0-793-67",
@@ -6086,7 +6181,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-788-41",
+   "id": "0-801-1",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -6095,11 +6190,11 @@
    "price": 100000,
    "trip": "oneWay",
    "airline": "SCAT",
-   "baggage": "23 + 10 кг",
+   "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-04T10:40:47Z",
-   "expiresAt": "2026-10-05T10:40:47Z",
-   "sourcePostID": 788,
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
+   "sourcePostID": 801,
    "seats": null,
    "from": "Шымкент",
    "to": "Нячанг"
@@ -6407,6 +6502,25 @@
    "seats": 1,
    "from": "Астана",
    "to": "Анталия"
+  },
+  {
+   "id": "0-801-7",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-16",
+   "returnDate": "2026-10-22",
+   "price": 295000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-05T05:48:03Z",
+   "expiresAt": "2026-10-06T05:48:03Z",
+   "sourcePostID": 801,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Нячанг"
   },
   {
    "id": "0-800-47",
