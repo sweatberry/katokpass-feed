@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T11:19:22.504657Z",
+ "updatedAt": "2026-10-05T11:49:51.601544Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -2550,25 +2550,6 @@
    "seats": null,
    "from": "Фукуок",
    "to": "Астана"
-  },
-  {
-   "id": "0-789-4",
-   "country": "Узбекистан",
-   "fromCountry": "ОАЭ",
-   "toCountry": "Узбекистан",
-   "departure": "2026-10-10",
-   "returnDate": null,
-   "price": 77000,
-   "trip": "oneWay",
-   "airline": "Air Arabia",
-   "baggage": "20 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-10-04T11:25:17Z",
-   "expiresAt": "2026-10-05T11:25:17Z",
-   "sourcePostID": 789,
-   "seats": 7,
-   "from": "Шарджа",
-   "to": "Ташкент"
   },
   {
    "id": "0-815-0",
