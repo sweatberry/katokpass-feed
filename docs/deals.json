@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T13:20:26.627676Z",
+ "updatedAt": "2026-10-06T17:47:00.367643Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -42,25 +42,6 @@
    "seats": 2,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-849-6",
-   "country": "Кыргызстан",
-   "fromCountry": "Египет",
-   "toCountry": "Кыргызстан",
-   "departure": "2026-10-07",
-   "returnDate": null,
-   "price": 27000,
-   "trip": "oneWay",
-   "airline": "Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-05T17:19:46Z",
-   "expiresAt": "2026-10-06T17:19:46Z",
-   "sourcePostID": 849,
-   "seats": 1,
-   "from": "Шарм-эш-Шейх",
-   "to": "Бишкек"
   },
   {
    "id": "0-910-0",
