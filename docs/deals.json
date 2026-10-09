@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T10:20:28.840413Z",
+ "updatedAt": "2026-10-09T10:49:27.780922Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -120,6 +120,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-1098-1",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-10-10",
+   "returnDate": null,
+   "price": 54000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-09T10:37:03Z",
+   "expiresAt": "2026-10-10T10:37:03Z",
+   "sourcePostID": 1098,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-1066-13",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -156,25 +175,6 @@
    "seats": 2,
    "from": "Нячанг",
    "to": "Астана"
-  },
-  {
-   "id": "0-1093-0",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-10",
-   "returnDate": null,
-   "price": 92000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-09T10:03:32Z",
-   "expiresAt": "2026-10-10T10:03:32Z",
-   "sourcePostID": 1093,
-   "seats": 1,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1041-1",
@@ -5489,8 +5489,8 @@
    "airline": "Red Sea",
    "baggage": "20 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-09T10:03:32Z",
-   "expiresAt": "2026-10-10T10:03:32Z",
+   "postedAt": "2026-10-09T10:37:03Z",
+   "expiresAt": "2026-10-10T10:37:03Z",
    "sourcePostID": 1035,
    "seats": 3,
    "from": "Шарм-эш-Шейх",
@@ -7169,20 +7169,20 @@
    "to": "Костанай"
   },
   {
-   "id": "0-1056-0",
+   "id": "0-1098-0",
    "country": "Китай",
    "fromCountry": "Китай",
    "toCountry": "Казахстан",
    "departure": "2026-10-21",
    "returnDate": null,
-   "price": 73000,
+   "price": 67000,
    "trip": "oneWay",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-09T06:14:42Z",
-   "expiresAt": "2026-10-10T06:14:42Z",
-   "sourcePostID": 1056,
+   "postedAt": "2026-10-09T10:37:03Z",
+   "expiresAt": "2026-10-10T10:37:03Z",
+   "sourcePostID": 1098,
    "seats": null,
    "from": "Санья",
    "to": "Шымкент"
