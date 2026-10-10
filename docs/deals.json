@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T11:45:48.926770Z",
+ "updatedAt": "2026-10-10T12:21:29.382490Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -120,20 +120,20 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-1102-1",
+   "id": "0-1122-0",
    "country": "ОАЭ",
    "fromCountry": "ОАЭ",
    "toCountry": "Казахстан",
    "departure": "2026-10-11",
    "returnDate": null,
-   "price": 119000,
+   "price": 122000,
    "trip": "oneWay",
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
    "postedAt": "2026-10-10T09:34:32Z",
    "expiresAt": "2026-10-11T09:34:32Z",
-   "sourcePostID": 1102,
+   "sourcePostID": 1122,
    "seats": 2,
    "from": "Дубай",
    "to": "Астана"
