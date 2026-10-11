@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T06:53:27.974048Z",
+ "updatedAt": "2026-10-11T07:18:38.892132Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -101,6 +101,25 @@
    "to": "Анталия"
   },
   {
+   "id": "0-1111-2",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-12",
+   "returnDate": null,
+   "price": 80000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-10-11T07:11:20Z",
+   "expiresAt": "2026-10-12T07:11:20Z",
+   "sourcePostID": 1111,
+   "seats": 3,
+   "from": "Нячанг",
+   "to": "Шымкент"
+  },
+  {
    "id": "0-1123-0",
    "country": "ОАЭ",
    "fromCountry": "Казахстан",
@@ -118,25 +137,6 @@
    "seats": 3,
    "from": "Алматы",
    "to": "Шарджа"
-  },
-  {
-   "id": "0-1111-2",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-12",
-   "returnDate": null,
-   "price": 80000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-10T07:53:06Z",
-   "expiresAt": "2026-10-11T07:53:06Z",
-   "sourcePostID": 1111,
-   "seats": null,
-   "from": "Нячанг",
-   "to": "Шымкент"
   },
   {
    "id": "0-1152-0",
@@ -804,6 +804,25 @@
    "to": "Абу-Даби"
   },
   {
+   "id": "0-1111-0",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-10-13",
+   "returnDate": null,
+   "price": 130000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-10-11T07:11:20Z",
+   "expiresAt": "2026-10-12T07:11:20Z",
+   "sourcePostID": 1111,
+   "seats": 1,
+   "from": "Шымкент",
+   "to": "Нячанг"
+  },
+  {
    "id": "0-1123-16",
    "country": "ОАЭ",
    "fromCountry": "ОАЭ",
@@ -821,25 +840,6 @@
    "seats": null,
    "from": "Шарджа",
    "to": "Алматы"
-  },
-  {
-   "id": "0-1111-0",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-10-13",
-   "returnDate": null,
-   "price": 130000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-10T07:53:06Z",
-   "expiresAt": "2026-10-11T07:53:06Z",
-   "sourcePostID": 1111,
-   "seats": 9,
-   "from": "Шымкент",
-   "to": "Нячанг"
   },
   {
    "id": "0-1150-1",
@@ -2115,6 +2115,25 @@
    "to": "Шымкент"
   },
   {
+   "id": "0-1157-4",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-15",
+   "returnDate": null,
+   "price": 101000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-10-11T07:11:20Z",
+   "expiresAt": "2026-10-12T07:11:20Z",
+   "sourcePostID": 1157,
+   "seats": 5,
+   "from": "Нячанг",
+   "to": "Шымкент"
+  },
+  {
    "id": "0-1156-13",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -2246,25 +2265,6 @@
    "seats": 3,
    "from": "Санья",
    "to": "Алматы"
-  },
-  {
-   "id": "0-1111-3",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-15",
-   "returnDate": null,
-   "price": 126000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-10T07:53:06Z",
-   "expiresAt": "2026-10-11T07:53:06Z",
-   "sourcePostID": 1111,
-   "seats": 5,
-   "from": "Нячанг",
-   "to": "Шымкент"
   },
   {
    "id": "0-1135-9",
@@ -3217,7 +3217,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-1111-1",
+   "id": "0-1157-2",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -3228,10 +3228,10 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T07:53:06Z",
-   "expiresAt": "2026-10-11T07:53:06Z",
-   "sourcePostID": 1111,
-   "seats": 6,
+   "postedAt": "2026-10-11T07:11:20Z",
+   "expiresAt": "2026-10-12T07:11:20Z",
+   "sourcePostID": 1157,
+   "seats": 3,
    "from": "Шымкент",
    "to": "Нячанг"
   },
@@ -5915,7 +5915,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-1112-1",
+   "id": "0-1158-1",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -5926,9 +5926,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -6523,7 +6523,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-1112-15",
+   "id": "0-1158-15",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -6534,15 +6534,15 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
-   "seats": 2,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
+   "seats": 4,
    "from": "Алматы",
    "to": "Фукуок"
   },
   {
-   "id": "0-1112-2",
+   "id": "0-1158-2",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -6553,9 +6553,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -6884,7 +6884,7 @@
    "to": "Гоа"
   },
   {
-   "id": "0-1112-16",
+   "id": "0-1158-16",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -6895,9 +6895,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": 1,
    "from": "Алматы",
    "to": "Фукуок"
@@ -7226,7 +7226,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-1112-4",
+   "id": "0-1158-3",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -7237,9 +7237,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -7397,7 +7397,7 @@
    "to": "Абу-Даби"
   },
   {
-   "id": "0-1112-17",
+   "id": "0-1158-17",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -7408,9 +7408,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": 1,
    "from": "Алматы",
    "to": "Фукуок"
@@ -7454,7 +7454,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-1112-5",
+   "id": "0-1158-5",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -7465,9 +7465,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -7568,7 +7568,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1112-0",
+   "id": "0-1158-0",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -7579,9 +7579,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": 1,
    "from": "Алматы",
    "to": "Фукуок"
@@ -7758,7 +7758,7 @@
    "to": "Гоа"
   },
   {
-   "id": "0-1112-18",
+   "id": "0-1158-18",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -7769,9 +7769,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -7929,7 +7929,7 @@
    "to": "Абу-Даби"
   },
   {
-   "id": "0-1112-6",
+   "id": "0-1158-6",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -7940,9 +7940,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -8271,7 +8271,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-1112-7",
+   "id": "0-1158-7",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -8282,9 +8282,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -8765,7 +8765,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1112-8",
+   "id": "0-1158-8",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -8776,9 +8776,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -9031,7 +9031,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1112-19",
+   "id": "0-1158-19",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -9042,9 +9042,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": 1,
    "from": "Алматы",
    "to": "Фукуок"
@@ -9126,21 +9126,21 @@
    "to": "Астана"
   },
   {
-   "id": "0-1112-10",
+   "id": "0-1158-9",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
    "departure": "2026-10-30",
    "returnDate": null,
-   "price": 65000,
+   "price": 64000,
    "trip": "oneWay",
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
-   "seats": 1,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
+   "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
   },
@@ -9582,7 +9582,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1112-20",
+   "id": "0-1158-20",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -9593,9 +9593,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -9639,7 +9639,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-1112-11",
+   "id": "0-1158-11",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -9650,9 +9650,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -9905,7 +9905,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-1112-21",
+   "id": "0-1158-21",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -9916,9 +9916,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -10114,7 +10114,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-1112-12",
+   "id": "0-1158-12",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -10125,9 +10125,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": 1,
    "from": "Фукуок",
    "to": "Алматы"
@@ -10209,7 +10209,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1112-22",
+   "id": "0-1158-22",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -10220,9 +10220,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -10456,7 +10456,7 @@
    "to": "Гоа"
   },
   {
-   "id": "0-1112-23",
+   "id": "0-1158-23",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -10467,9 +10467,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -10798,7 +10798,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1112-24",
+   "id": "0-1158-24",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -10809,9 +10809,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -10874,7 +10874,7 @@
    "to": "Урумчи"
   },
   {
-   "id": "0-1112-13",
+   "id": "0-1158-13",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -10885,9 +10885,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
@@ -11026,7 +11026,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1112-25",
+   "id": "0-1158-25",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -11037,9 +11037,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -11197,7 +11197,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-1112-14",
+   "id": "0-1158-14",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -11208,9 +11208,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": 1,
    "from": "Фукуок",
    "to": "Алматы"
@@ -11235,7 +11235,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-1112-26",
+   "id": "0-1158-26",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -11246,9 +11246,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -11539,7 +11539,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1112-27",
+   "id": "0-1158-27",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
@@ -11550,9 +11550,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-10-10T08:22:10Z",
-   "expiresAt": "2026-10-11T08:22:10Z",
-   "sourcePostID": 1112,
+   "postedAt": "2026-10-11T07:17:10Z",
+   "expiresAt": "2026-10-12T07:17:10Z",
+   "sourcePostID": 1158,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
