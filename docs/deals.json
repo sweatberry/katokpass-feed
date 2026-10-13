@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T08:22:37.772139Z",
+ "updatedAt": "2026-10-13T08:52:19.329658Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -918,6 +918,25 @@
    "to": "Шанхай"
   },
   {
+   "id": "0-1288-0",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-10-15",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Сеул"
+  },
+  {
    "id": "0-1227-1",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
@@ -935,25 +954,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
-  },
-  {
-   "id": "0-1221-0",
-   "country": "Южная Корея",
-   "fromCountry": "Казахстан",
-   "toCountry": "Южная Корея",
-   "departure": "2026-10-15",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Сеул"
   },
   {
    "id": "0-1224-8",
@@ -1089,7 +1089,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-1219-0",
+   "id": "0-1286-0",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -1100,9 +1100,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
@@ -1336,7 +1336,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-1221-21",
+   "id": "0-1288-20",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -1347,9 +1347,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -1556,10 +1556,10 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-13T06:40:48Z",
-   "expiresAt": "2026-10-14T06:40:48Z",
+   "postedAt": "2026-10-13T08:46:14Z",
+   "expiresAt": "2026-10-14T08:46:14Z",
    "sourcePostID": 1255,
-   "seats": 1,
+   "seats": 3,
    "from": "Санья",
    "to": "Астана"
   },
@@ -1773,7 +1773,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-1221-1",
+   "id": "0-1288-1",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -1784,15 +1784,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
   },
   {
-   "id": "0-1221-10",
+   "id": "0-1288-9",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -1803,9 +1803,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -1868,7 +1868,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1219-1",
+   "id": "0-1286-1",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -1879,15 +1879,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
   },
   {
-   "id": "0-1220-0",
+   "id": "0-1287-0",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -1898,15 +1898,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
   },
   {
-   "id": "0-1219-10",
+   "id": "0-1286-9",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -1917,9 +1917,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -2039,7 +2039,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-1221-22",
+   "id": "0-1288-21",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -2050,9 +2050,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -2248,6 +2248,25 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-1288-10",
+   "country": "Южная Корея",
+   "fromCountry": "Южная Корея",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-17",
+   "returnDate": null,
+   "price": 155000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
+   "seats": null,
+   "from": "Сеул",
+   "to": "Шымкент"
+  },
+  {
    "id": "0-1242-29",
    "country": "Турция",
    "fromCountry": "Турция",
@@ -2265,25 +2284,6 @@
    "seats": 1,
    "from": "Анталия",
    "to": "Алматы"
-  },
-  {
-   "id": "0-1221-11",
-   "country": "Южная Корея",
-   "fromCountry": "Южная Корея",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-17",
-   "returnDate": null,
-   "price": 155000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
-   "seats": null,
-   "from": "Сеул",
-   "to": "Шымкент"
   },
   {
    "id": "0-1267-15",
@@ -3331,7 +3331,7 @@
    "to": "Шарджа"
   },
   {
-   "id": "0-1221-2",
+   "id": "0-1288-2",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -3342,9 +3342,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -3483,7 +3483,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-1219-2",
+   "id": "0-1286-2",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -3494,15 +3494,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
   },
   {
-   "id": "0-1220-1",
+   "id": "0-1287-1",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -3513,15 +3513,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
   },
   {
-   "id": "0-1220-9",
+   "id": "0-1287-8",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -3532,15 +3532,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Сеул",
    "to": "Алматы"
   },
   {
-   "id": "0-1219-11",
+   "id": "0-1286-10",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -3551,9 +3551,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -3616,7 +3616,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-1221-23",
+   "id": "0-1288-22",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -3627,9 +3627,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -3996,6 +3996,25 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-1288-11",
+   "country": "Южная Корея",
+   "fromCountry": "Южная Корея",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-20",
+   "returnDate": null,
+   "price": 155000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
+   "seats": null,
+   "from": "Сеул",
+   "to": "Шымкент"
+  },
+  {
    "id": "0-1230-2",
    "country": "Германия",
    "fromCountry": "Казахстан",
@@ -4013,25 +4032,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Мюнхен"
-  },
-  {
-   "id": "0-1221-12",
-   "country": "Южная Корея",
-   "fromCountry": "Южная Корея",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-20",
-   "returnDate": null,
-   "price": 155000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
-   "seats": null,
-   "from": "Сеул",
-   "to": "Шымкент"
   },
   {
    "id": "0-1258-13",
@@ -4148,6 +4148,44 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-1287-9",
+   "country": "Южная Корея",
+   "fromCountry": "Южная Корея",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-20",
+   "returnDate": null,
+   "price": 175000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
+   "seats": null,
+   "from": "Сеул",
+   "to": "Алматы"
+  },
+  {
+   "id": "0-1286-11",
+   "country": "Южная Корея",
+   "fromCountry": "Южная Корея",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-20",
+   "returnDate": null,
+   "price": 175000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
+   "seats": null,
+   "from": "Сеул",
+   "to": "Астана"
+  },
+  {
    "id": "0-1229-2",
    "country": "Германия",
    "fromCountry": "Казахстан",
@@ -4184,44 +4222,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Мюнхен"
-  },
-  {
-   "id": "0-1220-10",
-   "country": "Южная Корея",
-   "fromCountry": "Южная Корея",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-20",
-   "returnDate": null,
-   "price": 175000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
-   "seats": null,
-   "from": "Сеул",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-1219-12",
-   "country": "Южная Корея",
-   "fromCountry": "Южная Корея",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-20",
-   "returnDate": null,
-   "price": 175000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
-   "seats": null,
-   "from": "Сеул",
-   "to": "Астана"
   },
   {
    "id": "0-1226-11",
@@ -5193,6 +5193,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-1288-3",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-10-22",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Сеул"
+  },
+  {
    "id": "0-1227-4",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
@@ -5210,25 +5229,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
-  },
-  {
-   "id": "0-1221-3",
-   "country": "Южная Корея",
-   "fromCountry": "Казахстан",
-   "toCountry": "Южная Корея",
-   "departure": "2026-10-22",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Сеул"
   },
   {
    "id": "0-1217-8",
@@ -5326,7 +5326,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-1219-3",
+   "id": "0-1286-3",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -5337,9 +5337,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
@@ -5611,7 +5611,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1221-24",
+   "id": "0-1288-23",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -5622,9 +5622,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -5934,7 +5934,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-1221-13",
+   "id": "0-1288-12",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -5945,9 +5945,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -6029,7 +6029,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1219-13",
+   "id": "0-1286-12",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -6040,9 +6040,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -6276,7 +6276,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1221-14",
+   "id": "0-1288-13",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -6287,9 +6287,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -6979,6 +6979,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-1289-3",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-26",
+   "returnDate": null,
+   "price": 49000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:46:14Z",
+   "expiresAt": "2026-10-14T08:46:14Z",
+   "sourcePostID": 1289,
+   "seats": null,
+   "from": "Фукуок",
+   "to": "Алматы"
+  },
+  {
    "id": "0-1250-10",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -6996,25 +7015,6 @@
    "seats": null,
    "from": "Фукуок",
    "to": "Астана"
-  },
-  {
-   "id": "0-1251-6",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-26",
-   "returnDate": null,
-   "price": 53000,
-   "trip": "oneWay",
-   "airline": "Sun Phu Quoc Airways",
-   "baggage": "23 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-10-13T05:29:34Z",
-   "expiresAt": "2026-10-14T05:29:34Z",
-   "sourcePostID": 1251,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Алматы"
   },
   {
    "id": "0-1261-11",
@@ -7093,7 +7093,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1221-4",
+   "id": "0-1288-4",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -7104,9 +7104,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -7150,7 +7150,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1219-4",
+   "id": "0-1286-4",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -7161,15 +7161,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
   },
   {
-   "id": "0-1220-2",
+   "id": "0-1287-2",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -7180,9 +7180,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
@@ -7207,7 +7207,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1221-25",
+   "id": "0-1288-24",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -7218,9 +7218,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -7530,7 +7530,7 @@
    "to": "Будапешт"
   },
   {
-   "id": "0-1221-15",
+   "id": "0-1288-14",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -7541,9 +7541,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -7644,7 +7644,7 @@
    "to": "Будапешт"
   },
   {
-   "id": "0-1220-11",
+   "id": "0-1287-10",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -7655,15 +7655,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Сеул",
    "to": "Алматы"
   },
   {
-   "id": "0-1219-14",
+   "id": "0-1286-13",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -7674,9 +7674,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -8024,6 +8024,25 @@
    "to": "Урумчи"
   },
   {
+   "id": "0-1289-1",
+   "country": "Китай",
+   "fromCountry": "Китай",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-28",
+   "returnDate": null,
+   "price": 101000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-10-13T08:46:14Z",
+   "expiresAt": "2026-10-14T08:46:14Z",
+   "sourcePostID": 1289,
+   "seats": null,
+   "from": "Санья",
+   "to": "Астана"
+  },
+  {
    "id": "0-1268-17",
    "country": "ОАЭ",
    "fromCountry": "ОАЭ",
@@ -8098,25 +8117,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Шарджа"
-  },
-  {
-   "id": "0-1255-4",
-   "country": "Китай",
-   "fromCountry": "Китай",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-28",
-   "returnDate": null,
-   "price": 125000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-10-13T06:40:48Z",
-   "expiresAt": "2026-10-14T06:40:48Z",
-   "sourcePostID": 1255,
-   "seats": null,
-   "from": "Санья",
-   "to": "Астана"
   },
   {
    "id": "0-1222-9",
@@ -9411,7 +9411,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1221-16",
+   "id": "0-1288-15",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -9422,9 +9422,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -9468,7 +9468,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1219-15",
+   "id": "0-1286-14",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -9479,9 +9479,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -10741,7 +10741,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1221-5",
+   "id": "0-1288-5",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -10752,9 +10752,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -10798,7 +10798,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1219-5",
+   "id": "0-1286-5",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -10809,15 +10809,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
   },
   {
-   "id": "0-1220-3",
+   "id": "0-1287-3",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -10828,9 +10828,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
@@ -11083,7 +11083,7 @@
    "to": "Актобе"
   },
   {
-   "id": "0-1221-17",
+   "id": "0-1288-16",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -11094,9 +11094,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -11178,7 +11178,7 @@
    "to": "Будапешт"
   },
   {
-   "id": "0-1220-12",
+   "id": "0-1287-11",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -11189,15 +11189,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Сеул",
    "to": "Алматы"
   },
   {
-   "id": "0-1219-16",
+   "id": "0-1286-15",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -11208,9 +11208,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -12147,7 +12147,7 @@
    "to": "Белград"
   },
   {
-   "id": "0-1221-6",
+   "id": "0-1288-6",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -12158,9 +12158,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -12261,7 +12261,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-1219-6",
+   "id": "0-1286-6",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -12272,9 +12272,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
@@ -12546,7 +12546,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1221-18",
+   "id": "0-1288-17",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -12557,9 +12557,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -12641,7 +12641,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-1219-17",
+   "id": "0-1286-16",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -12652,9 +12652,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -13477,7 +13477,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1221-7",
+   "id": "0-1288-7",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -13488,9 +13488,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -13534,7 +13534,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1219-7",
+   "id": "0-1286-7",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -13545,15 +13545,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
   },
   {
-   "id": "0-1220-4",
+   "id": "0-1287-4",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -13564,9 +13564,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
@@ -13686,7 +13686,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-1221-19",
+   "id": "0-1288-18",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -13697,9 +13697,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -13743,7 +13743,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1220-13",
+   "id": "0-1287-12",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -13754,15 +13754,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Сеул",
    "to": "Алматы"
   },
   {
-   "id": "0-1219-18",
+   "id": "0-1286-17",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -13773,9 +13773,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -14408,7 +14408,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1221-8",
+   "id": "0-1288-8",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -14419,9 +14419,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
@@ -14503,7 +14503,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1219-8",
+   "id": "0-1286-8",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -14514,9 +14514,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Астана",
    "to": "Сеул"
@@ -14674,7 +14674,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-1221-20",
+   "id": "0-1288-19",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -14685,9 +14685,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:04:03Z",
-   "expiresAt": "2026-10-13T11:04:03Z",
-   "sourcePostID": 1221,
+   "postedAt": "2026-10-13T08:33:46Z",
+   "expiresAt": "2026-10-14T08:33:46Z",
+   "sourcePostID": 1288,
    "seats": null,
    "from": "Сеул",
    "to": "Шымкент"
@@ -14731,7 +14731,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1219-19",
+   "id": "0-1286-18",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -14742,9 +14742,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:45Z",
-   "expiresAt": "2026-10-13T11:03:45Z",
-   "sourcePostID": 1219,
+   "postedAt": "2026-10-13T08:33:24Z",
+   "expiresAt": "2026-10-14T08:33:24Z",
+   "sourcePostID": 1286,
    "seats": null,
    "from": "Сеул",
    "to": "Астана"
@@ -15377,7 +15377,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-1220-5",
+   "id": "0-1287-5",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -15388,9 +15388,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
@@ -15491,7 +15491,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1220-14",
+   "id": "0-1287-13",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -15502,9 +15502,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Сеул",
    "to": "Алматы"
@@ -16536,7 +16536,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-1220-6",
+   "id": "0-1287-6",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -16547,9 +16547,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
@@ -16593,7 +16593,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-1220-15",
+   "id": "0-1287-14",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
    "toCountry": "Казахстан",
@@ -16604,9 +16604,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Сеул",
    "to": "Алматы"
@@ -17353,7 +17353,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-1220-7",
+   "id": "0-1287-7",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
    "toCountry": "Южная Корея",
@@ -17364,9 +17364,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-12T11:03:54Z",
-   "expiresAt": "2026-10-13T11:03:54Z",
-   "sourcePostID": 1220,
+   "postedAt": "2026-10-13T08:33:34Z",
+   "expiresAt": "2026-10-14T08:33:34Z",
+   "sourcePostID": 1287,
    "seats": null,
    "from": "Алматы",
    "to": "Сеул"
