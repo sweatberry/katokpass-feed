@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T10:03:56.078901Z",
+ "updatedAt": "2026-10-15T10:50:09.393852Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -61,25 +61,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-1333-0",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-16",
-   "returnDate": null,
-   "price": 70000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 6,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1355-1",
@@ -422,25 +403,6 @@
    "seats": 2,
    "from": "Шарм-эш-Шейх",
    "to": "Астана"
-  },
-  {
-   "id": "0-1333-1",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-17",
-   "returnDate": null,
-   "price": 75000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1344-4",
@@ -1640,25 +1602,6 @@
    "to": "Сеул"
   },
   {
-   "id": "0-1333-2",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-19",
-   "returnDate": null,
-   "price": 171000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-1386-8",
    "country": "Южная Корея",
    "fromCountry": "Южная Корея",
@@ -1999,25 +1942,6 @@
    "seats": 5,
    "from": "Астана",
    "to": "Анталия"
-  },
-  {
-   "id": "0-1333-5",
-   "country": "Египет",
-   "fromCountry": "Египет",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-20",
-   "returnDate": null,
-   "price": 100000,
-   "trip": "oneWay",
-   "airline": "Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 4,
-   "from": "Шарм-эш-Шейх",
-   "to": "Алматы"
   },
   {
    "id": "0-1343-6",
@@ -3006,25 +2930,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Санья"
-  },
-  {
-   "id": "0-1333-8",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-21",
-   "returnDate": "2026-10-28",
-   "price": 455000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1352-5",
@@ -4243,25 +4148,6 @@
    "to": "Анталия"
   },
   {
-   "id": "0-1333-3",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-24",
-   "returnDate": null,
-   "price": 124000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-1335-4",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -4412,25 +4298,6 @@
    "seats": 2,
    "from": "Анталия",
    "to": "Алматы"
-  },
-  {
-   "id": "0-1333-9",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-24",
-   "returnDate": "2026-10-31",
-   "price": 316000,
-   "trip": "roundTrip",
-   "airline": "Air Cairo / Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1343-53",
@@ -6219,25 +6086,6 @@
    "to": "Урумчи"
   },
   {
-   "id": "0-1333-4",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-28",
-   "returnDate": null,
-   "price": 79000,
-   "trip": "oneWay",
-   "airline": "Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-1363-1",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -6730,25 +6578,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Дубай"
-  },
-  {
-   "id": "0-1333-10",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-28",
-   "returnDate": "2026-11-05",
-   "price": 325000,
-   "trip": "roundTrip",
-   "airline": "SCAT / Red Sea",
-   "baggage": "зависит от авиакомпании: SCAT — 23 + 10 кг, Red Sea — 20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1335-22",
@@ -8233,25 +8062,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-1333-6",
-   "country": "Египет",
-   "fromCountry": "Египет",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-31",
-   "returnDate": null,
-   "price": 100000,
-   "trip": "oneWay",
-   "airline": "Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Шарм-эш-Шейх",
-   "to": "Алматы"
-  },
-  {
    "id": "0-1336-20",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -8554,25 +8364,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-1333-11",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-10-31",
-   "returnDate": "2026-11-07",
-   "price": 335000,
-   "trip": "roundTrip",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 5,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1335-25",
@@ -9048,25 +8839,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-1333-12",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-01",
-   "returnDate": "2026-11-09",
-   "price": 292000,
-   "trip": "roundTrip",
-   "airline": "Red Sea / SCAT",
-   "baggage": "зависит от авиакомпании: Red Sea — 20 + 5 кг, SCAT — 23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1352-23",
@@ -9848,25 +9620,6 @@
    "to": "Анталия"
   },
   {
-   "id": "0-1333-13",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-03",
-   "returnDate": "2026-11-11",
-   "price": 284000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-1351-34",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -10473,25 +10226,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-1333-14",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-04",
-   "returnDate": "2026-11-11",
-   "price": 292000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1351-35",
@@ -11596,25 +11330,6 @@
    "to": "Санья"
   },
   {
-   "id": "0-1333-15",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-07",
-   "returnDate": "2026-11-14",
-   "price": 297000,
-   "trip": "roundTrip",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": 2,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-1352-29",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -12049,25 +11764,6 @@
    "sourcePostID": 1361,
    "seats": null,
    "from": "Урумчи",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-1333-7",
-   "country": "Египет",
-   "fromCountry": "Египет",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-09",
-   "returnDate": null,
-   "price": 128000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Шарм-эш-Шейх",
    "to": "Алматы"
   },
   {
@@ -12848,25 +12544,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Белград"
-  },
-  {
-   "id": "0-1333-16",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-11",
-   "returnDate": "2026-11-18",
-   "price": 283000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-14T10:33:12Z",
-   "expiresAt": "2026-10-15T10:33:12Z",
-   "sourcePostID": 1333,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-1352-32",
