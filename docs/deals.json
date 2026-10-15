@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T13:02:02.470994Z",
+ "updatedAt": "2026-10-15T14:33:42.858831Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -6542,25 +6542,6 @@
    "to": "Астана"
   },
   {
-   "id": "0-1341-5",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-28",
-   "returnDate": null,
-   "price": 49000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-10-15T12:48:16Z",
-   "expiresAt": "2026-10-16T12:48:16Z",
-   "sourcePostID": 1341,
-   "seats": 1,
-   "from": "Фукуок",
-   "to": "Алматы"
-  },
-  {
    "id": "0-1351-14",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -6597,6 +6578,25 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Урумчи"
+  },
+  {
+   "id": "0-1408-55",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-28",
+   "returnDate": null,
+   "price": 84000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-10-15T12:48:16Z",
+   "expiresAt": "2026-10-16T12:48:16Z",
+   "sourcePostID": 1408,
+   "seats": 1,
+   "from": "Фукуок",
+   "to": "Алматы"
   },
   {
    "id": "0-1363-1",
