@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T14:14:19.344315Z",
+ "updatedAt": "2026-10-25T17:41:24.888471Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -3882,21 +3882,21 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-1946-28",
+   "id": "0-1949-0",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
    "departure": "2026-11-01",
    "returnDate": null,
-   "price": 53000,
+   "price": 52000,
    "trip": "oneWay",
    "airline": "SCAT",
-   "baggage": "23 + 10 кг",
+   "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-10-25T13:56:31Z",
-   "expiresAt": "2026-10-26T13:56:31Z",
-   "sourcePostID": 1946,
-   "seats": null,
+   "postedAt": "2026-10-25T15:10:34Z",
+   "expiresAt": "2026-10-26T15:10:34Z",
+   "sourcePostID": 1949,
+   "seats": 1,
    "from": "Пхукет",
    "to": "Астана"
   },
