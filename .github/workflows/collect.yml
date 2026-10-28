@@ -2,8 +2,8 @@ name: Сбор рейсов
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
-  workflow_dispatch: {}
+    - cron: "*/15 * * * *"   # каждые 15 минут (GitHub иногда запускает с опозданием)
+  workflow_dispatch: {}      # кнопка «Run workflow» для ручного запуска
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8   # первый запуск скачивает фото туров
     steps:
       - uses: actions/checkout@v5
 
@@ -29,21 +29,27 @@ jobs:
       - name: Проверить разборщик
         run: python -m unittest discover -s tests
 
-      - name: Прочитать канал
+      - name: Принять рейсы и туры от агентств
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        run: python collector/agency_bot.py
+
+      - name: Прочитать каналы — рейсы и авторские туры
         env:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}   # чтобы бот писал вам об ошибках в постах туров
         run: python collector/collect.py
 
-      - name: Сохранить deals.json
+      - name: Сохранить данные
         run: |
-          if git diff --quiet -- docs/deals.json; then
+          git add -A docs
+          if git diff --cached --quiet; then
             echo "Изменений нет"
             exit 0
           fi
           git config user.name "katokpass-bot"
           git config user.email "katokpass-bot@users.noreply.github.com"
-          git add docs/deals.json
-          git commit -m "Обновить рейсы"
+          git commit -m "Обновить рейсы и туры"
           git push
