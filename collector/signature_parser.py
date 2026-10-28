@@ -58,8 +58,8 @@ LABELS = {
     "group": r"группа|размер\s+группы",
     "seats": r"мест(?:а)?|осталось\s+мест",
     "conditions": r"условия",
-    "includes": r"в\s+стоимость\s+вход\w*|включено|входит(?:\s+в\s+стоимость)?|что\s+входит",
-    "excludes": r"в\s+стоимость\s+не\s+вход\w*|не\s+включено|не\s+входит|что\s+не\s+входит|оплачивается\s+отдельно",
+    "includes": r"в\s+стоимость(?:\s+тура)?\s+вход\w*|стоимость(?:\s+тура)?\s+включает|включено|входит(?:\s+в\s+стоимость)?|что\s+входит",
+    "excludes": r"в\s+стоимость(?:\s+тура)?\s+не\s+вход\w*|стоимость(?:\s+тура)?\s+не\s+включает|не\s+включено|не\s+входит(?:\s+в\s+стоимость)?|что\s+не\s+входит|оплачивается\s+отдельно|дополнительно\s+оплачивается",
     "highlights": r"что\s+увидим|что\s+нас\s+ждёт|что\s+нас\s+ждет",
     "programme": r"программа|маршрут",
 }
@@ -173,16 +173,34 @@ def parse_dates(text: str, today: date) -> tuple[date | None, date | None]:
     return None, None
 
 
-def parse_money(text: str) -> tuple[int | None, str]:
-    t = text.lower()
-    currency = "₸"
+def _currency_in(t: str) -> str | None:
     if "$" in t or "usd" in t or "долл" in t:
-        currency = "$"
-    elif "€" in t or "eur" in t or "евро" in t:
-        currency = "€"
-    m = re.search(r"\d[\d\s.,]*", t)
+        return "$"
+    if "€" in t or "eur" in t or "евро" in t:
+        return "€"
+    if "₸" in t or "тг" in t or "тенге" in t or "kzt" in t:
+        return "₸"
+    return None
+
+
+def parse_money(text: str) -> tuple[int | None, str]:
+    """«1 690 000 ₸», «$4 000», «500 000 ₸ | $1 000» → первая сумма и её валюта."""
+    t = (text or "").lower()
+    m = re.search(r"\d[\d\s.,]*\d|\d", t)
     if not m:
-        return None, currency
+        return None, _currency_in(t) or "₸"
+    # валюта, стоящая вплотную к сумме: сначала сразу после неё, потом сразу перед ней
+    after = t[m.end():].lstrip()
+    before = t[:m.start()].rstrip()
+    currency = None
+    for sign, cur in (("₸", "₸"), ("тг", "₸"), ("тенге", "₸"), ("kzt", "₸"),
+                      ("$", "$"), ("usd", "$"), ("долл", "$"), ("€", "€"), ("eur", "€"), ("евро", "€")):
+        if after.startswith(sign):
+            currency = cur
+            break
+    if currency is None:
+        currency = next((cur for sign, cur in (("$", "$"), ("€", "€"), ("₸", "₸")) if before.endswith(sign)), None)
+    currency = currency or _currency_in(t) or "₸"
     digits = re.sub(r"\D", "", m.group(0).split(",")[0])
     if not digits:
         return None, currency
@@ -257,6 +275,7 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
     programme: list[dict] = []
     extra = {"prepay": None, "group": None, "seats": None, "conditions": None}
     structured_started = False
+    pending_list: list[str] | None = None    # заголовок списка без пунктов — пункты в следующем блоке
 
     def read_list(items: list[str], target: list[str]) -> None:
         for s in items:
@@ -268,7 +287,13 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
             else:                      # продолжение предыдущего пункта
                 target[-1] += " " + item
 
+    bullet = re.compile(r"^[\-–—•·*▪◦✓✔☑✅🔹🔸]")
     for block in blocks:
+        if pending_list is not None:
+            target, pending_list = pending_list, None
+            if all(bullet.match(x) for x in block):
+                read_list(block, target)
+                continue
         first_kind, first_val = label_of(block[0])
         head_flags = FLAG_RE.findall(block[0])
         has_dates = any(label_of(s)[0] == "dates" for s in block)
@@ -308,6 +333,8 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
             if first_val and "," in first_val and not rest:   # «Включено: перелёт, отели, гид»
                 items = [f"- {x.strip()}" for x in first_val.split(",") if x.strip()]
             read_list(items, target)
+            if not items:
+                pending_list = target     # «☑ В стоимость входят:», пустая строка, затем пункты
             continue
 
         if first_kind == "programme":
@@ -343,6 +370,13 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
         # ── свободный текст ──
         paragraph = clean_tail(" ".join(block))
         if not paragraph:
+            continue
+        lead = re.match(r"^((?:[\U0001F1E6-\U0001F1FF]{2}\s*)+)(.+)$", paragraph)
+        if lead and len(lead.group(2).strip()) >= 30:
+            fl = FLAG_RE.findall(lead.group(1))
+            names = ", ".join(n for n in (COUNTRIES.get(flag_to_iso(f), "") for f in fl) if n)
+            route.append({"title": f"{''.join(fl)} {names}".strip(),
+                          "text": lead.group(2).strip(), "flags": fl})
             continue
         if not structured_started and not summary_parts:
             summary_parts.append(paragraph)
@@ -390,8 +424,18 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
     cheapest = min(priced, key=lambda v: v["priceFrom"])
     prepay = None
     if extra["prepay"]:
-        amount, cur = parse_money(extra["prepay"])
-        prepay = money_text(amount, cur) if amount else extra["prepay"]
+        parts = [x.strip() for x in re.split(r"\s*[|/]\s*", extra["prepay"]) if x.strip()]
+        shown = []
+        for part in parts:
+            amount, cur = parse_money(part)
+            shown.append(money_text(amount, cur) if amount else part)
+        prepay = " / ".join(shown) or None
+
+    # Если вступления нет, а пост начинается сразу с маршрута — под названием
+    # показываем первую фразу первой остановки.
+    if not summary_parts and route:
+        first = re.split(r"(?<=[.!?])\s+", route[0]["text"], maxsplit=1)[0]
+        summary_parts.append(first)
 
     seats = None
     if extra["seats"]:

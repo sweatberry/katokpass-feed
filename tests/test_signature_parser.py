@@ -75,6 +75,60 @@ class AfricaPost(unittest.TestCase):
         self.assertIsNone(self.tour["description"])
 
 
+class JapanPost(unittest.TestCase):
+    """Первый настоящий пост в канале: флажок в начале абзаца, списки после пустой строки,
+    предоплата в двух валютах."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.result = parse(sample("signature_japan.txt"), TODAY, "9")
+        cls.tour = cls.result.tour
+
+    def test_no_errors(self):
+        self.assertEqual(self.result.errors, [])
+
+    def test_title_and_countries(self):
+        self.assertEqual(self.tour["title"], "Япония, Южная Корея")
+        self.assertEqual(self.tour["countries"], ["Япония", "Южная Корея"])
+
+    def test_route_from_paragraphs_starting_with_flag(self):
+        self.assertEqual([r["title"] for r in self.tour["route"]], ["🇯🇵 Япония", "🇰🇷 Южная Корея"])
+        self.assertTrue(self.tour["route"][1]["text"].startswith("Во второй части тура"))
+        self.assertIsNone(self.tour["description"])
+
+    def test_summary_is_first_sentence(self):
+        self.assertEqual(self.tour["summary"], "Япония — страна восхитительной культуры и удивительных достижений.")
+
+    def test_lists_after_blank_line(self):
+        self.assertEqual(len(self.tour["includes"]), 8)
+        self.assertEqual(self.tour["includes"][2], "Проживание в отелях 3–4*")
+        self.assertEqual(self.tour["excludes"], ["Международные авиабилеты", "Питание",
+                                                 "Личные расходы", "Транспорт внутри городов"])
+
+    def test_prepayment_in_two_currencies(self):
+        self.assertEqual(self.tour["prepayment"], "500 000 ₸ / $1 000")
+
+    def test_variants_in_tenge(self):
+        v = self.tour["variants"]
+        self.assertEqual([(x["route"], x["nights"], x["priceFrom"], x["currency"]) for x in v],
+                         [("Япония", 7, 1690000, "₸"), ("Япония и Южная Корея", 12, 1890000, "₸")])
+
+    def test_instagram_lines_dropped(self):
+        dropped = " ".join(self.result.dropped)
+        self.assertIn("Оставляй", dropped)
+        self.assertIn("#japan", dropped)
+
+
+class MoneyTests(unittest.TestCase):
+    def test_currency_next_to_number(self):
+        from signature_parser import parse_money
+        self.assertEqual(parse_money("500 000 ₸ | $1 000"), (500000, "₸"))
+        self.assertEqual(parse_money("$4 000"), (4000, "$"))
+        self.assertEqual(parse_money("1 690 000 ₸ | "), (1690000, "₸"))
+        self.assertEqual(parse_money("3 000 €"), (3000, "€"))
+        self.assertEqual(parse_money("1 250 000 тг"), (1250000, "₸"))
+
+
 class TemplatePost(unittest.TestCase):
     """Шаблон из памятки — тоже должен разбираться."""
 
