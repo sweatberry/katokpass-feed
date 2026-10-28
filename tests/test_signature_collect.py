@@ -158,6 +158,26 @@ class LinkingTests(unittest.TestCase):
         posts = sc.build_posts([self.M(1, "только текст")])
         self.assertEqual((len(posts), posts[0].photos), (1, []))
 
+    def test_text_right_after_album_without_reply(self):
+        # Так выложен первый тур в канале: альбом из 7 фото, следом отдельное сообщение с текстом
+        from datetime import timedelta
+        album = [sc.Msg(id=i, text="", date=NOW, grouped_id=5, photo_id=100 + i) for i in range(2, 9)]
+        text = sc.Msg(id=9, text="полный текст", date=NOW + timedelta(minutes=1))
+        posts = sc.build_posts(album + [text])
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(posts[0].text_msg.id, 9)
+        self.assertEqual(len(posts[0].photos), 7)
+
+    def test_text_long_after_album_is_separate(self):
+        from datetime import timedelta
+        posts = sc.build_posts([self.M(1, grouped=5, photo=11),
+                                sc.Msg(id=2, text="через два часа", date=NOW + timedelta(hours=2))])
+        self.assertEqual([(p.text_msg.id, len(p.photos)) for p in posts], [(2, 0)])
+
+    def test_text_after_captioned_album_is_separate(self):
+        posts = sc.build_posts([self.M(1, "своя подпись", grouped=5, photo=11), self.M(2, "отдельный пост")])
+        self.assertEqual(sorted((p.text_msg.id, len(p.photos)) for p in posts), [(1, 1), (2, 0)])
+
     def test_single_photo_with_caption(self):
         posts = sc.build_posts([self.M(1, "подпись", photo=9)])
         self.assertEqual([p.photo_id for p in posts[0].photos], [9])

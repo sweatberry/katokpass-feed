@@ -7,6 +7,7 @@
   • альбом с текстом-подписью — тур, фото из альбома;
   • альбом, а под ним текст ответом на альбом (если текст длиннее 1024 знаков) —
     тур с текстом из ответа и фото из альбома;
+  • альбом без подписи и сразу следующим сообщением текст (не ответом) — то же самое;
   • просто текст без фото — тоже тур, вместо фото будет флажок.
 Посты без дат и цены (анонсы, отзывы) пропускаются молча. Если пост похож на тур,
 но чего-то не хватает, бот пишет об этом в adminChat — один раз на каждую правку поста.
@@ -93,6 +94,30 @@ def build_posts(messages: list[Msg]) -> list[Post]:
         posts.append(Post(m, photos[:MAX_PHOTOS]))
 
     linked_texts = {p.text_msg.id for p in posts}
+
+    # 1б. Текст отдельным сообщением сразу после альбома без подписи — не ответом.
+    # Так выкладывать естественнее всего, поэтому понимаем и этот вариант:
+    # альбом без подписи + следующее сообщение канала с текстом в пределах 30 минут.
+    ordered = sorted(messages, key=lambda x: x.id)
+    for i, m in enumerate(ordered):
+        if i == 0 or m.photo_id is not None or not m.text.strip() or m.id in linked_texts:
+            continue
+        if m.reply_to is not None and m.reply_to in by_id:
+            continue                     # явный ответ на что-то — разобран выше или это не наш случай
+        prev = ordered[i - 1]
+        if prev.photo_id is None:
+            continue
+        key = album_key(prev)
+        if key in claimed:
+            continue
+        members = groups.get(prev.grouped_id, [prev]) if prev.grouped_id is not None else [prev]
+        if any(x.text.strip() for x in members):
+            continue                     # у альбома своя подпись — значит, это отдельный пост
+        if abs((m.date - prev.date).total_seconds()) > 30 * 60:
+            continue
+        claimed.add(key)
+        posts.append(Post(m, photos_of(prev)[:MAX_PHOTOS]))
+        linked_texts.add(m.id)
 
     # 2. Альбом или одиночное фото с подписью.
     seen_albums: set = set()
