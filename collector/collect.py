@@ -5,7 +5,8 @@
 приложения через сутки после публикации.
 
 Откуда брать рейсы, сколько их показывать и на какой WhatsApp писать —
-задаётся в файле sources.json. Чтобы сменить или добавить канал, достаточно
+задаётся в файле sources.json. Там же — канал авторских туров (signatureChannel):
+его читает signature_collect.py и пишет docs/signature.json. Чтобы сменить или добавить канал, достаточно
 поправить этот файл на GitHub: приложение читает только docs/deals.json.
 
 Секреты (GitHub → Settings → Secrets and variables → Actions):
@@ -29,6 +30,7 @@ from telethon.tl.types import ChatInviteAlready, ChatInvite
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from post_parser import parse_post  # noqa: E402
+from signature_collect import collect_signature  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs" / "deals.json"
@@ -120,6 +122,7 @@ def load_config() -> dict:
     return config
 
 
+
 def flight_key(item: dict) -> tuple:
     """Один и тот же рейс: город вылета, город прилёта, дата, обратная дата и тип.
     Авиакомпанию в ключ не берём — в разных постах её пишут по-разному."""
@@ -199,6 +202,14 @@ async def main() -> None:
                     deals.append(item)
                     found += 1
         report.append(f"{agency}: постов {posts}, рейсов {found}")
+
+    # Авторские туры — из своего канала, тем же входом в Telegram.
+    # Ошибка здесь не должна мешать рейсам, поэтому ловим её отдельно.
+    try:
+        await collect_signature(client, config, now, resolve_channel)
+    except Exception as e:  # noqa: BLE001
+        print(f"Авторские туры: канал не прочитан — {e}")
+
     await client.disconnect()
     print("\n".join(report))
 
