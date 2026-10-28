@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:31:08.458623Z",
+ "updatedAt": "2026-10-28T11:37:29.917167Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1089,25 +1089,6 @@
    "to": "Дубай"
   },
   {
-   "id": "0-2080-2",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-10-31",
-   "returnDate": null,
-   "price": 125000,
-   "trip": "oneWay",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-28T07:11:04Z",
-   "expiresAt": "2026-10-29T07:11:04Z",
-   "sourcePostID": 2080,
-   "seats": 1,
-   "from": "Нячанг",
-   "to": "Астана"
-  },
-  {
    "id": "0-2094-10",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -1124,6 +1105,25 @@
    "sourcePostID": 2094,
    "seats": 1,
    "from": "Фукуок",
+   "to": "Астана"
+  },
+  {
+   "id": "0-2092-10",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-10-31",
+   "returnDate": null,
+   "price": 126000,
+   "trip": "oneWay",
+   "airline": "Vietjet",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-28T07:11:04Z",
+   "expiresAt": "2026-10-29T07:11:04Z",
+   "sourcePostID": 2092,
+   "seats": 1,
+   "from": "Нячанг",
    "to": "Астана"
   },
   {
