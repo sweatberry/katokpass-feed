@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:37:29.917167Z",
+ "updatedAt": "2026-10-28T12:04:37.080379Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -652,6 +652,25 @@
    "to": "Абу-Даби"
   },
   {
+   "id": "0-2112-0",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-10-30",
+   "returnDate": null,
+   "price": 131000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-10-28T11:39:56Z",
+   "expiresAt": "2026-10-29T11:39:56Z",
+   "sourcePostID": 2112,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Пхукет"
+  },
+  {
    "id": "0-2107-1",
    "country": "ОАЭ",
    "fromCountry": "Казахстан",
@@ -688,25 +707,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Гоа"
-  },
-  {
-   "id": "0-2089-0",
-   "country": "Таиланд",
-   "fromCountry": "Казахстан",
-   "toCountry": "Таиланд",
-   "departure": "2026-10-30",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-10-28T06:15:32Z",
-   "expiresAt": "2026-10-29T06:15:32Z",
-   "sourcePostID": 2089,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Пхукет"
   },
   {
    "id": "0-2101-6",
@@ -2362,20 +2362,20 @@
    "to": "Дубай"
   },
   {
-   "id": "0-2081-2",
+   "id": "0-2089-5",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
    "departure": "2026-11-03",
    "returnDate": null,
-   "price": 183000,
+   "price": 184000,
    "trip": "oneWay",
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
    "postedAt": "2026-10-28T06:15:32Z",
    "expiresAt": "2026-10-29T06:15:32Z",
-   "sourcePostID": 2081,
+   "sourcePostID": 2089,
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
