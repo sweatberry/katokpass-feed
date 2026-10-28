@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T12:04:37.080379Z",
+ "updatedAt": "2026-10-28T12:28:45.617030Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -800,25 +800,6 @@
    "expiresAt": "2026-10-29T06:21:49Z",
    "sourcePostID": 2090,
    "seats": 2,
-   "from": "Астана",
-   "to": "Пхукет"
-  },
-  {
-   "id": "0-2082-2",
-   "country": "Таиланд",
-   "fromCountry": "Казахстан",
-   "toCountry": "Таиланд",
-   "departure": "2026-10-30",
-   "returnDate": "2026-11-07",
-   "price": 253000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-27T12:27:25Z",
-   "expiresAt": "2026-10-28T12:27:25Z",
-   "sourcePostID": 2082,
-   "seats": 6,
    "from": "Астана",
    "to": "Пхукет"
   },
@@ -2020,25 +2001,6 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-2082-3",
-   "country": "Таиланд",
-   "fromCountry": "Казахстан",
-   "toCountry": "Таиланд",
-   "departure": "2026-11-02",
-   "returnDate": "2026-11-11",
-   "price": 292000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-27T12:27:25Z",
-   "expiresAt": "2026-10-28T12:27:25Z",
-   "sourcePostID": 2082,
-   "seats": 4,
-   "from": "Астана",
-   "to": "Пхукет"
-  },
-  {
    "id": "0-2099-5",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -3215,25 +3177,6 @@
    "seats": 8,
    "from": "Алматы",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-2082-5",
-   "country": "Таиланд",
-   "fromCountry": "Казахстан",
-   "toCountry": "Таиланд",
-   "departure": "2026-11-05",
-   "returnDate": "2026-11-13",
-   "price": 253000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-10-27T12:27:25Z",
-   "expiresAt": "2026-10-28T12:27:25Z",
-   "sourcePostID": 2082,
-   "seats": null,
-   "from": "Астана",
-   "to": "Пхукет"
   },
   {
    "id": "0-2099-27",
