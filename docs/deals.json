@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T13:51:37.524633Z",
+ "updatedAt": "2026-11-01T18:51:31.253333Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -82,20 +82,20 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-2310-1",
+   "id": "0-2369-0",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-11-02",
    "returnDate": null,
-   "price": 55000,
+   "price": 57000,
    "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
+   "airline": "Чартер",
+   "baggage": "уточняйте",
    "agency": "",
    "postedAt": "2026-11-01T09:47:15Z",
    "expiresAt": "2026-11-02T09:47:15Z",
-   "sourcePostID": 2310,
+   "sourcePostID": 2369,
    "seats": 3,
    "from": "Алматы",
    "to": "Фукуок"
