@@ -1,0 +1,2269 @@
+{
+ "updatedAt": "2026-11-02",
+ "whatsApp": "77789559977",
+ "citizenship": "Казахстан",
+ "countries": [
+  {
+   "iso": "AU",
+   "name": "Австралия",
+   "kk": "Аустралия",
+   "status": "online",
+   "days": null,
+   "note": "Туристическая виза Visitor (subclass 600) подаётся онлайн.",
+   "group": null,
+   "page": "au"
+  },
+  {
+   "iso": "AT",
+   "name": "Австрия",
+   "kk": "Аустрия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "AZ",
+   "name": "Азербайджан",
+   "kk": "Әзірбайжан",
+   "status": "free",
+   "days": null,
+   "note": "Если остаётесь дольше 30 дней — нужна регистрация.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "AL",
+   "name": "Албания",
+   "kk": "Албания",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "DZ",
+   "name": "Алжир",
+   "kk": "Алжир",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "AO",
+   "name": "Ангола",
+   "kk": "Ангола",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "AD",
+   "name": "Андорра",
+   "kk": "Андорра",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "AG",
+   "name": "Антигуа и Барбуда",
+   "kk": "Антигуа және Барбуда",
+   "status": "free",
+   "days": 180,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "AR",
+   "name": "Аргентина",
+   "kk": "Аргентина",
+   "status": "free",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "AM",
+   "name": "Армения",
+   "kk": "Армения",
+   "status": "free",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "AF",
+   "name": "Афганистан",
+   "kk": "Ауғанстан",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BS",
+   "name": "Багамы",
+   "kk": "Багам аралдары",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BD",
+   "name": "Бангладеш",
+   "kk": "Бангладеш",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BB",
+   "name": "Барбадос",
+   "kk": "Барбадос",
+   "status": "free",
+   "days": 28,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BH",
+   "name": "Бахрейн",
+   "kk": "Бахрейн",
+   "status": "arrival",
+   "days": 14,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BY",
+   "name": "Беларусь",
+   "kk": "Беларусь",
+   "status": "free",
+   "days": null,
+   "note": "До 30 дней — без регистрации.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BZ",
+   "name": "Белиз",
+   "kk": "Белиз",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BE",
+   "name": "Бельгия",
+   "kk": "Бельгия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "BJ",
+   "name": "Бенин",
+   "kk": "Бенин",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BG",
+   "name": "Болгария",
+   "kk": "Болгария",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "BO",
+   "name": "Боливия",
+   "kk": "Боливия",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BA",
+   "name": "Босния и Герцеговина",
+   "kk": "Босния және Герцеговина",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BW",
+   "name": "Ботсвана",
+   "kk": "Ботсвана",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BR",
+   "name": "Бразилия",
+   "kk": "Бразилия",
+   "status": "free",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BN",
+   "name": "Бруней",
+   "kk": "Бруней",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BF",
+   "name": "Буркина-Фасо",
+   "kk": "Буркина-Фасо",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BI",
+   "name": "Бурунди",
+   "kk": "Бурунди",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "BT",
+   "name": "Бутан",
+   "kk": "Бутан",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "VU",
+   "name": "Вануату",
+   "kk": "Вануату",
+   "status": "online",
+   "days": 120,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "VA",
+   "name": "Ватикан",
+   "kk": "Ватикан",
+   "status": "visa",
+   "days": null,
+   "note": "Въезд только через страны Шенгена — нужна шенгенская виза.",
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "GB",
+   "name": "Великобритания",
+   "kk": "Ұлыбритания",
+   "status": "visa",
+   "days": null,
+   "note": "Не входит в Шенген — отдельная британская виза.",
+   "group": null,
+   "page": "gb"
+  },
+  {
+   "iso": "HU",
+   "name": "Венгрия",
+   "kk": "Венгрия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "VE",
+   "name": "Венесуэла",
+   "kk": "Венесуэла",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TL",
+   "name": "Восточный Тимор",
+   "kk": "Тимор-Лесте",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "VN",
+   "name": "Вьетнам",
+   "kk": "Вьетнам",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GA",
+   "name": "Габон",
+   "kk": "Габон",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "HT",
+   "name": "Гаити",
+   "kk": "Гаити",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GY",
+   "name": "Гайана",
+   "kk": "Гайана",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GM",
+   "name": "Гамбия",
+   "kk": "Гамбия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GH",
+   "name": "Гана",
+   "kk": "Гана",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GT",
+   "name": "Гватемала",
+   "kk": "Гватемала",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GN",
+   "name": "Гвинея",
+   "kk": "Гвинея",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GW",
+   "name": "Гвинея-Бисау",
+   "kk": "Гвинея-Бисау",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "DE",
+   "name": "Германия",
+   "kk": "Германия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "HN",
+   "name": "Гондурас",
+   "kk": "Гондурас",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "HK",
+   "name": "Гонконг",
+   "kk": "Гонконг",
+   "status": "free",
+   "days": 14,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GD",
+   "name": "Гренада",
+   "kk": "Гренада",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GR",
+   "name": "Греция",
+   "kk": "Грекия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "GE",
+   "name": "Грузия",
+   "kk": "Грузия",
+   "status": "free",
+   "days": 365,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CD",
+   "name": "ДР Конго",
+   "kk": "Конго",
+   "status": "online",
+   "days": 7,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "DK",
+   "name": "Дания",
+   "kk": "Дания",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "DJ",
+   "name": "Джибути",
+   "kk": "Джибути",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "DM",
+   "name": "Доминика",
+   "kk": "Доминика",
+   "status": "free",
+   "days": 21,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "DO",
+   "name": "Доминиканская Республика",
+   "kk": "Доминикан Республикасы",
+   "status": "free",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "EG",
+   "name": "Египет",
+   "kk": "Мысыр",
+   "status": "arrival",
+   "days": 30,
+   "note": "Виза по прилёте в аэропорту. В Шарм-эль-Шейхе можно бесплатный синайский штамп до 15 дней — он действует только на Синае.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "ZM",
+   "name": "Замбия",
+   "kk": "Замбия",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "ZW",
+   "name": "Зимбабве",
+   "kk": "Зимбабве",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "IL",
+   "name": "Израиль",
+   "kk": "Израиль",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "IN",
+   "name": "Индия",
+   "kk": "Үндістан",
+   "status": "online",
+   "days": 30,
+   "note": "Электронная виза e-Visa. С февраля 2026 для граждан Казахстана — бесплатная.",
+   "group": null,
+   "page": "in"
+  },
+  {
+   "iso": "ID",
+   "name": "Индонезия",
+   "kk": "Индонезия",
+   "status": "arrival",
+   "days": 30,
+   "note": "Виза по прилёте (VOA) или электронная виза заранее.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "JO",
+   "name": "Иордания",
+   "kk": "Иордания",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "IQ",
+   "name": "Ирак",
+   "kk": "Ирак",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "IR",
+   "name": "Иран",
+   "kk": "Иран",
+   "status": "free",
+   "days": 14,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "IE",
+   "name": "Ирландия",
+   "kk": "Ирландия",
+   "status": "visa",
+   "days": null,
+   "note": "Не входит в Шенген — отдельная виза Ирландии.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "IS",
+   "name": "Исландия",
+   "kk": "Исландия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "ES",
+   "name": "Испания",
+   "kk": "Испания",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "IT",
+   "name": "Италия",
+   "kk": "Италия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "YE",
+   "name": "Йемен",
+   "kk": "Йемен",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CV",
+   "name": "Кабо-Верде",
+   "kk": "Кабо-Верде",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KH",
+   "name": "Камбоджа",
+   "kk": "Камбоджа",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CM",
+   "name": "Камерун",
+   "kk": "Камерун",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CA",
+   "name": "Канада",
+   "kk": "Канада",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": "ca"
+  },
+  {
+   "iso": "QA",
+   "name": "Катар",
+   "kk": "Катар",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KE",
+   "name": "Кения",
+   "kk": "Кения",
+   "status": "online",
+   "days": 90,
+   "note": "Визы нет, но заранее нужно электронное разрешение eTA.",
+   "group": null,
+   "page": "ke"
+  },
+  {
+   "iso": "CY",
+   "name": "Кипр",
+   "kk": "Кипр",
+   "status": "visa",
+   "days": null,
+   "note": "Не входит в Шенген — нужна отдельная виза Кипра.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KI",
+   "name": "Кирибати",
+   "kk": "Кирибати",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CN",
+   "name": "Китай",
+   "kk": "Қытай",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CO",
+   "name": "Колумбия",
+   "kk": "Колумбия",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KM",
+   "name": "Коморы",
+   "kk": "Комор аралдары",
+   "status": "arrival",
+   "days": 45,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CR",
+   "name": "Коста-Рика",
+   "kk": "Коста-Рика",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CI",
+   "name": "Кот-д’Ивуар",
+   "kk": "Кот-д’Ивуар",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CU",
+   "name": "Куба",
+   "kk": "Куба",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KW",
+   "name": "Кувейт",
+   "kk": "Кувейт",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KG",
+   "name": "Кыргызстан",
+   "kk": "Қырғызстан",
+   "status": "free",
+   "days": null,
+   "note": "Если остаётесь дольше 30 дней — нужна регистрация.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "LA",
+   "name": "Лаос",
+   "kk": "Лаос",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "LV",
+   "name": "Латвия",
+   "kk": "Латвия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "LS",
+   "name": "Лесото",
+   "kk": "Лесото",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "LR",
+   "name": "Либерия",
+   "kk": "Либерия",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "LB",
+   "name": "Ливан",
+   "kk": "Ливан",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "LY",
+   "name": "Ливия",
+   "kk": "Ливия",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "LT",
+   "name": "Литва",
+   "kk": "Литва",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "LI",
+   "name": "Лихтенштейн",
+   "kk": "Лихтенштейн",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "LU",
+   "name": "Люксембург",
+   "kk": "Люксембург",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "MU",
+   "name": "Маврикий",
+   "kk": "Маврикий",
+   "status": "arrival",
+   "days": 60,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MR",
+   "name": "Мавритания",
+   "kk": "Мавритания",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MG",
+   "name": "Мадагаскар",
+   "kk": "Мадагаскар",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MW",
+   "name": "Малави",
+   "kk": "Малави",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MY",
+   "name": "Малайзия",
+   "kk": "Малайзия",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "ML",
+   "name": "Мали",
+   "kk": "Мали",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MV",
+   "name": "Мальдивы",
+   "kk": "Мальдив аралдары",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MT",
+   "name": "Мальта",
+   "kk": "Мальта",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "MA",
+   "name": "Марокко",
+   "kk": "Марокко",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MH",
+   "name": "Маршалловы о-ва",
+   "kk": "Маршалл аралдары",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MX",
+   "name": "Мексика",
+   "kk": "Мексика",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "FM",
+   "name": "Микронезия",
+   "kk": "Микронезия",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MZ",
+   "name": "Мозамбик",
+   "kk": "Мозамбик",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MD",
+   "name": "Молдова",
+   "kk": "Молдова",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MC",
+   "name": "Монако",
+   "kk": "Монако",
+   "status": "visa",
+   "days": null,
+   "note": "Въезд только через страны Шенгена — нужна шенгенская виза.",
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "MN",
+   "name": "Монголия",
+   "kk": "Моңғолия",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MM",
+   "name": "Мьянма (Бирма)",
+   "kk": "Мьянма (Бирма)",
+   "status": "online",
+   "days": 28,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "NA",
+   "name": "Намибия",
+   "kk": "Намибия",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "NR",
+   "name": "Науру",
+   "kk": "Науру",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "NP",
+   "name": "Непал",
+   "kk": "Непал",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "NE",
+   "name": "Нигер",
+   "kk": "Нигер",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "NG",
+   "name": "Нигерия",
+   "kk": "Нигерия",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "NL",
+   "name": "Нидерланды",
+   "kk": "Нидерланд",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "NI",
+   "name": "Никарагуа",
+   "kk": "Никарагуа",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "NZ",
+   "name": "Новая Зеландия",
+   "kk": "Жаңа Зеландия",
+   "status": "visa",
+   "days": null,
+   "note": "Паспорта с советской символикой не принимаются.",
+   "group": null,
+   "page": "nz"
+  },
+  {
+   "iso": "NO",
+   "name": "Норвегия",
+   "kk": "Норвегия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "AE",
+   "name": "ОАЭ",
+   "kk": "БАӘ",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "OM",
+   "name": "Оман",
+   "kk": "Оман",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PK",
+   "name": "Пакистан",
+   "kk": "Пәкістан",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PW",
+   "name": "Палау",
+   "kk": "Палау",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PA",
+   "name": "Панама",
+   "kk": "Панама",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PG",
+   "name": "Папуа — Новая Гвинея",
+   "kk": "Папуа — Жаңа Гвинея",
+   "status": "online",
+   "days": 60,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PY",
+   "name": "Парагвай",
+   "kk": "Парагвай",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PE",
+   "name": "Перу",
+   "kk": "Перу",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PL",
+   "name": "Польша",
+   "kk": "Польша",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "PT",
+   "name": "Португалия",
+   "kk": "Португалия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "CG",
+   "name": "Республика Конго",
+   "kk": "Конго-Браззавиль Республикасы",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "RU",
+   "name": "Россия",
+   "kk": "Ресей",
+   "status": "free",
+   "days": 90,
+   "note": "Если остаётесь дольше 30 дней — нужна регистрация.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "RW",
+   "name": "Руанда",
+   "kk": "Руанда",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "RO",
+   "name": "Румыния",
+   "kk": "Румыния",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "US",
+   "name": "США",
+   "kk": "АҚШ",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": "us"
+  },
+  {
+   "iso": "SV",
+   "name": "Сальвадор",
+   "kk": "Сальвадор",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "WS",
+   "name": "Самоа",
+   "kk": "Самоа",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SM",
+   "name": "Сан-Марино",
+   "kk": "Сан-Марино",
+   "status": "visa",
+   "days": null,
+   "note": "Въезд только через страны Шенгена — нужна шенгенская виза.",
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "ST",
+   "name": "Сан-Томе и Принсипи",
+   "kk": "Сан-Томе және Принсипи",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SA",
+   "name": "Саудовская Аравия",
+   "kk": "Сауд Арабиясы",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KP",
+   "name": "Северная Корея",
+   "kk": "Солтүстік Корея",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "MK",
+   "name": "Северная Македония",
+   "kk": "Солтүстік Македония",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SC",
+   "name": "Сейшелы",
+   "kk": "Сейшел аралдары",
+   "status": "online",
+   "days": null,
+   "note": "Визы нет, но заранее нужно электронное разрешение на въезд (Travel Authorisation).",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SN",
+   "name": "Сенегал",
+   "kk": "Сенегал",
+   "status": "arrival",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "VC",
+   "name": "Сент-Винсент и Гренадины",
+   "kk": "Сент-Винсент және Гренадин аралдары",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "KN",
+   "name": "Сент-Китс и Невис",
+   "kk": "Сент-Китс және Невис",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "LC",
+   "name": "Сент-Люсия",
+   "kk": "Сент-Люсия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "RS",
+   "name": "Сербия",
+   "kk": "Сербия",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SG",
+   "name": "Сингапур",
+   "kk": "Сингапур",
+   "status": "visa",
+   "days": null,
+   "note": "Виза оформляется через аккредитованные агентства. Без визы — только транзит до 96 часов.",
+   "group": null,
+   "page": "sg"
+  },
+  {
+   "iso": "SY",
+   "name": "Сирия",
+   "kk": "Сирия",
+   "status": "arrival",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SK",
+   "name": "Словакия",
+   "kk": "Словакия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "SI",
+   "name": "Словения",
+   "kk": "Словения",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "SB",
+   "name": "Соломоновы о-ва",
+   "kk": "Соломон аралдары",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SO",
+   "name": "Сомали",
+   "kk": "Сомали",
+   "status": "online",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SD",
+   "name": "Судан",
+   "kk": "Судан",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SR",
+   "name": "Суринам",
+   "kk": "Суринам",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SL",
+   "name": "Сьерра-Леоне",
+   "kk": "Сьерра-Леоне",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TJ",
+   "name": "Таджикистан",
+   "kk": "Тәжікстан",
+   "status": "free",
+   "days": null,
+   "note": "Если остаётесь дольше 30 дней — нужна регистрация.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TH",
+   "name": "Таиланд",
+   "kk": "Таиланд",
+   "status": "free",
+   "days": 30,
+   "note": "С 15 сентября 2026 — до 30 дней. Заранее заполните электронную карту TDAC.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TZ",
+   "name": "Танзания",
+   "kk": "Танзания",
+   "status": "arrival",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TG",
+   "name": "Того",
+   "kk": "Того",
+   "status": "online",
+   "days": 15,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TO",
+   "name": "Тонга",
+   "kk": "Тонга",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TT",
+   "name": "Тринидад и Тобаго",
+   "kk": "Тринидад және Тобаго",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TV",
+   "name": "Тувалу",
+   "kk": "Тувалу",
+   "status": "arrival",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TN",
+   "name": "Тунис",
+   "kk": "Тунис",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TM",
+   "name": "Туркменистан",
+   "kk": "Түрікменстан",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TR",
+   "name": "Турция",
+   "kk": "Түркия",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "UG",
+   "name": "Уганда",
+   "kk": "Уганда",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "UZ",
+   "name": "Узбекистан",
+   "kk": "Өзбекстан",
+   "status": "free",
+   "days": null,
+   "note": "Если остаётесь дольше 30 дней — нужна регистрация.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "UA",
+   "name": "Украина",
+   "kk": "Украина",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "UY",
+   "name": "Уругвай",
+   "kk": "Уругвай",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "FJ",
+   "name": "Фиджи",
+   "kk": "Фиджи",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "PH",
+   "name": "Филиппины",
+   "kk": "Филиппин аралдары",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "FI",
+   "name": "Финляндия",
+   "kk": "Финляндия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "FR",
+   "name": "Франция",
+   "kk": "Франция",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "HR",
+   "name": "Хорватия",
+   "kk": "Хорватия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "CF",
+   "name": "Центрально-Африканская Республика",
+   "kk": "Орталық Африка Республикасы",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "TD",
+   "name": "Чад",
+   "kk": "Чад",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "ME",
+   "name": "Черногория",
+   "kk": "Черногория",
+   "status": "free",
+   "days": 30,
+   "note": "Без визы — только туристам и только в сезон, с 1 марта по 1 ноября.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CZ",
+   "name": "Чехия",
+   "kk": "Чехия",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "CL",
+   "name": "Чили",
+   "kk": "Чили",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "CH",
+   "name": "Швейцария",
+   "kk": "Швейцария",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "SE",
+   "name": "Швеция",
+   "kk": "Швеция",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "LK",
+   "name": "Шри-Ланка",
+   "kk": "Шри-Ланка",
+   "status": "online",
+   "days": 30,
+   "note": "Электронное разрешение ETA, оформляется заранее, платное.",
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "EC",
+   "name": "Эквадор",
+   "kk": "Эквадор",
+   "status": "free",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "GQ",
+   "name": "Экваториальная Гвинея",
+   "kk": "Экваторлық Гвинея",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "ER",
+   "name": "Эритрея",
+   "kk": "Эритрея",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "SZ",
+   "name": "Эсватини",
+   "kk": "Эсватини",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "EE",
+   "name": "Эстония",
+   "kk": "Эстония",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": "Шенген",
+   "page": "schengen"
+  },
+  {
+   "iso": "ET",
+   "name": "Эфиопия",
+   "kk": "Эфиопия",
+   "status": "online",
+   "days": 90,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "ZA",
+   "name": "ЮАР",
+   "kk": "ОАР",
+   "status": "visa",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": "za"
+  },
+  {
+   "iso": "KR",
+   "name": "Южная Корея",
+   "kk": "Оңтүстік Корея",
+   "status": "online",
+   "days": 30,
+   "note": "Визы нет, но заранее нужно электронное разрешение K-ETA. Оно действует 3 года.",
+   "group": null,
+   "page": "kr"
+  },
+  {
+   "iso": "SS",
+   "name": "Южный Судан",
+   "kk": "Оңтүстік Судан",
+   "status": "online",
+   "days": null,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "JM",
+   "name": "Ямайка",
+   "kk": "Ямайка",
+   "status": "free",
+   "days": 30,
+   "note": null,
+   "group": null,
+   "page": null
+  },
+  {
+   "iso": "JP",
+   "name": "Япония",
+   "kk": "Жапония",
+   "status": "visa",
+   "days": null,
+   "note": "Подача в посольстве Японии в Астане.",
+   "group": null,
+   "page": "jp"
+  }
+ ],
+ "pages": [
+  {
+   "id": "schengen",
+   "title": "Шенгенская виза",
+   "flags": [
+    "🇪🇺"
+   ],
+   "kind": "Туристическая виза, тип C",
+   "summary": "Одна виза на 29 стран Европы: Германию, Францию, Италию, Испанию, Грецию и другие.",
+   "apply": "Визовый центр или консульство страны, где проведёте больше всего дней. Если дней поровну — страны первого въезда.",
+   "inPerson": "Да — сдать отпечатки пальцев (если не сдавали за последние 5 лет)",
+   "processing": "До 15 календарных дней после подачи, в отдельных случаях дольше",
+   "stay": "До 90 дней в любые 180 дней",
+   "consularFee": "€90",
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Анкета страны подачи",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "Бронь авиабилетов туда и обратно",
+    "Бронь отеля на все дни поездки",
+    "Медицинская страховка на всю поездку, покрытие от €30 000"
+   ],
+   "notes": [
+    "Сбор визового центра оплачивается отдельно от консульского сбора."
+   ],
+   "checked": null
+  },
+  {
+   "id": "us",
+   "title": "Виза США",
+   "flags": [
+    "🇺🇸"
+   ],
+   "kind": "Туристическая виза B1/B2",
+   "summary": "Онлайн-анкета DS-160, оплата сбора и личное собеседование в посольстве.",
+   "apply": "Собеседование в посольстве США в Астане или в генконсульстве в Алматы",
+   "inPerson": "Да — личное собеседование",
+   "processing": null,
+   "stay": "Срок пребывания определяет пограничник при въезде",
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Подтверждение анкеты DS-160",
+    "Квитанция об оплате консульского сбора",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев"
+   ],
+   "notes": [
+    "Срок ожидания собеседования бывает долгим — подавайте заранее."
+   ],
+   "checked": null
+  },
+  {
+   "id": "gb",
+   "title": "Виза Великобритании",
+   "flags": [
+    "🇬🇧"
+   ],
+   "kind": "Standard Visitor visa",
+   "summary": "Анкета онлайн на сайте правительства Великобритании, затем биометрия в визовом центре.",
+   "apply": "Анкета — онлайн, документы и биометрия — в визовом центре в Казахстане",
+   "inPerson": "Да — сдать биометрию",
+   "processing": null,
+   "stay": "До 6 месяцев за поездку",
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "Бронь авиабилетов туда и обратно",
+    "Бронь отеля на все дни поездки"
+   ],
+   "notes": [
+    "Великобритания не входит в Шенген — нужна отдельная виза."
+   ],
+   "checked": null
+  },
+  {
+   "id": "ca",
+   "title": "Виза Канады",
+   "flags": [
+    "🇨🇦"
+   ],
+   "kind": "Гостевая виза (Visitor visa)",
+   "summary": "Заявление подаётся онлайн, отпечатки пальцев сдаются в визовом центре VFS Global.",
+   "apply": "Онлайн на сайте правительства Канады, биометрия — в VFS Global в Казахстане",
+   "inPerson": "Да — сдать биометрию",
+   "processing": null,
+   "stay": "Обычно до 6 месяцев, решает пограничник",
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "План поездки"
+   ],
+   "notes": [],
+   "checked": null
+  },
+  {
+   "id": "jp",
+   "title": "Виза в Японию",
+   "flags": [
+    "🇯🇵"
+   ],
+   "kind": "Краткосрочная туристическая виза",
+   "summary": "Подаётся только в посольстве Японии в Астане — лично или через представителя.",
+   "apply": "Посольство Японии в Астане",
+   "inPerson": "Можно через представителя по доверенности",
+   "processing": "Обычно на 5-й рабочий день после подачи",
+   "stay": "До 90 дней, однократная; виза действует 3 месяца с даты выдачи",
+   "consularFee": "Бесплатно для граждан Казахстана",
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Анкета посольства Японии",
+    "Программа поездки по дням",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "Бронь авиабилетов туда и обратно",
+    "Бронь отеля на все дни поездки"
+   ],
+   "notes": [
+    "Электронные заявления посольство не принимает."
+   ],
+   "checked": null
+  },
+  {
+   "id": "za",
+   "title": "Виза в ЮАР",
+   "flags": [
+    "🇿🇦"
+   ],
+   "kind": "Туристическая виза",
+   "summary": "Для граждан Казахстана нужна виза, оформляется заранее.",
+   "apply": null,
+   "inPerson": null,
+   "processing": null,
+   "stay": null,
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "Бронь авиабилетов туда и обратно",
+    "Бронь отеля на все дни поездки"
+   ],
+   "notes": [],
+   "checked": null
+  },
+  {
+   "id": "sg",
+   "title": "Виза в Сингапур",
+   "flags": [
+    "🇸🇬"
+   ],
+   "kind": "Электронная виза",
+   "summary": "Оформляется только через аккредитованные агентства или принимающую сторону.",
+   "apply": "Через аккредитованное агентство",
+   "inPerson": "Нет",
+   "processing": null,
+   "stay": null,
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "Бронь авиабилетов туда и обратно",
+    "Бронь отеля на все дни поездки"
+   ],
+   "notes": [
+    "Без визы можно находиться в Сингапуре до 96 часов при пересадке в третью страну."
+   ],
+   "checked": null
+  },
+  {
+   "id": "nz",
+   "title": "Виза в Новую Зеландию",
+   "flags": [
+    "🇳🇿"
+   ],
+   "kind": "Visitor visa",
+   "summary": "Заявление подаётся онлайн через Immigration New Zealand.",
+   "apply": "Онлайн",
+   "inPerson": "Нет",
+   "processing": null,
+   "stay": null,
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "Бронь авиабилетов туда и обратно",
+    "Бронь отеля на все дни поездки"
+   ],
+   "notes": [
+    "Казахстанские паспорта с советской символикой не принимаются."
+   ],
+   "checked": null
+  },
+  {
+   "id": "au",
+   "title": "Виза в Австралию",
+   "flags": [
+    "🇦🇺"
+   ],
+   "kind": "Visitor visa (subclass 600)",
+   "summary": "Подаётся онлайн через ImmiAccount, личный визит обычно не нужен.",
+   "apply": "Онлайн, ImmiAccount",
+   "inPerson": "Обычно нет",
+   "processing": null,
+   "stay": null,
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт: действует не меньше 6 месяцев после поездки, есть 2 чистые страницы",
+    "Копии всех страниц паспорта со штампами и визами",
+    "Цветное фото по требованиям страны",
+    "Справка с работы: должность, зарплата, стаж",
+    "Выписка с банковского счёта за последние 3–6 месяцев",
+    "Бронь авиабилетов туда и обратно",
+    "Бронь отеля на все дни поездки"
+   ],
+   "notes": [],
+   "checked": null
+  },
+  {
+   "id": "in",
+   "title": "Электронная виза в Индию",
+   "flags": [
+    "🇮🇳"
+   ],
+   "kind": "e-Tourist Visa",
+   "summary": "Оформляется онлайн на официальном сайте. С февраля 2026 для граждан Казахстана — бесплатно.",
+   "apply": "Онлайн, официальный сайт e-Visa правительства Индии",
+   "inPerson": "Нет",
+   "processing": null,
+   "stay": "До 30 дней",
+   "consularFee": "Бесплатно для граждан Казахстана",
+   "serviceFee": null,
+   "documents": [
+    "Скан первой страницы паспорта",
+    "Цифровое фото на белом фоне",
+    "Обратный билет"
+   ],
+   "notes": [
+    "Въезд только через аэропорты и порты из официального списка."
+   ],
+   "checked": null
+  },
+  {
+   "id": "kr",
+   "title": "K-ETA в Южную Корею",
+   "flags": [
+    "🇰🇷"
+   ],
+   "kind": "Электронное разрешение на въезд (не виза)",
+   "summary": "Визы нет, но до вылета нужно получить разрешение K-ETA на официальном сайте.",
+   "apply": "Онлайн, официальный сайт K-ETA",
+   "inPerson": "Нет",
+   "processing": "Подавайте не позже чем за 72 часа до вылета",
+   "stay": "До 30 дней; разрешение действует 3 года",
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт",
+    "Фото",
+    "Адрес проживания в Корее",
+    "Банковская карта для оплаты"
+   ],
+   "notes": [],
+   "checked": null
+  },
+  {
+   "id": "ke",
+   "title": "eTA в Кению",
+   "flags": [
+    "🇰🇪"
+   ],
+   "kind": "Электронное разрешение на въезд (не виза)",
+   "summary": "Визы нет, но до поездки нужно оформить разрешение eTA на официальном сайте.",
+   "apply": "Онлайн, официальный сайт eTA Кении",
+   "inPerson": "Нет",
+   "processing": null,
+   "stay": "До 90 дней",
+   "consularFee": null,
+   "serviceFee": null,
+   "documents": [
+    "Загранпаспорт",
+    "Фото",
+    "Бронь отеля",
+    "Обратный билет",
+    "Сертификат о прививке от жёлтой лихорадки — если летите из страны, где она есть"
+   ],
+   "notes": [],
+   "checked": null
+  }
+ ]
+}
