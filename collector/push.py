@@ -52,6 +52,11 @@ LANGS = ("ru", "kk")
 MODES = ("i", "e")
 TOUR_TOPIC = "tours_{lang}"
 MAX_TOPICS_PER_CONDITION = 5   # ограничение FCM
+# Папка docs в репозитории — отсюда iPhone скачивает фото тура для уведомления.
+DOCS_BASE = "https://raw.githubusercontent.com/sweatberry/katokpass-feed/main/docs/"
+
+# Флаги стран — те же, что Countries.flags в приложении. Нужны для картинки-карточки рейса.
+FLAGS = {"Египет": "🇪🇬", "Турция": "🇹🇷", "ОАЭ": "🇦🇪", "Вьетнам": "🇻🇳", "Таиланд": "🇹🇭", "Индонезия": "🇮🇩", "Китай": "🇨🇳", "Южная Корея": "🇰🇷", "Япония": "🇯🇵", "Мальдивы": "🇲🇻", "Шри-Ланка": "🇱🇰", "Индия": "🇮🇳", "Сейшелы": "🇸🇨", "Танзания": "🇹🇿", "Грузия": "🇬🇪", "Азербайджан": "🇦🇿", "Армения": "🇦🇲", "Катар": "🇶🇦", "Израиль": "🇮🇱", "Саудовская Аравия": "🇸🇦", "Сербия": "🇷🇸", "Венгрия": "🇭🇺", "Германия": "🇩🇪", "Италия": "🇮🇹", "Черногория": "🇲🇪", "Испания": "🇪🇸", "Франция": "🇫🇷", "Чехия": "🇨🇿", "Австрия": "🇦🇹", "Греция": "🇬🇷", "Кипр": "🇨🇾", "Великобритания": "🇬🇧", "Кыргызстан": "🇰🇬", "Узбекистан": "🇺🇿", "Россия": "🇷🇺", "Казахстан": "🇰🇿", "Исландия": "🇮🇸", "Бразилия": "🇧🇷", "Аргентина": "🇦🇷", "Перу": "🇵🇪", "Чили": "🇨🇱", "Боливия": "🇧🇴", "Колумбия": "🇨🇴", "Мексика": "🇲🇽", "Куба": "🇨🇺", "Кения": "🇰🇪", "Марокко": "🇲🇦", "Эфиопия": "🇪🇹", "Мадагаскар": "🇲🇬", "ЮАР": "🇿🇦", "Намибия": "🇳🇦", "Иордания": "🇯🇴", "Оман": "🇴🇲", "Непал": "🇳🇵", "Бутан": "🇧🇹", "Монголия": "🇲🇳", "Филиппины": "🇵🇭", "Малайзия": "🇲🇾", "Сингапур": "🇸🇬", "Камбоджа": "🇰🇭", "Лаос": "🇱🇦", "Норвегия": "🇳🇴", "Швейцария": "🇨🇭", "Португалия": "🇵🇹", "Новая Зеландия": "🇳🇿", "Австралия": "🇦🇺", "Зимбабве": "🇿🇼", "Замбия": "🇿🇲", "Ботсвана": "🇧🇼", "США": "🇺🇸"}
 
 # ── тексты ────────────────────────────────────────────────────────────────
 
@@ -163,6 +168,30 @@ def tour_dates(tour: dict, lang: str) -> str:
     return f"{long(d1)} – {long(d2)}{tail}" if lang == "kk" else f"с {long(d1)} по {long(d2)}{tail}"
 
 
+def tour_image(tour: dict) -> str | None:
+    """Обложка тура — её iPhone покажет в уведомлении крупно."""
+    photos = tour.get("photos") or []
+    return DOCS_BASE + photos[0].lstrip("/") if photos else None
+
+
+def deal_card(deal: dict, lang: str) -> dict:
+    """Данные для картинки-карточки рейса: её рисует сам iPhone (NotificationService)."""
+    dates = day_text(deal["departure"], lang)
+    if deal.get("returnDate"):
+        dates += " → " + day_text(deal["returnDate"], lang)
+    round_trip = deal.get("trip") == "roundTrip"
+    trip = ("барып-қайту" if round_trip else "бір жаққа") if lang == "kk" else \
+           ("туда-обратно" if round_trip else "в одну сторону")
+    return {
+        "cardFrom": place(deal["from"], lang),
+        "cardTo": place(deal["to"], lang),
+        "cardFlag": FLAGS.get(deal_country(deal), "✈️"),
+        "cardPrice": money(deal["price"]),
+        "cardPer": "бір адамға" if lang == "kk" else "на человека",
+        "cardDates": f"{dates} · {trip}",
+    }
+
+
 def tour_message(tour: dict, lang: str) -> tuple[str, str]:
     flags = "".join(tour.get("flags") or [])
     head = "Жаңа авторлық тур" if lang == "kk" else "Новый авторский тур"
@@ -251,20 +280,24 @@ class Push:
     """Одно сообщение — в одну тему или в группу тем (условие FCM)."""
 
     def __init__(self, topics: list[str], title: str, body: str, data: dict,
-                 collapse: str, thread: str):
+                 collapse: str, thread: str, image: str | None = None):
         self.topics, self.title, self.body = topics, title, body
         self.data, self.collapse, self.thread = data, collapse, thread
+        self.image = image
 
     def fcm(self) -> dict:
         message: dict = {
             "notification": {"title": self.title, "body": self.body},
-            "data": {k: str(v) for k, v in self.data.items()},
+            "data": {k: str(v) for k, v in {**self.data, **({"image": self.image} if self.image else {})}.items()},
             "apns": {
                 # Один и тот же рейс из двух тем человека заменит сам себя, а не придёт дважды.
                 "headers": {"apns-collapse-id": self.collapse[:64], "apns-priority": "10"},
-                "payload": {"aps": {"sound": "default", "thread-id": self.thread}},
+                # mutable-content: iPhone даёт приложению добавить картинку (фото тура, карточку рейса).
+                "payload": {"aps": {"sound": "default", "thread-id": self.thread, "mutable-content": 1}},
             },
         }
+        if self.image:
+            message["apns"]["fcm_options"] = {"image": self.image}
         if len(self.topics) == 1:
             message["topic"] = self.topics[0]
         else:
@@ -333,8 +366,9 @@ def plan(deals_doc: dict | None, signature_doc: dict | None, state: dict | None,
                 if not group:
                     continue
                 title, body = deal_message(deal, lang)
-                pushes += grouped_pushes(group, lambda g, title=title, body=body: Push(
-                    g, title, body, {"dealID": deal["id"]}, f"deal-{deal['id']}", deal_country(deal)))
+                card = deal_card(deal, lang)
+                pushes += grouped_pushes(group, lambda g, title=title, body=body, card=card: Push(
+                    g, title, body, {"dealID": deal["id"], **card}, f"deal-{deal['id']}", deal_country(deal)))
             seen.add(deal["id"])
             log.append(f"Рейс {deal['from']} → {deal['to']} {deal['price']}: "
                        f"сразу в {sum(len(v) for v in instant.values())} тем, в сводку {held}")
@@ -354,8 +388,9 @@ def plan(deals_doc: dict | None, signature_doc: dict | None, state: dict | None,
                 held_deals = [by_id[i] for i in ids]
                 title, body = digest_message(held_deals, lang)
                 best = min(held_deals, key=lambda d: d["price"])
-                pushes += grouped_pushes(group, lambda g, title=title, body=body, best=best: Push(
-                    g, title, body, {"dealID": best["id"]}, f"digest-{today}-{g[0]}", "digest"))
+                pushes += grouped_pushes(group, lambda g, title=title, body=body, best=best, lang=lang: Push(
+                    g, title, body, {"dealID": best["id"], **deal_card(best, lang)},
+                    f"digest-{today}-{g[0]}", "digest"))
             if bundles:
                 log.append(f"Сводка: {sum(len(g) for g in bundles.values())} тем")
 
@@ -369,7 +404,8 @@ def plan(deals_doc: dict | None, signature_doc: dict | None, state: dict | None,
             for lang in LANGS:
                 title, body = tour_message(tour, lang)
                 pushes.append(Push([TOUR_TOPIC.format(lang=lang)], title, body,
-                                   {"signatureID": tour["id"]}, f"tour-{tour['id']}", "signature"))
+                                   {"signatureID": tour["id"]}, f"tour-{tour['id']}", "signature",
+                                   image=tour_image(tour)))
             log.append(f"Анонс тура «{tour['title']}»")
             break
 
@@ -393,7 +429,8 @@ def plan(deals_doc: dict | None, signature_doc: dict | None, state: dict | None,
                 for lang in LANGS:
                     title, body = favorite_message(tour, kind, lang, old.get("price"))
                     pushes.append(Push([tour_topic(tour["id"], lang)], title, body,
-                                       {"signatureID": tour["id"]}, f"fav-{tour['id']}", "signature"))
+                                       {"signatureID": tour["id"]}, f"fav-{tour['id']}", "signature",
+                                       image=tour_image(tour)))
                 log.append(f"Избранный тур «{tour['title']}»: "
                            + ("мало мест" if kind == "seats" else "цена снизилась"))
                 snaps[tour["id"]] = {**now_snap, "alerted": today}
