@@ -35,6 +35,9 @@ STATE = ROOT / "docs" / "signature_state.json"
 HISTORY = 300          # сколько последних сообщений канала читать — туров там единицы
 MAX_PHOTOS = 10
 PHOTO_SIDE = 1600      # длинная сторона фото после сжатия
+# Маленькие копии для карточек в списке: ~40 КБ вместо ~400 КБ, список грузится в разы быстрее.
+THUMBS = PHOTOS / "thumbs"
+THUMB_SIDE = 600
 ALMATY = timezone(timedelta(hours=5))
 
 
@@ -160,7 +163,7 @@ def is_past(tour: dict, today) -> bool:
 
 
 # ── фото ─────────────────────────────────────────────────────────────────────
-def shrink(data: bytes) -> bytes:
+def shrink(data: bytes, side: int = PHOTO_SIDE, quality: int = 82) -> bytes:
     """Сжимаем до 1600 px по длинной стороне — вкладка грузится быстро, репозиторий не пухнет."""
     try:
         from PIL import Image, ImageOps
@@ -169,12 +172,25 @@ def shrink(data: bytes) -> bytes:
     try:
         im = Image.open(io.BytesIO(data))
         im = ImageOps.exif_transpose(im).convert("RGB")
-        im.thumbnail((PHOTO_SIDE, PHOTO_SIDE))
+        im.thumbnail((side, side))
         out = io.BytesIO()
-        im.save(out, "JPEG", quality=82, optimize=True, progressive=True)
+        im.save(out, "JPEG", quality=quality, optimize=True, progressive=True)
         return out.getvalue()
     except Exception:  # noqa: BLE001 — странный файл лучше сохранить как есть, чем потерять
         return data
+
+
+def ensure_thumb(name: str) -> bool:
+    """Делает маленькую копию фото для карточки, если её ещё нет. True — копия есть."""
+    thumb = THUMBS / name
+    if thumb.exists():
+        return True
+    full = PHOTOS / name
+    if not full.exists():
+        return False
+    THUMBS.mkdir(parents=True, exist_ok=True)
+    thumb.write_bytes(shrink(full.read_bytes(), THUMB_SIDE, 75))
+    return True
 
 
 # ── сообщения в Telegram от бота ──────────────────────────────────────────────
@@ -291,6 +307,8 @@ async def collect_signature(client, config: dict, now: datetime, resolve) -> Non
             photos.append(f"signature/{name}")
             used_photos.add(name)
         tour["photos"] = photos
+        # для карточки в списке — маленькие копии (у старых фото делаем их из уже скачанных)
+        tour["thumbs"] = [f"signature/thumbs/{Path(p).name}" for p in photos if ensure_thumb(Path(p).name)]
         tour["postedAt"] = post.text_msg.date.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
         tour["telegram"] = channel_link(entity, post.text_msg.id)
         tours.append(tour)
@@ -302,10 +320,11 @@ async def collect_signature(client, config: dict, now: datetime, resolve) -> Non
                    f"{len(photos)} фото{extra}")
 
     # фото туров, которых больше нет, удаляем — им незачем лежать в репозитории
-    if PHOTOS.exists():
-        for f in PHOTOS.glob("*.jpg"):
-            if f.name not in used_photos:
-                f.unlink()
+    for folder in (PHOTOS, THUMBS):
+        if folder.exists():
+            for f in folder.glob("*.jpg"):
+                if f.name not in used_photos:
+                    f.unlink()
 
     tours.sort(key=lambda t: (t.get("departure") or "9999", t["priceFrom"]))
     if old_file.get("tours") != tours:

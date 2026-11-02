@@ -64,6 +64,7 @@ class CollectTests(unittest.TestCase):
         self.tmp = Path(tempfile.mkdtemp(prefix="katokpass-sig-"))
         sc.OUTPUT = self.tmp / "signature.json"
         sc.PHOTOS = self.tmp / "signature"
+        sc.THUMBS = sc.PHOTOS / "thumbs"
         sc.STATE = self.tmp / "signature_state.json"
         self.sent = []
         sc.notify = lambda text: self.sent.append(text)
@@ -87,6 +88,9 @@ class CollectTests(unittest.TestCase):
         africa, iceland = tours["13"], tours["20"]
         self.assertEqual(africa["photos"], ["signature/1001.jpg", "signature/1002.jpg", "signature/1003.jpg"])
         self.assertEqual(iceland["photos"], ["signature/2001.jpg", "signature/2002.jpg"])
+        # маленькие копии для карточек лежат рядом
+        self.assertEqual(iceland["thumbs"], ["signature/thumbs/2001.jpg", "signature/thumbs/2002.jpg"])
+        self.assertTrue((sc.THUMBS / "2001.jpg").exists())
         self.assertEqual(africa["telegram"], "https://t.me/sweatberry_app/13")
         self.assertEqual((africa["priceFrom"], africa["currency"]), (4000, "$"))
         self.assertEqual(len(africa["variants"]), 2)
@@ -130,6 +134,7 @@ class CollectTests(unittest.TestCase):
         _, data = self.run_once(without_iceland)
         self.assertEqual([t["id"] for t in data["tours"]], ["13"])
         self.assertFalse((sc.PHOTOS / "2001.jpg").exists())
+        self.assertFalse((sc.THUMBS / "2001.jpg").exists())
 
     def test_sold_out(self):
         msgs = [m if m.id != 13 else msg(13, AFRICA + "\n#набрано", reply=10) for m in channel()]
