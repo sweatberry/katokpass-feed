@@ -1,3 +1,5 @@
 telethon>=1.36,<2
 qrcode[pil]>=7
 Pillow>=10
+google-auth>=2.30
+requests>=2.31

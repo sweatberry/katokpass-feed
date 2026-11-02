@@ -173,6 +173,13 @@ def parse_dates(text: str, today: date) -> tuple[date | None, date | None]:
     return None, None
 
 
+def has_explicit_year(text: str) -> bool:
+    """Указан ли год в самих датах поста: «7–16 февраля 2027», «07.02–16.02.2027», «16.02.27».
+    Если года нет, приложение его тоже не показывает."""
+    t = text or ""
+    return bool(re.search(r"\b20\d{2}\b", t) or re.search(r"\d{1,2}\.\d{1,2}\.\d{2}\b", t))
+
+
 def _currency_in(t: str) -> str | None:
     if "$" in t or "usd" in t or "долл" in t:
         return "$"
@@ -225,9 +232,30 @@ class Parsed:
     dropped: list[str] = field(default_factory=list)   # что выбросили как «только для Instagram»
 
 
+# Невидимые символы из Instagram: «⠀» (пустая строка-разделитель), неразрывные «склейки».
+# Без них строка «⠀» считалась бы текстом и склеивала соседние абзацы.
+INVISIBLE = re.compile("[\u2800\u2060\u200b\u200c\ufeff\u3164\u115f\u1160\u00ad]")
+# Метки, с которых начинается новый список, даже если перед ними нет пустой строки.
+LIST_LABELS = ("includes", "excludes", "highlights")
+
+
+def split_at_labels(block: list[str]) -> list[list[str]]:
+    """«…пункты…» + «⛔️ В стоимость не входят:» в одном абзаце → два блока."""
+    parts: list[list[str]] = []
+    for s in block:
+        if parts and label_of(s)[0] in LIST_LABELS:
+            parts.append([s])
+        elif parts:
+            parts[-1].append(s)
+        else:
+            parts.append([s])
+    return parts
+
+
 def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = None) -> Parsed:
     out = Parsed()
-    raw_lines = [ln.rstrip() for ln in (text or "").replace("\r", "").split("\n")]
+    text = INVISIBLE.sub("", text or "")
+    raw_lines = [ln.rstrip() for ln in text.replace("\r", "").split("\n")]
 
     # WhatsApp из поста: на этот номер и пойдут заявки из приложения
     phone = PHONE_RE.search(text or "")
@@ -257,6 +285,7 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
             cur = []
     if cur:
         blocks.append(cur)
+    blocks = [part for b in blocks for part in split_at_labels(b)]
     if not blocks:
         out.errors.append("Пост пустой.")
         return out
@@ -279,7 +308,7 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
 
     def read_list(items: list[str], target: list[str]) -> None:
         for s in items:
-            item = re.sub(r"^[\-–—•·*✓✔️☑️✅\s]+", "", s).strip()
+            item = re.sub(r"^[\-–—•·*✓✔️☑️✅\s]+", "", s).strip().rstrip(";,").strip()
             if not item:
                 continue
             if re.match(r"^[\-–—•·*]", s) or not target:
@@ -291,7 +320,8 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
     for block in blocks:
         if pending_list is not None:
             target, pending_list = pending_list, None
-            if all(bullet.match(x) for x in block):
+            # пункты со строками-продолжениями: «- Перелёты: Рио - Игуасу» + «Игуасу - Буэнос-Айрес»
+            if bullet.match(block[0]):
                 read_list(block, target)
                 continue
         first_kind, first_val = label_of(block[0])
@@ -402,6 +432,7 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
             "returnDate": end.isoformat() if end else None,
             "nights": (end - start).days if start and end else None,
             "datesNote": None if start else (v["dates"] or None),
+            "explicitYear": bool(start) and has_explicit_year(v["dates"] or ""),
             "priceFrom": v["price"],
             "currency": v["currency"],
         }
@@ -454,6 +485,7 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
         "returnDate": base["returnDate"],
         "nights": base["nights"],
         "datesNote": base["datesNote"],
+        "explicitYear": base["explicitYear"],
         "priceFrom": cheapest["priceFrom"],
         "currency": cheapest["currency"],
         "variants": clean_variants if len(clean_variants) > 1 else None,

@@ -129,6 +129,23 @@ class MoneyTests(unittest.TestCase):
         self.assertEqual(parse_money("1 250 000 тг"), (1250000, "₸"))
 
 
+class YearTests(unittest.TestCase):
+    """Год показываем, только если он написан в посте."""
+
+    def test_year_written(self):
+        r = parse("🇮🇸 Исландия\n\nДаты: 7–16 февраля 2027\nСтоимость: $3 000", TODAY)
+        self.assertTrue(r.tour["explicitYear"])
+
+    def test_year_not_written(self):
+        r = parse(sample("signature_japan.txt"), TODAY, "9")
+        self.assertFalse(r.tour["explicitYear"])
+        self.assertFalse(any(v["explicitYear"] for v in r.tour["variants"]))
+
+    def test_numeric_dates_with_year(self):
+        r = parse("🇮🇸 Исландия\n\nДаты: 07.02–16.02.2027\nСтоимость: $3 000", TODAY)
+        self.assertTrue(r.tour["explicitYear"])
+
+
 class TemplatePost(unittest.TestCase):
     """Шаблон из памятки — тоже должен разбираться."""
 
