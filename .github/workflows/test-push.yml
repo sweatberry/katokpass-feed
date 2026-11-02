@@ -1,0 +1,28 @@
+name: Пробное уведомление
+
+# Шлёт пробное уведомление на телефоны со сборкой из Xcode — как настоящее, с картинкой.
+# Actions → «Пробное уведомление» → Run workflow → выберите, что прислать.
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "Что прислать"
+        type: choice
+        default: tour
+        options: [tour, favorite, deal, all]
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Отправить пробное уведомление
+        env:
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
+          PUSH_TEST: ${{ inputs.kind }}
+        run: python collector/push.py
