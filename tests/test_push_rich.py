@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "collector"))
 
-from push import plan, deal_card, tour_image, Push  # noqa: E402
+from push import plan, deal_card, tour_image, Push, test_pushes, TEST_TOPIC  # noqa: E402
 
 ALMATY = timezone(timedelta(hours=5))
 EMPTY = {"day": "2026-10-30", "seenDeals": [], "seenTours": [], "topics": {}, "tourSnap": {}}
@@ -46,6 +46,13 @@ class Rich(unittest.TestCase):
         url = "https://raw.githubusercontent.com/sweatberry/katokpass-feed/main/docs/signature/123.jpg"
         self.assertEqual(msg["data"]["image"], url)
         self.assertEqual(msg["apns"]["fcm_options"]["image"], url)
+
+    def test_test_pushes_go_only_to_test_topic(self):
+        pushes = test_pushes("all", {"deals": [DEAL]}, {"tours": [TOUR]})
+        self.assertEqual(len(pushes), 3)
+        self.assertTrue(all(p.topics == [TEST_TOPIC] for p in pushes))
+        self.assertIn("Осталось 3 места", pushes[1].title)
+        self.assertEqual(pushes[2].fcm()["message"]["data"]["cardFlag"], "🇹🇷")
 
     def test_tour_without_photo(self):
         self.assertIsNone(tour_image({**TOUR, "photos": []}))
