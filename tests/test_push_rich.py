@@ -43,7 +43,7 @@ class Rich(unittest.TestCase):
     def test_tour_push_has_photo(self):
         pushes, _, _ = plan(None, {"tours": [TOUR]}, EMPTY, at(12))
         msg = pushes[0].fcm()["message"]
-        url = "https://raw.githubusercontent.com/sweatberry/katokpass-feed/main/docs/signature/123.jpg"
+        url = "https://sweatberry.github.io/katokpass-feed/signature/123.jpg"
         self.assertEqual(msg["data"]["image"], url)
         self.assertEqual(msg["apns"]["fcm_options"]["image"], url)
 
