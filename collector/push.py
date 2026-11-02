@@ -9,6 +9,9 @@
   рейсы:  "f_" + sha256("Турция|Алматы|120000|ru|i")[:24]
           страна прилёта | город вылета или * | порог цены | язык | режим (i — сразу, e — сводка в 19:00)
   туры:   "tours_ru", "tours_kk" — только у тех, кто включил анонсы авторских туров
+  избранный тур: "st_" + sha256("<id тура>|ru")[:24] — у тех, кто отметил тур сердечком
+          и согласился получать новости по избранным турам. Пуш — когда мест осталось
+          5 или меньше (и стало меньше) или когда снизилась цена. Не чаще раза в день на тур.
 
 Рейс за 89 000 ₸ уходит во все темы с порогом от 90 000 ₸ и выше.
 Порог в приложении выбирается из тех же ступеней, что в BUCKETS.
@@ -183,6 +186,44 @@ def flight_topic(country: str, origin: str | None, bucket: int, lang: str, mode:
     return "f_" + hashlib.sha256(key.encode("utf-8")).hexdigest()[:24]
 
 
+def tour_topic(tour_id: str, lang: str) -> str:
+    """Тема избранного тура. Та же формула — в приложении (PushTopics.favoriteTour)."""
+    key = unicodedata.normalize("NFC", f"{tour_id}|{lang}")
+    return "st_" + hashlib.sha256(key.encode("utf-8")).hexdigest()[:24]
+
+
+SEATS_ALERT = 5   # «осталось N мест» — когда мест 5 или меньше
+
+
+def tour_snapshot(tour: dict) -> dict:
+    seats = tour.get("seatsLeft")
+    return {"seats": int(seats) if isinstance(seats, int) or (isinstance(seats, str) and seats.isdigit()) else None,
+            "price": int(tour.get("priceFrom") or 0),
+            "currency": tour.get("currency") or ""}
+
+
+def favorite_message(tour: dict, kind: str, lang: str, old_price: int | None = None) -> tuple[str, str]:
+    """Новость по избранному туру: мало мест или цена снизилась."""
+    flags = "".join(tour.get("flags") or [])
+    price = money(int(tour["priceFrom"]), tour.get("currency"))
+    dates = tour_dates(tour, lang)
+    if kind == "seats":
+        n = int(tour["seatsLeft"])
+        if lang == "kk":
+            head, body = f"{n} орын қалды", f"{dates} · {price} бастап, бір адамға"
+        else:
+            head = f"Осталось {n} {plural(n, 'место', 'места', 'мест')}"
+            body = f"{dates} · от {price} за человека"
+    else:
+        old = money(int(old_price or 0), tour.get("currency"))
+        if lang == "kk":
+            head, body = "Баға төмендеді", f"Енді {price} бастап ({old} орнына) · {dates}"
+        else:
+            head, body = "Цена снизилась", f"Теперь от {price} вместо {old} · {dates}"
+    title = f"{flags} {head}: {tour['title']}".strip()
+    return title, body
+
+
 def deal_country(deal: dict) -> str:
     return deal.get("toCountry") or deal["country"]
 
@@ -252,7 +293,7 @@ def plan(deals_doc: dict | None, signature_doc: dict | None, state: dict | None,
     if state is None:
         # Первый запуск: всё, что уже в ленте, люди видят в приложении — пушить нечего.
         new_state = {"day": today, "seenDeals": sorted(by_id), "seenTours": sorted(t["id"] for t in tours),
-                     "topics": {}}
+                     "topics": {}, "tourSnap": {t["id"]: tour_snapshot(t) for t in tours}}
         log.append(f"Пуши: первый запуск — запомнил рейсов {len(deals)}, туров {len(tours)}, ничего не отправляю")
         return [], new_state, log
 
@@ -261,6 +302,10 @@ def plan(deals_doc: dict | None, signature_doc: dict | None, state: dict | None,
     topics: dict = state.get("topics") or {}
     if state.get("day") != today:
         topics = {}     # новый день — новые лимиты
+    # Снимки туров для новостей по избранным: места и цена в прошлый раз.
+    # Если снимков ещё нет (обновили сервер) — просто запоминаем, ничего не шлём.
+    had_snaps = "tourSnap" in state
+    snaps: dict = {k: dict(v) for k, v in (state.get("tourSnap") or {}).items()}
 
     pushes: list[Push] = []
     daytime = DAY_START <= local.hour < DAY_END
@@ -328,9 +373,39 @@ def plan(deals_doc: dict | None, signature_doc: dict | None, state: dict | None,
             log.append(f"Анонс тура «{tour['title']}»")
             break
 
+        # ── избранные туры: мало мест или цена снизилась ──
+        for tour in tours:
+            now_snap = tour_snapshot(tour)
+            old = snaps.get(tour["id"])
+            if not had_snaps or old is None or tour.get("isSoldOut"):
+                snaps[tour["id"]] = {**now_snap, "alerted": (old or {}).get("alerted")}
+                continue
+            kind = None
+            seats, old_seats = now_snap["seats"], old.get("seats")
+            if seats is not None and 0 < seats <= SEATS_ALERT and (old_seats is None or seats < old_seats):
+                kind = "seats"
+            elif (now_snap["price"] and old.get("price") and now_snap["currency"] == old.get("currency")
+                  and now_snap["price"] < old["price"]):
+                kind = "price"
+            if kind and old.get("alerted") == today:
+                continue    # по этому туру сегодня уже писали — новость подождёт до завтра
+            if kind:
+                for lang in LANGS:
+                    title, body = favorite_message(tour, kind, lang, old.get("price"))
+                    pushes.append(Push([tour_topic(tour["id"], lang)], title, body,
+                                       {"signatureID": tour["id"]}, f"fav-{tour['id']}", "signature"))
+                log.append(f"Избранный тур «{tour['title']}»: "
+                           + ("мало мест" if kind == "seats" else "цена снизилась"))
+                snaps[tour["id"]] = {**now_snap, "alerted": today}
+            else:
+                snaps[tour["id"]] = {**now_snap, "alerted": old.get("alerted")}
+
     # Пустые записи тем не храним — файл остаётся маленьким.
     topics = {k: v for k, v in topics.items() if v.get("instant") or v.get("held") or v.get("digest")}
-    new_state = {"day": today, "seenDeals": sorted(seen), "seenTours": sorted(seen_tours), "topics": topics}
+    alive = {t["id"] for t in tours}
+    snaps = {k: v for k, v in snaps.items() if k in alive}
+    new_state = {"day": today, "seenDeals": sorted(seen), "seenTours": sorted(seen_tours), "topics": topics,
+                 "tourSnap": snaps}
     return pushes, new_state, log
 
 

@@ -219,6 +219,9 @@ async def main() -> None:
     deals = deduplicate(deals)
     deals.sort(key=lambda d: (d["departure"], d["price"]))
     settings = {"whatsApp": config.get("whatsApp"), "ttlHours": ttl.total_seconds() / 3600}
+    # Instagram для кнопки на странице авторского тура. Меняется в sources.json: "instagram": "sweatberry.tours"
+    if config.get("instagram"):
+        settings["instagram"] = str(config["instagram"]).strip()
     payload = {
         "updatedAt": now.isoformat().replace("+00:00", "Z"),
         "settings": settings,
