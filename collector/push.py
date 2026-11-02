@@ -474,6 +474,35 @@ class FCM:
         return r.ok, "" if r.ok else f"{r.status_code} {r.text[:300]}"
 
 
+# ── пробные уведомления ──────────────────────────────────────────────────
+# Тема, на которую подписываются только сборки из Xcode (#if DEBUG в приложении).
+# Настоящие пользователи из App Store эти уведомления никогда не получат.
+TEST_TOPIC = "katokpass_test"
+
+
+def test_pushes(kind: str, deals_doc: dict | None, signature_doc: dict | None) -> list[Push]:
+    """Пробные уведомления — точь-в-точь как настоящие, только в тему TEST_TOPIC."""
+    deals = [d for d in (deals_doc or {}).get("deals", []) if isinstance(d, dict) and "id" in d]
+    tours = [t for t in (signature_doc or {}).get("tours", []) if isinstance(t, dict) and "id" in t]
+    out: list[Push] = []
+    if kind in ("tour", "all") and tours:
+        t = tours[0]
+        title, body = tour_message(t, "ru")
+        out.append(Push([TEST_TOPIC], title, body, {"signatureID": t["id"]},
+                        f"test-tour-{t['id']}", "signature", image=tour_image(t)))
+    if kind in ("favorite", "all") and tours:
+        t = {**tours[0], "seatsLeft": 3}
+        title, body = favorite_message(t, "seats", "ru")
+        out.append(Push([TEST_TOPIC], title, body, {"signatureID": t["id"]},
+                        f"test-fav-{t['id']}", "signature", image=tour_image(t)))
+    if kind in ("deal", "all") and deals:
+        d = min(deals, key=lambda x: (x["price"], x["departure"]))
+        title, body = deal_message(d, "ru")
+        out.append(Push([TEST_TOPIC], title, body, {"dealID": d["id"], **deal_card(d, "ru")},
+                        f"test-deal-{d['id']}", deal_country(d)))
+    return out
+
+
 def main() -> None:
     raw = os.environ.get("FCM_SERVICE_ACCOUNT", "").strip()
     if not raw:
@@ -485,6 +514,19 @@ def main() -> None:
     except (json.JSONDecodeError, KeyError, TypeError):
         print("Пуши: секрет FCM_SERVICE_ACCOUNT — не JSON-ключ сервисного аккаунта. "
               "Вставьте файл ключа целиком, от { до }.")
+        return
+
+    # Пробный запуск (GitHub → Actions → «Пробное уведомление»): шлём и выходим, состояние не трогаем.
+    test = os.environ.get("PUSH_TEST", "").strip()
+    if test:
+        pushes = test_pushes(test, load(DEALS), load(SIGNATURE))
+        if not pushes:
+            print("Пробное уведомление: нет рейсов или туров для примера")
+            return
+        fcm = FCM(info)
+        for p in pushes:
+            good, err = fcm.send(p)
+            print(f"Пробное «{p.title}»: " + ("отправлено" if good else f"ошибка {err}"))
         return
 
     pushes, state, log = plan(load(DEALS), load(SIGNATURE), load(STATE), datetime.now(timezone.utc))
