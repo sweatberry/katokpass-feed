@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T08:30:23.907929Z",
+ "updatedAt": "2026-11-03T08:45:21.383218Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -709,7 +709,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2423-1",
+   "id": "0-2496-0",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -720,9 +720,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -1013,7 +1013,7 @@
    "to": "Белград"
   },
   {
-   "id": "0-2425-17",
+   "id": "0-2498-14",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -1024,15 +1024,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
   },
   {
-   "id": "0-2423-17",
+   "id": "0-2496-14",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -1043,9 +1043,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -1260,25 +1260,6 @@
    "to": "Астана"
   },
   {
-   "id": "0-2415-4",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-05",
-   "returnDate": null,
-   "price": 101000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T08:42:33Z",
-   "expiresAt": "2026-11-03T08:42:33Z",
-   "sourcePostID": 2415,
-   "seats": 7,
-   "from": "Астана",
-   "to": "Дубай"
-  },
-  {
    "id": "0-2447-2",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -1412,6 +1393,25 @@
    "to": "Фукуок"
   },
   {
+   "id": "0-2498-0",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-05",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2492-0",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
@@ -1429,25 +1429,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
-  },
-  {
-   "id": "0-2425-1",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-05",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2489-0",
@@ -1507,7 +1488,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-2425-9",
+   "id": "0-2498-7",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -1518,9 +1499,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Будапешт",
    "to": "Шымкент"
@@ -1545,7 +1526,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-2424-9",
+   "id": "0-2497-8",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -1556,15 +1537,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Будапешт",
    "to": "Астана"
   },
   {
-   "id": "0-2423-9",
+   "id": "0-2496-7",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -1575,9 +1556,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
@@ -1980,25 +1961,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Анталия"
-  },
-  {
-   "id": "0-2415-0",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-06",
-   "returnDate": null,
-   "price": 96000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T08:42:33Z",
-   "expiresAt": "2026-11-03T08:42:33Z",
-   "sourcePostID": 2415,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Дубай"
   },
   {
    "id": "0-2459-2",
@@ -2685,25 +2647,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2415-1",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-07",
-   "returnDate": null,
-   "price": 96000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T08:42:33Z",
-   "expiresAt": "2026-11-03T08:42:33Z",
-   "sourcePostID": 2415,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Дубай"
-  },
-  {
    "id": "0-2450-4",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -3350,25 +3293,6 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-2415-2",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-08",
-   "returnDate": null,
-   "price": 96000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T08:42:33Z",
-   "expiresAt": "2026-11-03T08:42:33Z",
-   "sourcePostID": 2415,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Дубай"
-  },
-  {
    "id": "0-2443-70",
    "country": "Индия",
    "fromCountry": "Казахстан",
@@ -3956,44 +3880,6 @@
    "seats": 1,
    "from": "Пхукет",
    "to": "Астана"
-  },
-  {
-   "id": "0-2415-3",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-09",
-   "returnDate": null,
-   "price": 106000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T08:42:33Z",
-   "expiresAt": "2026-11-03T08:42:33Z",
-   "sourcePostID": 2415,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Дубай"
-  },
-  {
-   "id": "0-2415-5",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-09",
-   "returnDate": null,
-   "price": 106000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T08:42:33Z",
-   "expiresAt": "2026-11-03T08:42:33Z",
-   "sourcePostID": 2415,
-   "seats": null,
-   "from": "Астана",
-   "to": "Дубай"
   },
   {
    "id": "0-2479-13",
@@ -4699,6 +4585,25 @@
    "to": "Шарм-эш-Шейх"
   },
   {
+   "id": "0-2498-1",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-10",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2463-9",
    "country": "Китай",
    "fromCountry": "Китай",
@@ -4716,25 +4621,6 @@
    "seats": null,
    "from": "Шанхай",
    "to": "Шымкент"
-  },
-  {
-   "id": "0-2425-2",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-10",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2492-8",
@@ -4775,7 +4661,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2425-10",
+   "id": "0-2498-8",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -4786,15 +4672,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Будапешт",
    "to": "Шымкент"
   },
   {
-   "id": "0-2423-2",
+   "id": "0-2496-1",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -4805,9 +4691,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -4889,7 +4775,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2424-10",
+   "id": "0-2497-9",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -4900,15 +4786,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Будапешт",
    "to": "Астана"
   },
   {
-   "id": "0-2423-10",
+   "id": "0-2496-8",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -4919,9 +4805,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
@@ -5022,7 +4908,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2425-18",
+   "id": "0-2498-15",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -5033,15 +4919,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
   },
   {
-   "id": "0-2423-18",
+   "id": "0-2496-15",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -5052,9 +4938,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -5478,7 +5364,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2423-3",
+   "id": "0-2496-2",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -5489,9 +5375,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -5725,7 +5611,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-2425-19",
+   "id": "0-2498-16",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -5736,9 +5622,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
@@ -5782,7 +5668,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2423-19",
+   "id": "0-2496-16",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -5793,9 +5679,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -6048,6 +5934,25 @@
    "to": "Белград"
   },
   {
+   "id": "0-2498-2",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-12",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2492-2",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
@@ -6065,25 +5970,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
-  },
-  {
-   "id": "0-2425-3",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-12",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2489-2",
@@ -6143,7 +6029,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-2425-11",
+   "id": "0-2498-9",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -6154,9 +6040,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Будапешт",
    "to": "Шымкент"
@@ -6181,7 +6067,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-2424-11",
+   "id": "0-2497-10",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -6192,15 +6078,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Будапешт",
    "to": "Астана"
   },
   {
-   "id": "0-2423-11",
+   "id": "0-2496-9",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -6211,9 +6097,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
@@ -8024,6 +7910,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-2498-3",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-17",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2463-11",
    "country": "Китай",
    "fromCountry": "Китай",
@@ -8041,25 +7946,6 @@
    "seats": null,
    "from": "Шанхай",
    "to": "Шымкент"
-  },
-  {
-   "id": "0-2425-4",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-17",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2431-2",
@@ -8138,7 +8024,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2425-12",
+   "id": "0-2498-10",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -8149,15 +8035,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Будапешт",
    "to": "Шымкент"
   },
   {
-   "id": "0-2424-0",
+   "id": "0-2497-0",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -8168,15 +8054,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
   },
   {
-   "id": "0-2423-4",
+   "id": "0-2496-3",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -8187,9 +8073,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -8214,7 +8100,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2424-12",
+   "id": "0-2497-11",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -8225,15 +8111,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Будапешт",
    "to": "Астана"
   },
   {
-   "id": "0-2423-12",
+   "id": "0-2496-10",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -8244,9 +8130,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
@@ -8309,6 +8195,25 @@
    "to": "Анталия"
   },
   {
+   "id": "0-2498-17",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-17",
+   "returnDate": "2026-11-24",
+   "price": 300000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2428-11",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -8326,25 +8231,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-2425-20",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-17",
-   "returnDate": "2026-11-24",
-   "price": 300000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2452-34",
@@ -8385,7 +8271,7 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-2424-14",
+   "id": "0-2497-13",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -8396,15 +8282,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
   },
   {
-   "id": "0-2423-20",
+   "id": "0-2496-17",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -8415,9 +8301,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -8708,7 +8594,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2423-5",
+   "id": "0-2496-4",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -8719,9 +8605,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -8879,7 +8765,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-2425-21",
+   "id": "0-2498-18",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -8890,9 +8776,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
@@ -8917,7 +8803,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2423-21",
+   "id": "0-2496-18",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -8928,9 +8814,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -9107,6 +8993,25 @@
    "to": "Белград"
   },
   {
+   "id": "0-2498-4",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-19",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2492-4",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
@@ -9124,25 +9029,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
-  },
-  {
-   "id": "0-2425-5",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-19",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2489-4",
@@ -9202,7 +9088,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-2425-13",
+   "id": "0-2498-11",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -9213,9 +9099,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Будапешт",
    "to": "Шымкент"
@@ -9240,7 +9126,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-2424-1",
+   "id": "0-2497-1",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -9251,15 +9137,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
   },
   {
-   "id": "0-2424-13",
+   "id": "0-2497-12",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -9270,15 +9156,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Будапешт",
    "to": "Астана"
   },
   {
-   "id": "0-2423-13",
+   "id": "0-2496-11",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -9289,9 +9175,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
@@ -9468,7 +9354,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-2424-15",
+   "id": "0-2497-14",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -9479,9 +9365,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
@@ -10760,6 +10646,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-2498-5",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-24",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2463-13",
    "country": "Китай",
    "fromCountry": "Китай",
@@ -10777,25 +10682,6 @@
    "seats": null,
    "from": "Шанхай",
    "to": "Шымкент"
-  },
-  {
-   "id": "0-2425-6",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-24",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2492-12",
@@ -10836,7 +10722,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2425-14",
+   "id": "0-2498-12",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -10847,15 +10733,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Будапешт",
    "to": "Шымкент"
   },
   {
-   "id": "0-2424-2",
+   "id": "0-2497-2",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -10866,15 +10752,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
   },
   {
-   "id": "0-2423-6",
+   "id": "0-2496-5",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -10885,9 +10771,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -10912,7 +10798,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2423-14",
+   "id": "0-2496-12",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -10923,9 +10809,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
@@ -11026,7 +10912,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-2425-22",
+   "id": "0-2498-19",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11037,9 +10923,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
@@ -11083,7 +10969,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2424-16",
+   "id": "0-2497-15",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11094,15 +10980,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
   },
   {
-   "id": "0-2423-22",
+   "id": "0-2496-19",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11113,9 +10999,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -11368,7 +11254,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2423-7",
+   "id": "0-2496-6",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11379,9 +11265,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -11501,7 +11387,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-2425-23",
+   "id": "0-2498-20",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11512,9 +11398,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
@@ -11539,7 +11425,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2423-23",
+   "id": "0-2496-20",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11550,9 +11436,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
@@ -11691,6 +11577,25 @@
    "to": "Белград"
   },
   {
+   "id": "0-2498-6",
+   "country": "Венгрия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Венгрия",
+   "departure": "2026-11-26",
+   "returnDate": null,
+   "price": 147000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Будапешт"
+  },
+  {
    "id": "0-2492-6",
    "country": "Южная Корея",
    "fromCountry": "Казахстан",
@@ -11708,25 +11613,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
-  },
-  {
-   "id": "0-2425-7",
-   "country": "Венгрия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Венгрия",
-   "departure": "2026-11-26",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Будапешт"
   },
   {
    "id": "0-2489-6",
@@ -11786,7 +11672,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-2425-15",
+   "id": "0-2498-13",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -11797,9 +11683,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:46:02Z",
-   "expiresAt": "2026-11-03T10:46:02Z",
-   "sourcePostID": 2425,
+   "postedAt": "2026-11-03T08:45:19Z",
+   "expiresAt": "2026-11-04T08:45:19Z",
+   "sourcePostID": 2498,
    "seats": null,
    "from": "Будапешт",
    "to": "Шымкент"
@@ -11824,7 +11710,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-2424-3",
+   "id": "0-2497-3",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11835,15 +11721,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
   },
   {
-   "id": "0-2423-15",
+   "id": "0-2496-13",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
    "toCountry": "Казахстан",
@@ -11854,9 +11740,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:43Z",
-   "expiresAt": "2026-11-03T10:45:43Z",
-   "sourcePostID": 2423,
+   "postedAt": "2026-11-03T08:45:00Z",
+   "expiresAt": "2026-11-04T08:45:00Z",
+   "sourcePostID": 2496,
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
@@ -11919,7 +11805,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2424-17",
+   "id": "0-2497-16",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -11930,9 +11816,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
@@ -12983,7 +12869,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2424-4",
+   "id": "0-2497-4",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -12994,9 +12880,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
@@ -13059,7 +12945,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2424-18",
+   "id": "0-2497-17",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -13070,9 +12956,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
@@ -13154,7 +13040,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2424-5",
+   "id": "0-2497-5",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -13165,9 +13051,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
@@ -13610,7 +13496,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2424-6",
+   "id": "0-2497-6",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -13621,9 +13507,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
@@ -13762,7 +13648,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2424-7",
+   "id": "0-2497-7",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
    "toCountry": "Венгрия",
@@ -13773,9 +13659,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-02T10:45:53Z",
-   "expiresAt": "2026-11-03T10:45:53Z",
-   "sourcePostID": 2424,
+   "postedAt": "2026-11-03T08:45:09Z",
+   "expiresAt": "2026-11-04T08:45:09Z",
+   "sourcePostID": 2497,
    "seats": null,
    "from": "Астана",
    "to": "Будапешт"
