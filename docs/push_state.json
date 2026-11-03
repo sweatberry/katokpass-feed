@@ -874,5 +874,78 @@
   "9"
  ],
  "topics": {},
- "tourSnap": {}
+ "tourSnap": {
+  "9": {
+   "seats": null,
+   "price": 1690000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "25": {
+   "seats": null,
+   "price": 4000,
+   "currency": "$",
+   "alerted": null
+  },
+  "41": {
+   "seats": null,
+   "price": 1250000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "30": {
+   "seats": null,
+   "price": 1490000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "28": {
+   "seats": null,
+   "price": 940000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "39": {
+   "seats": null,
+   "price": 4600,
+   "currency": "$",
+   "alerted": null
+  },
+  "43": {
+   "seats": null,
+   "price": 890000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "62": {
+   "seats": null,
+   "price": 990000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "70": {
+   "seats": null,
+   "price": 1590000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "53": {
+   "seats": null,
+   "price": 1990000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "77": {
+   "seats": null,
+   "price": 2090000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "17": {
+   "seats": null,
+   "price": 2190000,
+   "currency": "₸",
+   "alerted": null
+  }
+ }
 }
