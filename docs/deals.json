@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T08:00:29.447644Z",
+ "updatedAt": "2026-11-03T08:15:21.715978Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -652,6 +652,25 @@
    "to": "Фукуок"
   },
   {
+   "id": "0-2487-0",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-11-04",
+   "returnDate": "2026-11-15",
+   "price": 161000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T08:00:55Z",
+   "expiresAt": "2026-11-04T08:00:55Z",
+   "sourcePostID": 2487,
+   "seats": null,
+   "from": "Уральск",
+   "to": "Пхукет"
+  },
+  {
    "id": "0-2459-18",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -839,25 +858,6 @@
    "sourcePostID": 2459,
    "seats": null,
    "from": "Алматы",
-   "to": "Пхукет"
-  },
-  {
-   "id": "0-2459-21",
-   "country": "Таиланд",
-   "fromCountry": "Казахстан",
-   "toCountry": "Таиланд",
-   "departure": "2026-11-04",
-   "returnDate": "2026-11-15",
-   "price": 180000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-03T06:05:40Z",
-   "expiresAt": "2026-11-04T06:05:40Z",
-   "sourcePostID": 2459,
-   "seats": null,
-   "from": "Уральск",
    "to": "Пхукет"
   },
   {
