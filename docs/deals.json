@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T11:15:24.138584Z",
+ "updatedAt": "2026-11-03T11:30:31.157530Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -384,6 +384,25 @@
    "seats": null,
    "from": "Астана",
    "to": "Дубай"
+  },
+  {
+   "id": "0-2518-0",
+   "country": "Китай",
+   "fromCountry": "Казахстан",
+   "toCountry": "Китай",
+   "departure": "2026-11-04",
+   "returnDate": null,
+   "price": 99000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-03T11:15:30Z",
+   "expiresAt": "2026-11-04T11:15:30Z",
+   "sourcePostID": 2518,
+   "seats": null,
+   "from": "Астана",
+   "to": "Санья"
   },
   {
    "id": "0-2512-0",
