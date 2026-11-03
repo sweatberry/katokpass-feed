@@ -191,3 +191,13 @@ class BrokenPosts(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class YearAfterCommaTest(unittest.TestCase):
+    def test_year_after_comma(self):
+        from datetime import date
+        from signature_parser import parse_dates
+        start, end = parse_dates("Даты: с 4 по 18 ноября, 2027", date(2026, 11, 3))
+        self.assertEqual((start, end), (date(2027, 11, 4), date(2027, 11, 18)))
+        start, end = parse_dates("с 20 ноября по 2 декабря, 2027", date(2026, 11, 3))
+        self.assertEqual((start, end), (date(2027, 11, 20), date(2027, 12, 2)))
