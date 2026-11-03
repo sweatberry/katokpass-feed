@@ -879,6 +879,7 @@
   "0-2501-9"
  ],
  "seenTours": [
+  "108",
   "17",
   "25",
   "28",
@@ -45920,6 +45921,18 @@
   "86": {
    "seats": null,
    "price": 1990000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "108": {
+   "seats": null,
+   "price": 6200,
+   "currency": "$",
+   "alerted": null
+  },
+  "97": {
+   "seats": null,
+   "price": 2390000,
    "currency": "₸",
    "alerted": null
   }
