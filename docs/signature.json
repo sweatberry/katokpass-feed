@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T13:45:35.543391Z",
+ "updatedAt": "2026-11-03T06:15:21.078357Z",
  "tours": [
   {
    "id": "9",
@@ -789,7 +789,7 @@
    "telegram": "https://t.me/sweatberry_app/70"
   },
   {
-   "id": "53",
+   "id": "86",
    "title": "Бразилия — Аргентина",
    "country": "Бразилия",
    "countries": [
@@ -855,8 +855,7 @@
    "seatsLeft": null,
    "note": null,
    "photos": [
-    "signature/5424927691154071269.jpg",
-    "signature/5424927691154071270.jpg",
+    "signature/5422721800245812501.jpg",
     "signature/5424927691154071271.jpg",
     "signature/5424927691154071272.jpg",
     "signature/5424927691154071273.jpg",
@@ -868,8 +867,7 @@
    "whatsApp": "77787379977",
    "isSoldOut": false,
    "thumbs": [
-    "signature/thumbs/5424927691154071269.jpg",
-    "signature/thumbs/5424927691154071270.jpg",
+    "signature/thumbs/5422721800245812501.jpg",
     "signature/thumbs/5424927691154071271.jpg",
     "signature/thumbs/5424927691154071272.jpg",
     "signature/thumbs/5424927691154071273.jpg",
@@ -878,8 +876,8 @@
     "signature/thumbs/5424927691154071276.jpg",
     "signature/thumbs/5424927691154071277.jpg"
    ],
-   "postedAt": "2026-11-02T07:49:20Z",
-   "telegram": "https://t.me/sweatberry_app/53"
+   "postedAt": "2026-11-03T06:11:47Z",
+   "telegram": "https://t.me/sweatberry_app/86"
   },
   {
    "id": "77",
