@@ -142,7 +142,7 @@ def nearest(day: int, month: int, year: int | None, today: date) -> date | None:
 def parse_dates(text: str, today: date) -> tuple[date | None, date | None]:
     t = text.lower().replace("—", "-").replace("–", "-")
     # «с 20 ноября по 2 декабря», «20 ноября - 2 декабря 2027»
-    m = re.search(rf"(\d{{1,2}})\s+{MONTH_RE}\s*(?:по|-|до)\s*(\d{{1,2}})\s+{MONTH_RE}(?:\s+(\d{{4}}))?", t)
+    m = re.search(rf"(\d{{1,2}})\s+{MONTH_RE}\s*(?:по|-|до)\s*(\d{{1,2}})\s+{MONTH_RE}(?:\s*,?\s*(\d{{4}}))?", t)
     if m:
         year = int(m.group(5)) if m.group(5) else None
         end = nearest(int(m.group(3)), month_num(m.group(4)), year, today)
@@ -153,7 +153,7 @@ def parse_dates(text: str, today: date) -> tuple[date | None, date | None]:
                 end = end.replace(year=end.year + 1)
         return start, end
     # «с 20 по 28 ноября», «7-16 февраля 2027»
-    m = re.search(rf"(\d{{1,2}})\s*(?:по|-|до)\s*(\d{{1,2}})\s+{MONTH_RE}(?:\s+(\d{{4}}))?", t)
+    m = re.search(rf"(\d{{1,2}})\s*(?:по|-|до)\s*(\d{{1,2}})\s+{MONTH_RE}(?:\s*,?\s*(\d{{4}}))?", t)
     if m:
         year = int(m.group(4)) if m.group(4) else None
         month = month_num(m.group(3))
@@ -166,7 +166,7 @@ def parse_dates(text: str, today: date) -> tuple[date | None, date | None]:
         return (nearest(int(m.group(1)), int(m.group(2)), year, today),
                 nearest(int(m.group(4)), int(m.group(5)), year, today))
     # одна дата: «20 ноября»
-    m = re.search(rf"(\d{{1,2}})\s+{MONTH_RE}(?:\s+(\d{{4}}))?", t)
+    m = re.search(rf"(\d{{1,2}})\s+{MONTH_RE}(?:\s*,?\s*(\d{{4}}))?", t)
     if m:
         year = int(m.group(3)) if m.group(3) else None
         return nearest(int(m.group(1)), month_num(m.group(2)), year, today), None
@@ -394,14 +394,15 @@ def parse(text: str, today: date, tour_id: str = "", photos: list[str] | None = 
             structured_started = True
             name = FLAG_RE.sub("", block[0]).strip()
             route.append({"title": f"{''.join(head_flags)} {name}".strip(),
-                          "text": clean_tail(" ".join(block[1:])), "flags": head_flags})
+                          "text": clean_tail("\n".join(block[1:])), "flags": head_flags})
             continue
 
         # ── свободный текст ──
-        paragraph = clean_tail(" ".join(block))
+        # строки внутри абзаца не склеиваем: «🚙 проедем…», «💦 увидим…» — отдельные пункты
+        paragraph = clean_tail("\n".join(block))
         if not paragraph:
             continue
-        lead = re.match(r"^((?:[\U0001F1E6-\U0001F1FF]{2}\s*)+)(.+)$", paragraph)
+        lead = re.match(r"^((?:[\U0001F1E6-\U0001F1FF]{2}\s*)+)(.+)$", paragraph, re.S)
         if lead and len(lead.group(2).strip()) >= 30:
             fl = FLAG_RE.findall(lead.group(1))
             names = ", ".join(n for n in (COUNTRIES.get(flag_to_iso(f), "") for f in fl) if n)
