@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T12:00:39.167323Z",
+ "updatedAt": "2026-11-03T12:30:25.360124Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -498,25 +498,6 @@
    "seats": null,
    "from": "Шарджа",
    "to": "Алматы"
-  },
-  {
-   "id": "0-2440-0",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-04",
-   "returnDate": "2026-11-09",
-   "price": 123000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T12:25:26Z",
-   "expiresAt": "2026-11-03T12:25:26Z",
-   "sourcePostID": 2440,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Дубай"
   },
   {
    "id": "0-2476-1",
@@ -3158,25 +3139,6 @@
    "seats": 5,
    "from": "Фукуок",
    "to": "Астана"
-  },
-  {
-   "id": "0-2440-1",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-07",
-   "returnDate": "2026-11-13",
-   "price": 139000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-02T12:25:26Z",
-   "expiresAt": "2026-11-03T12:25:26Z",
-   "sourcePostID": 2440,
-   "seats": 3,
-   "from": "Алматы",
-   "to": "Дубай"
   },
   {
    "id": "0-2506-0",
