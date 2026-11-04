@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T11:30:26.782287Z",
+ "updatedAt": "2026-11-04T11:45:25.624058Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -823,6 +823,25 @@
    "to": "Пхукет"
   },
   {
+   "id": "0-2588-0",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-06",
+   "returnDate": null,
+   "price": 78000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-04T11:34:06Z",
+   "expiresAt": "2026-11-05T11:34:06Z",
+   "sourcePostID": 2588,
+   "seats": 3,
+   "from": "Астана",
+   "to": "Фукуок"
+  },
+  {
    "id": "0-2540-0",
    "country": "Китай",
    "fromCountry": "Китай",
@@ -859,25 +878,6 @@
    "seats": 9,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-2536-2",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-06",
-   "returnDate": null,
-   "price": 82000,
-   "trip": "oneWay",
-   "airline": "Sun Phu Quoc Airways",
-   "baggage": "23 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T05:27:50Z",
-   "expiresAt": "2026-11-05T05:27:50Z",
-   "sourcePostID": 2536,
-   "seats": null,
-   "from": "Астана",
-   "to": "Фукуок"
   },
   {
    "id": "0-2529-0",
@@ -2343,6 +2343,25 @@
    "to": "Урумчи"
   },
   {
+   "id": "0-2588-1",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-08",
+   "returnDate": null,
+   "price": 96000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-04T11:34:06Z",
+   "expiresAt": "2026-11-05T11:34:06Z",
+   "sourcePostID": 2588,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Фукуок"
+  },
+  {
    "id": "0-2532-7",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
@@ -2360,25 +2379,6 @@
    "seats": 6,
    "from": "Бангкок",
    "to": "Шымкент"
-  },
-  {
-   "id": "0-2536-5",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-08",
-   "returnDate": null,
-   "price": 101000,
-   "trip": "oneWay",
-   "airline": "Sun Phu Quoc Airways",
-   "baggage": "23 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T05:27:50Z",
-   "expiresAt": "2026-11-05T05:27:50Z",
-   "sourcePostID": 2536,
-   "seats": 3,
-   "from": "Астана",
-   "to": "Фукуок"
   },
   {
    "id": "0-2556-3",
@@ -4699,6 +4699,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-2588-2",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-11",
+   "returnDate": null,
+   "price": 116000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-04T11:34:06Z",
+   "expiresAt": "2026-11-05T11:34:06Z",
+   "sourcePostID": 2588,
+   "seats": null,
+   "from": "Астана",
+   "to": "Фукуок"
+  },
+  {
    "id": "0-2573-1",
    "country": "Сербия",
    "fromCountry": "Казахстан",
@@ -4754,25 +4773,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Шарджа"
-  },
-  {
-   "id": "0-2536-7",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-11",
-   "returnDate": null,
-   "price": 130000,
-   "trip": "oneWay",
-   "airline": "Sun Phu Quoc Airways",
-   "baggage": "23 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T05:27:50Z",
-   "expiresAt": "2026-11-05T05:27:50Z",
-   "sourcePostID": 2536,
-   "seats": null,
-   "from": "Астана",
-   "to": "Фукуок"
   },
   {
    "id": "0-2577-1",
