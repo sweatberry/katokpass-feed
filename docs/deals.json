@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T09:15:24.016356Z",
+ "updatedAt": "2026-11-05T09:45:23.843822Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -2305,7 +2305,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2595-11",
+   "id": "0-2654-0",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -2316,9 +2316,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-05T04:46:08Z",
-   "expiresAt": "2026-11-06T04:46:08Z",
-   "sourcePostID": 2595,
+   "postedAt": "2026-11-05T09:31:50Z",
+   "expiresAt": "2026-11-06T09:31:50Z",
+   "sourcePostID": 2654,
    "seats": 1,
    "from": "Пхукет",
    "to": "Алматы"
