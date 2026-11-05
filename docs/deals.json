@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T08:30:30.923371Z",
+ "updatedAt": "2026-11-05T08:45:25.129360Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -386,7 +386,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-2573-0",
+   "id": "0-2640-0",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -397,9 +397,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": 9,
    "from": "Астана",
    "to": "Белград"
@@ -500,7 +500,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2573-7",
+   "id": "0-2640-7",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -511,9 +511,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
@@ -557,7 +557,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-2577-6",
+   "id": "0-2641-5",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -568,9 +568,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Белград",
    "to": "Алматы"
@@ -728,7 +728,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2573-14",
+   "id": "0-2640-14",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -739,9 +739,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
@@ -4148,7 +4148,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2573-1",
+   "id": "0-2640-1",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -4159,15 +4159,15 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Астана",
    "to": "Белград"
   },
   {
-   "id": "0-2573-8",
+   "id": "0-2640-8",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -4178,9 +4178,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
@@ -4205,7 +4205,7 @@
    "to": "Шарджа"
   },
   {
-   "id": "0-2577-1",
+   "id": "0-2641-0",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -4216,9 +4216,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Алматы",
    "to": "Белград"
@@ -4262,7 +4262,7 @@
    "to": "Урумчи"
   },
   {
-   "id": "0-2577-7",
+   "id": "0-2641-6",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -4273,9 +4273,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Белград",
    "to": "Алматы"
@@ -4433,6 +4433,25 @@
    "to": "Дубай"
   },
   {
+   "id": "0-2640-15",
+   "country": "Сербия",
+   "fromCountry": "Сербия",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-11",
+   "returnDate": "2026-11-18",
+   "price": 235000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
+   "seats": null,
+   "from": "Белград",
+   "to": "Астана"
+  },
+  {
    "id": "0-2595-34",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -4450,25 +4469,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-2573-15",
-   "country": "Сербия",
-   "fromCountry": "Сербия",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-11",
-   "returnDate": "2026-11-18",
-   "price": 235000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
-   "seats": null,
-   "from": "Белград",
-   "to": "Астана"
   },
   {
    "id": "0-2596-25",
@@ -4585,6 +4585,25 @@
    "to": "Фукуок"
   },
   {
+   "id": "0-2641-11",
+   "country": "Сербия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Сербия",
+   "departure": "2026-11-11",
+   "returnDate": "2026-11-18",
+   "price": 279000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Белград"
+  },
+  {
    "id": "0-2617-2",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -4621,25 +4640,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-2577-12",
-   "country": "Сербия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Сербия",
-   "departure": "2026-11-11",
-   "returnDate": "2026-11-18",
-   "price": 279000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Белград"
   },
   {
    "id": "0-2574-15",
@@ -5820,7 +5820,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2573-2",
+   "id": "0-2640-2",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -5831,9 +5831,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Астана",
    "to": "Белград"
@@ -5934,6 +5934,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-2640-9",
+   "country": "Сербия",
+   "fromCountry": "Сербия",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-13",
+   "returnDate": null,
+   "price": 129000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
+   "seats": null,
+   "from": "Белград",
+   "to": "Астана"
+  },
+  {
    "id": "0-2593-5",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -5951,25 +5970,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-2573-9",
-   "country": "Сербия",
-   "fromCountry": "Сербия",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-13",
-   "returnDate": null,
-   "price": 129000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
-   "seats": null,
-   "from": "Белград",
-   "to": "Астана"
   },
   {
    "id": "0-2621-3",
@@ -6257,7 +6257,7 @@
    "to": "Гоа"
   },
   {
-   "id": "0-2573-16",
+   "id": "0-2640-16",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -6268,9 +6268,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
@@ -8879,7 +8879,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2573-3",
+   "id": "0-2640-3",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -8890,9 +8890,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Астана",
    "to": "Белград"
@@ -8936,7 +8936,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-2573-10",
+   "id": "0-2640-10",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -8947,15 +8947,15 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
   },
   {
-   "id": "0-2577-2",
+   "id": "0-2641-1",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -8966,9 +8966,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Алматы",
    "to": "Белград"
@@ -9012,7 +9012,7 @@
    "to": "Урумчи"
   },
   {
-   "id": "0-2577-8",
+   "id": "0-2641-7",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -9023,9 +9023,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Белград",
    "to": "Алматы"
@@ -9183,7 +9183,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-2573-17",
+   "id": "0-2640-17",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -9194,9 +9194,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
@@ -9221,7 +9221,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2577-13",
+   "id": "0-2641-12",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -9232,9 +9232,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Алматы",
    "to": "Белград"
@@ -9582,7 +9582,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-2577-3",
+   "id": "0-2641-2",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -9593,9 +9593,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Алматы",
    "to": "Белград"
@@ -10209,7 +10209,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2573-4",
+   "id": "0-2640-4",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -10220,9 +10220,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Астана",
    "to": "Белград"
@@ -10323,6 +10323,25 @@
    "to": "Шарджа"
   },
   {
+   "id": "0-2640-11",
+   "country": "Сербия",
+   "fromCountry": "Сербия",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-20",
+   "returnDate": null,
+   "price": 129000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
+   "seats": null,
+   "from": "Белград",
+   "to": "Астана"
+  },
+  {
    "id": "0-2593-10",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -10340,25 +10359,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-2573-11",
-   "country": "Сербия",
-   "fromCountry": "Сербия",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-20",
-   "returnDate": null,
-   "price": 129000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
-   "seats": null,
-   "from": "Белград",
-   "to": "Астана"
   },
   {
    "id": "0-2583-3",
@@ -10399,7 +10399,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-2577-9",
+   "id": "0-2641-8",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -10410,9 +10410,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Белград",
    "to": "Алматы"
@@ -10608,7 +10608,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-2573-18",
+   "id": "0-2640-18",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -10619,9 +10619,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
@@ -12261,7 +12261,7 @@
    "to": "Урумчи"
   },
   {
-   "id": "0-2573-5",
+   "id": "0-2640-5",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -12272,15 +12272,15 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Астана",
    "to": "Белград"
   },
   {
-   "id": "0-2573-12",
+   "id": "0-2640-12",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -12291,15 +12291,15 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
   },
   {
-   "id": "0-2577-4",
+   "id": "0-2641-3",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -12310,9 +12310,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Алматы",
    "to": "Белград"
@@ -12337,7 +12337,7 @@
    "to": "Белград"
   },
   {
-   "id": "0-2577-10",
+   "id": "0-2641-9",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -12348,9 +12348,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Белград",
    "to": "Алматы"
@@ -12413,7 +12413,7 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-2573-19",
+   "id": "0-2640-19",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -12424,9 +12424,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
@@ -12451,6 +12451,25 @@
    "to": "Шарм-эш-Шейх"
   },
   {
+   "id": "0-2641-13",
+   "country": "Сербия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Сербия",
+   "departure": "2026-11-25",
+   "returnDate": "2026-12-02",
+   "price": 279000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Белград"
+  },
+  {
    "id": "0-2601-41",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -12468,25 +12487,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-2577-14",
-   "country": "Сербия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Сербия",
-   "departure": "2026-11-25",
-   "returnDate": "2026-12-02",
-   "price": 279000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Белград"
   },
   {
    "id": "0-2574-19",
@@ -12736,7 +12736,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-2577-5",
+   "id": "0-2641-4",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -12747,9 +12747,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Алматы",
    "to": "Белград"
@@ -13078,7 +13078,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2573-6",
+   "id": "0-2640-6",
    "country": "Сербия",
    "fromCountry": "Казахстан",
    "toCountry": "Сербия",
@@ -13089,9 +13089,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Астана",
    "to": "Белград"
@@ -13135,6 +13135,25 @@
    "to": "Шымкент"
   },
   {
+   "id": "0-2640-13",
+   "country": "Сербия",
+   "fromCountry": "Сербия",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-27",
+   "returnDate": null,
+   "price": 129000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
+   "seats": null,
+   "from": "Белград",
+   "to": "Астана"
+  },
+  {
    "id": "0-2593-14",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -13152,25 +13171,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-2573-13",
-   "country": "Сербия",
-   "fromCountry": "Сербия",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-27",
-   "returnDate": null,
-   "price": 129000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
-   "seats": null,
-   "from": "Белград",
-   "to": "Астана"
   },
   {
    "id": "0-2593-33",
@@ -13211,7 +13211,7 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-2577-11",
+   "id": "0-2641-10",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -13222,9 +13222,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:04:17Z",
-   "expiresAt": "2026-11-05T10:04:17Z",
-   "sourcePostID": 2577,
+   "postedAt": "2026-11-05T08:33:42Z",
+   "expiresAt": "2026-11-06T08:33:42Z",
+   "sourcePostID": 2641,
    "seats": null,
    "from": "Белград",
    "to": "Алматы"
@@ -13363,7 +13363,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2573-20",
+   "id": "0-2640-20",
    "country": "Сербия",
    "fromCountry": "Сербия",
    "toCountry": "Казахстан",
@@ -13374,9 +13374,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:03:15Z",
-   "expiresAt": "2026-11-05T10:03:15Z",
-   "sourcePostID": 2573,
+   "postedAt": "2026-11-05T08:33:31Z",
+   "expiresAt": "2026-11-06T08:33:31Z",
+   "sourcePostID": 2640,
    "seats": null,
    "from": "Белград",
    "to": "Астана"
