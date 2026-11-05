@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T08:00:41.267791Z",
+ "updatedAt": "2026-11-05T08:15:21.377470Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -74,8 +74,8 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
    "sourcePostID": 2591,
    "seats": null,
    "from": "Гоа",
@@ -272,7 +272,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2591-68",
+   "id": "0-2629-0",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -283,10 +283,10 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
-   "sourcePostID": 2591,
-   "seats": 3,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
+   "seats": 2,
    "from": "Алматы",
    "to": "Гоа"
   },
@@ -500,7 +500,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2564-7",
+   "id": "0-2629-7",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -511,10 +511,10 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
-   "seats": 6,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
+   "seats": 2,
    "from": "Алматы",
    "to": "Гоа"
   },
@@ -2875,6 +2875,25 @@
    "to": "Санья"
   },
   {
+   "id": "0-2630-1",
+   "country": "Индия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Индия",
+   "departure": "2026-11-10",
+   "returnDate": null,
+   "price": 49000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
+   "seats": null,
+   "from": "Астана",
+   "to": "Гоа"
+  },
+  {
    "id": "0-2585-7",
    "country": "Египет",
    "fromCountry": "Египет",
@@ -2892,25 +2911,6 @@
    "seats": null,
    "from": "Шарм-эш-Шейх",
    "to": "Атырау"
-  },
-  {
-   "id": "0-2591-73",
-   "country": "Индия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Индия",
-   "departure": "2026-11-10",
-   "returnDate": null,
-   "price": 73000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
-   "sourcePostID": 2591,
-   "seats": null,
-   "from": "Астана",
-   "to": "Гоа"
   },
   {
    "id": "0-2603-0",
@@ -3160,6 +3160,25 @@
    "to": "Астана"
   },
   {
+   "id": "0-2630-3",
+   "country": "Индия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Индия",
+   "departure": "2026-11-10",
+   "returnDate": "2026-11-17",
+   "price": 120000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
+   "seats": null,
+   "from": "Астана",
+   "to": "Гоа"
+  },
+  {
    "id": "0-2621-11",
    "country": "ОАЭ",
    "fromCountry": "ОАЭ",
@@ -3274,20 +3293,20 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2565-3",
+   "id": "0-2630-4",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
    "departure": "2026-11-10",
-   "returnDate": "2026-11-17",
-   "price": 143000,
+   "returnDate": "2026-11-24",
+   "price": 145000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -5649,6 +5668,25 @@
    "to": "Астана"
   },
   {
+   "id": "0-2629-3",
+   "country": "Индия",
+   "fromCountry": "Индия",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-13",
+   "returnDate": null,
+   "price": 101000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
+   "seats": null,
+   "from": "Гоа",
+   "to": "Алматы"
+  },
+  {
    "id": "0-2600-14",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -5666,25 +5704,6 @@
    "seats": null,
    "from": "Фукуок",
    "to": "Астана"
-  },
-  {
-   "id": "0-2564-3",
-   "country": "Индия",
-   "fromCountry": "Индия",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-13",
-   "returnDate": null,
-   "price": 101000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
-   "seats": null,
-   "from": "Гоа",
-   "to": "Алматы"
   },
   {
    "id": "0-2619-14",
@@ -6143,7 +6162,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2564-8",
+   "id": "0-2629-8",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -6154,9 +6173,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -7625,7 +7644,7 @@
    "to": "Дубай"
   },
   {
-   "id": "0-2564-16",
+   "id": "0-2629-16",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -7636,9 +7655,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -8290,6 +8309,25 @@
    "to": "Астана"
   },
   {
+   "id": "0-2630-5",
+   "country": "Индия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Индия",
+   "departure": "2026-11-17",
+   "returnDate": "2026-11-24",
+   "price": 183000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
+   "seats": null,
+   "from": "Астана",
+   "to": "Гоа"
+  },
+  {
    "id": "0-2579-11",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
@@ -8366,25 +8404,6 @@
    "to": "Дубай"
   },
   {
-   "id": "0-2565-4",
-   "country": "Индия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Индия",
-   "departure": "2026-11-17",
-   "returnDate": "2026-11-24",
-   "price": 191000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
-   "seats": null,
-   "from": "Астана",
-   "to": "Гоа"
-  },
-  {
    "id": "0-2593-53",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -8440,6 +8459,25 @@
    "seats": null,
    "from": "Астана",
    "to": "Фукуок"
+  },
+  {
+   "id": "0-2630-6",
+   "country": "Индия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Индия",
+   "departure": "2026-11-17",
+   "returnDate": "2026-12-01",
+   "price": 268000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
+   "seats": null,
+   "from": "Астана",
+   "to": "Гоа"
   },
   {
    "id": "0-2582-15",
@@ -10380,7 +10418,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2564-9",
+   "id": "0-2629-9",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -10391,9 +10429,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -11216,7 +11254,7 @@
    "to": "Сеул"
   },
   {
-   "id": "0-2564-17",
+   "id": "0-2629-17",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -11227,9 +11265,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -11729,6 +11767,25 @@
    "to": "Астана"
   },
   {
+   "id": "0-2630-7",
+   "country": "Индия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Индия",
+   "departure": "2026-11-24",
+   "returnDate": "2026-12-01",
+   "price": 183000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
+   "seats": null,
+   "from": "Астана",
+   "to": "Гоа"
+  },
+  {
    "id": "0-2575-11",
    "country": "Венгрия",
    "fromCountry": "Венгрия",
@@ -11746,25 +11803,6 @@
    "seats": null,
    "from": "Будапешт",
    "to": "Алматы"
-  },
-  {
-   "id": "0-2565-5",
-   "country": "Индия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Индия",
-   "departure": "2026-11-24",
-   "returnDate": "2026-12-01",
-   "price": 191000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
-   "seats": null,
-   "from": "Астана",
-   "to": "Гоа"
   },
   {
    "id": "0-2593-56",
@@ -11860,6 +11898,25 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
+  },
+  {
+   "id": "0-2630-8",
+   "country": "Индия",
+   "fromCountry": "Казахстан",
+   "toCountry": "Индия",
+   "departure": "2026-11-24",
+   "returnDate": "2026-12-08",
+   "price": 317000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
+   "seats": null,
+   "from": "Астана",
+   "to": "Гоа"
   },
   {
    "id": "0-2617-5",
@@ -13040,7 +13097,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2564-10",
+   "id": "0-2629-10",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -13051,9 +13108,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -13648,7 +13705,7 @@
    "to": "Шанхай"
   },
   {
-   "id": "0-2564-18",
+   "id": "0-2629-18",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -13659,9 +13716,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -13762,7 +13819,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2565-2",
+   "id": "0-2630-2",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -13773,9 +13830,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -13857,7 +13914,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2565-6",
+   "id": "0-2630-9",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -13868,9 +13925,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -14142,7 +14199,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2564-11",
+   "id": "0-2629-11",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -14153,9 +14210,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -14370,7 +14427,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-2564-19",
+   "id": "0-2629-19",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -14381,9 +14438,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -14503,7 +14560,7 @@
    "to": "Будапешт"
   },
   {
-   "id": "0-2565-7",
+   "id": "0-2630-10",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -14514,9 +14571,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -14788,7 +14845,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2564-12",
+   "id": "0-2629-12",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -14799,9 +14856,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -14997,7 +15054,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2564-20",
+   "id": "0-2629-20",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15008,9 +15065,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -15111,7 +15168,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2565-8",
+   "id": "0-2630-11",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15122,9 +15179,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -15339,7 +15396,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2564-13",
+   "id": "0-2629-13",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15350,9 +15407,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -15472,7 +15529,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2564-21",
+   "id": "0-2629-21",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15483,9 +15540,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -15567,7 +15624,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2565-9",
+   "id": "0-2630-12",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15578,9 +15635,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -15624,7 +15681,7 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-2591-76",
+   "id": "0-2632-0",
    "country": "Шри-Ланка",
    "fromCountry": "Шри-Ланка",
    "toCountry": "Казахстан",
@@ -15635,15 +15692,15 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
-   "sourcePostID": 2591,
+   "postedAt": "2026-11-05T08:04:25Z",
+   "expiresAt": "2026-11-06T08:04:25Z",
+   "sourcePostID": 2632,
    "seats": null,
    "from": "Коломбо",
    "to": "Алматы"
   },
   {
-   "id": "0-2564-22",
+   "id": "0-2629-22",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15654,9 +15711,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -15700,7 +15757,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-2591-70",
+   "id": "0-2629-4",
    "country": "Индия",
    "fromCountry": "Индия",
    "toCountry": "Казахстан",
@@ -15711,9 +15768,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
-   "sourcePostID": 2591,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Гоа",
    "to": "Алматы"
@@ -15757,7 +15814,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2564-1",
+   "id": "0-2629-1",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15768,15 +15825,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
-   "seats": 1,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
+   "seats": 3,
    "from": "Алматы",
    "to": "Гоа"
   },
   {
-   "id": "0-2564-14",
+   "id": "0-2629-14",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15787,9 +15844,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": 1,
    "from": "Алматы",
    "to": "Гоа"
@@ -15947,7 +16004,7 @@
    "to": "Бангкок"
   },
   {
-   "id": "0-2591-77",
+   "id": "0-2632-2",
    "country": "Шри-Ланка",
    "fromCountry": "Шри-Ланка",
    "toCountry": "Казахстан",
@@ -15958,15 +16015,15 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
-   "sourcePostID": 2591,
+   "postedAt": "2026-11-05T08:04:25Z",
+   "expiresAt": "2026-11-06T08:04:25Z",
+   "sourcePostID": 2632,
    "seats": null,
    "from": "Коломбо",
    "to": "Алматы"
   },
   {
-   "id": "0-2564-23",
+   "id": "0-2629-23",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -15977,9 +16034,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
@@ -16080,7 +16137,7 @@
    "to": "Бангкок"
   },
   {
-   "id": "0-2565-10",
+   "id": "0-2630-13",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16091,9 +16148,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16118,6 +16175,25 @@
    "to": "Нячанг"
   },
   {
+   "id": "0-2629-5",
+   "country": "Индия",
+   "fromCountry": "Индия",
+   "toCountry": "Казахстан",
+   "departure": "2026-12-30",
+   "returnDate": null,
+   "price": 101000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
+   "seats": null,
+   "from": "Гоа",
+   "to": "Алматы"
+  },
+  {
    "id": "0-2599-5",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -16137,26 +16213,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2591-71",
-   "country": "Индия",
-   "fromCountry": "Индия",
-   "toCountry": "Казахстан",
-   "departure": "2026-12-30",
-   "returnDate": null,
-   "price": 101000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
-   "sourcePostID": 2591,
-   "seats": null,
-   "from": "Гоа",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-2564-15",
+   "id": "0-2629-15",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16167,15 +16224,15 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:01:51Z",
-   "expiresAt": "2026-11-05T10:01:51Z",
-   "sourcePostID": 2564,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
   },
   {
-   "id": "0-2565-11",
+   "id": "0-2630-14",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16186,9 +16243,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16251,7 +16308,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-2591-72",
+   "id": "0-2629-6",
    "country": "Индия",
    "fromCountry": "Индия",
    "toCountry": "Казахстан",
@@ -16262,9 +16319,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T13:03:11Z",
-   "expiresAt": "2026-11-05T13:03:11Z",
-   "sourcePostID": 2591,
+   "postedAt": "2026-11-05T08:03:53Z",
+   "expiresAt": "2026-11-06T08:03:53Z",
+   "sourcePostID": 2629,
    "seats": null,
    "from": "Гоа",
    "to": "Алматы"
@@ -16327,7 +16384,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2565-12",
+   "id": "0-2630-15",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16338,9 +16395,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16403,20 +16460,20 @@
    "to": "Астана"
   },
   {
-   "id": "0-2565-13",
+   "id": "0-2630-16",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
    "departure": "2027-01-13",
    "returnDate": "2027-01-20",
-   "price": 295000,
+   "price": 294000,
    "trip": "roundTrip",
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16479,7 +16536,7 @@
    "to": "Милан"
   },
   {
-   "id": "0-2565-14",
+   "id": "0-2630-17",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16490,9 +16547,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16536,7 +16593,7 @@
    "to": "Милан"
   },
   {
-   "id": "0-2565-0",
+   "id": "0-2630-0",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16547,28 +16604,28 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
   },
   {
-   "id": "0-2565-15",
+   "id": "0-2630-18",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
    "departure": "2027-01-27",
    "returnDate": "2027-02-03",
-   "price": 262000,
+   "price": 261000,
    "trip": "roundTrip",
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16612,7 +16669,7 @@
    "to": "Милан"
   },
   {
-   "id": "0-2565-16",
+   "id": "0-2630-19",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16623,9 +16680,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16669,7 +16726,7 @@
    "to": "Милан"
   },
   {
-   "id": "0-2565-17",
+   "id": "0-2630-20",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16680,9 +16737,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16745,7 +16802,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2565-18",
+   "id": "0-2630-21",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16756,9 +16813,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
@@ -16783,7 +16840,7 @@
    "to": "Милан"
   },
   {
-   "id": "0-2565-19",
+   "id": "0-2630-22",
    "country": "Индия",
    "fromCountry": "Казахстан",
    "toCountry": "Индия",
@@ -16794,9 +16851,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-04T10:02:00Z",
-   "expiresAt": "2026-11-05T10:02:00Z",
-   "sourcePostID": 2565,
+   "postedAt": "2026-11-05T08:04:06Z",
+   "expiresAt": "2026-11-06T08:04:06Z",
+   "sourcePostID": 2630,
    "seats": null,
    "from": "Астана",
    "to": "Гоа"
