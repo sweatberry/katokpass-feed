@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T12:45:21.193519Z",
+ "updatedAt": "2026-11-06T13:15:21.906249Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -23,6 +23,25 @@
    "seats": 3,
    "from": "Пхукет",
    "to": "Астана"
+  },
+  {
+   "id": "0-2734-0",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-07",
+   "returnDate": null,
+   "price": 57000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-06T13:11:54Z",
+   "expiresAt": "2026-11-07T13:11:54Z",
+   "sourcePostID": 2734,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Фукуок"
   },
   {
    "id": "0-2731-0",
@@ -215,25 +234,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2674-1",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-07",
-   "returnDate": null,
-   "price": 89000,
-   "trip": "oneWay",
-   "airline": "Sun Phu Quoc Airways",
-   "baggage": "23 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-06T05:41:23Z",
-   "expiresAt": "2026-11-07T05:41:23Z",
-   "sourcePostID": 2674,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Фукуок"
-  },
-  {
    "id": "0-2662-12",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -329,6 +329,25 @@
    "to": "Астана"
   },
   {
+   "id": "0-2734-1",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-07",
+   "returnDate": "2026-11-15",
+   "price": 135000,
+   "trip": "roundTrip",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-06T13:11:54Z",
+   "expiresAt": "2026-11-07T13:11:54Z",
+   "sourcePostID": 2734,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Фукуок"
+  },
+  {
    "id": "0-2727-1",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -363,25 +382,6 @@
    "expiresAt": "2026-11-07T06:37:08Z",
    "sourcePostID": 2694,
    "seats": 7,
-   "from": "Алматы",
-   "to": "Фукуок"
-  },
-  {
-   "id": "0-2694-3",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-07",
-   "returnDate": "2026-11-15",
-   "price": 156000,
-   "trip": "roundTrip",
-   "airline": "Sun Phu Quoc Airways",
-   "baggage": "23 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-06T06:37:08Z",
-   "expiresAt": "2026-11-07T06:37:08Z",
-   "sourcePostID": 2694,
-   "seats": 1,
    "from": "Алматы",
    "to": "Фукуок"
   },
