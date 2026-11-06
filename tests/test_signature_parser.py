@@ -201,3 +201,33 @@ class YearAfterCommaTest(unittest.TestCase):
         self.assertEqual((start, end), (date(2027, 11, 4), date(2027, 11, 18)))
         start, end = parse_dates("с 20 ноября по 2 декабря, 2027", date(2026, 11, 3))
         self.assertEqual((start, end), (date(2027, 11, 20), date(2027, 12, 2)))
+
+
+class SubdivisionFlagsTest(unittest.TestCase):
+    def test_england_scotland_ireland(self):
+        # Флаги Англии и Шотландии — «чёрный флаг» с кодом региона, Ирландия — обычный.
+        eng = "\U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F"
+        sco = "\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F"
+        text = (f"{eng} {sco} 🇮🇪 Англия — Шотландия — Ирландия\n\nТа самая Британия.\n\n"
+                "🗓 Даты: с 4 по 18 мая, 2027\n💵 Стоимость: $6 200\n")
+        r = parse(text, date(2026, 11, 6), "1")
+        self.assertEqual(r.errors, [])
+        self.assertEqual(r.tour["countries"], ["Англия", "Шотландия", "Ирландия"])
+        self.assertEqual(r.tour["title"], "Англия — Шотландия — Ирландия")
+        self.assertEqual(r.tour["departure"], "2027-05-04")
+
+
+class InlineLabelsTest(unittest.TestCase):
+    def test_dates_and_two_prices_on_one_line(self):
+        # Пост без переносов: даты и две цены в одной строке, у цены пояснение в скобках.
+        text = ("Летим на концерт Imagine Dragons в Абу-Даби! 🐉🇦🇪\nВ декабре летим в ОАЭ.\n"
+                "🗓 Даты: с 3 по 7 декабря 💵 Стоимость (с авиа-перелётами): 890 000 ₸ "
+                "💵 Стоимость (без авиа-перелётов): 750 000 ₸\nПредоплата: 400 000 ₸\n"
+                "✅ В стоимость входят:\n• Завтраки\n")
+        r = parse(text, date(2026, 11, 6), "1")
+        self.assertEqual(r.errors, [])
+        self.assertEqual(r.tour["countries"], ["ОАЭ"])
+        self.assertEqual((r.tour["departure"], r.tour["returnDate"]), ("2026-12-03", "2026-12-07"))
+        self.assertEqual(r.tour["priceFrom"], 890000)
+        self.assertIn("750", r.tour["note"])
+        self.assertEqual(r.tour["includes"], ["Завтраки"])
