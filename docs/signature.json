@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T10:54:01.099204Z",
+ "updatedAt": "2026-11-06T11:30:24.812572Z",
  "tours": [
   {
    "id": "9",
@@ -287,6 +287,57 @@
    ],
    "postedAt": "2026-11-02T07:33:29Z",
    "telegram": "https://t.me/sweatberry_app/41"
+  },
+  {
+   "id": "126",
+   "title": "Летим на концерт Imagine Dragons в Абу-Даби! 🐉",
+   "country": "ОАЭ",
+   "countries": [
+    "ОАЭ"
+   ],
+   "flags": [
+    "🇦🇪"
+   ],
+   "summary": "В декабре летим в ОАЭ на концерт Imagine Dragons! Услышим вживую легендарные Believer, Radioactive, Thunder, Demons и другие хиты, под которые выросло целое поколение. Нас ждёт одно из самых ярких музыкальных событий этой зимы! 🎸",
+   "description": "Но одним концертом не ограничимся! Погуляем по Дубай, увидим знаменитый Burj Khalifa, отдохнём на пляжах Персидского залива и посетим футуристический музей teamLab Phenomena и Лувр Абу-Даби. А желающие смогут отправиться на сафари по пустыне, полетать на вертолёте или даже прыгнуть с парашютом! 🚁\n\nХочешь услышать Imagine Dragons вживую и провести несколько дней в солнечных Эмиратах? Летим с нами! ✈",
+   "departure": "2026-12-03",
+   "returnDate": "2026-12-07",
+   "nights": 4,
+   "datesNote": null,
+   "explicitYear": false,
+   "priceFrom": 890000,
+   "currency": "₸",
+   "variants": null,
+   "route": null,
+   "highlights": null,
+   "programme": null,
+   "includes": [
+    "Проживание в отеле TRYP by Wyndham 4* в Дубае, двухместное размещение",
+    "Завтраки",
+    "Трансфер с/в аэропорта в отель",
+    "Трансфер с/в отеля в Абу-Даби на концерт Imagine Dragons в зону танцпол",
+    "Входные билеты в музей Louvre Abu Dhabi и Team Lab",
+    "Сопровождение",
+    "Страховка"
+   ],
+   "excludes": [
+    "Питание",
+    "Карманные расходы"
+   ],
+   "prepayment": "400 000 ₸",
+   "groupSize": null,
+   "seatsLeft": null,
+   "note": "Стоимость (без авиа-перелётов): 750 000 ₸",
+   "photos": [
+    "signature/5434068300682960934.jpg"
+   ],
+   "whatsApp": "77787379977",
+   "isSoldOut": false,
+   "thumbs": [
+    "signature/thumbs/5434068300682960934.jpg"
+   ],
+   "postedAt": "2026-11-06T11:20:18Z",
+   "telegram": "https://t.me/sweatberry_app/126"
   },
   {
    "id": "30",
