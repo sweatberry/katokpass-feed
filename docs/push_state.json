@@ -801,6 +801,7 @@
  ],
  "seenTours": [
   "108",
+  "122",
   "17",
   "25",
   "28",
@@ -43721,6 +43722,12 @@
   "97": {
    "seats": null,
    "price": 2390000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "122": {
+   "seats": null,
+   "price": 1990000,
    "currency": "₸",
    "alerted": null
   }
