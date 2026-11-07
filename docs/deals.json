@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T06:45:19.852397Z",
+ "updatedAt": "2026-11-07T07:00:30.856391Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -327,25 +327,6 @@
    "seats": 3,
    "from": "Астана",
    "to": "Дубай"
-  },
-  {
-   "id": "0-2697-0",
-   "country": "Саудовская Аравия",
-   "fromCountry": "Казахстан",
-   "toCountry": "Саудовская Аравия",
-   "departure": "2026-11-08",
-   "returnDate": "2026-11-15",
-   "price": 393000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-06T06:53:16Z",
-   "expiresAt": "2026-11-07T06:53:16Z",
-   "sourcePostID": 2697,
-   "seats": null,
-   "from": "Астана",
-   "to": "Джидда"
   },
   {
    "id": "0-2717-0",
