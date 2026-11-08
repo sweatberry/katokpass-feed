@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T12:00:29.258598Z",
+ "updatedAt": "2026-11-08T14:15:18.814021Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -25,6 +25,25 @@
    "to": "Астана"
   },
   {
+   "id": "0-2822-58",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-09",
+   "returnDate": null,
+   "price": 56000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-08T14:03:12Z",
+   "expiresAt": "2026-11-09T14:03:12Z",
+   "sourcePostID": 2822,
+   "seats": 6,
+   "from": "Шымкент",
+   "to": "Фукуок"
+  },
+  {
    "id": "0-2822-48",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -41,25 +60,6 @@
    "sourcePostID": 2822,
    "seats": null,
    "from": "Алматы",
-   "to": "Фукуок"
-  },
-  {
-   "id": "0-2822-58",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-09",
-   "returnDate": null,
-   "price": 56000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-08T09:30:04Z",
-   "expiresAt": "2026-11-09T09:30:04Z",
-   "sourcePostID": 2822,
-   "seats": 1,
-   "from": "Шымкент",
    "to": "Фукуок"
   },
   {
@@ -264,10 +264,10 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-08T09:29:36Z",
-   "expiresAt": "2026-11-09T09:29:36Z",
+   "postedAt": "2026-11-08T14:03:12Z",
+   "expiresAt": "2026-11-09T14:03:12Z",
    "sourcePostID": 2820,
-   "seats": 1,
+   "seats": 6,
    "from": "Шымкент",
    "to": "Фукуок"
   },
@@ -574,6 +574,25 @@
    "seats": 1,
    "from": "Мале",
    "to": "Алматы"
+  },
+  {
+   "id": "0-2823-2",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-09",
+   "returnDate": "2026-11-22",
+   "price": 248000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-08T14:03:12Z",
+   "expiresAt": "2026-11-09T14:03:12Z",
+   "sourcePostID": 2823,
+   "seats": 6,
+   "from": "Шымкент",
+   "to": "Фукуок"
   },
   {
    "id": "0-2782-13",
