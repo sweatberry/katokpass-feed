@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T10:00:26.697237Z",
+ "updatedAt": "2026-11-08T10:30:23.857539Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -3559,25 +3559,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2758-14",
-   "country": "ОАЭ",
-   "fromCountry": "ОАЭ",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-13",
-   "returnDate": null,
-   "price": 134000,
-   "trip": "oneWay",
-   "airline": "Air Arabia",
-   "baggage": "20 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-08T07:04:06Z",
-   "expiresAt": "2026-11-09T07:04:06Z",
-   "sourcePostID": 2758,
-   "seats": null,
-   "from": "Шарджа",
-   "to": "Алматы"
-  },
-  {
    "id": "0-2771-3",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -3633,6 +3614,25 @@
    "seats": null,
    "from": "Шанхай",
    "to": "Шымкент"
+  },
+  {
+   "id": "0-2791-16",
+   "country": "ОАЭ",
+   "fromCountry": "ОАЭ",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-13",
+   "returnDate": null,
+   "price": 146000,
+   "trip": "oneWay",
+   "airline": "Air Arabia",
+   "baggage": "20 + 7 кг",
+   "agency": "",
+   "postedAt": "2026-11-08T07:04:06Z",
+   "expiresAt": "2026-11-09T07:04:06Z",
+   "sourcePostID": 2791,
+   "seats": null,
+   "from": "Шарджа",
+   "to": "Алматы"
   },
   {
    "id": "0-2792-8",
