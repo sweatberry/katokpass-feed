@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T07:15:19.132592Z",
+ "updatedAt": "2026-11-08T07:30:21.703308Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1030,25 +1030,6 @@
    "seats": null,
    "from": "Шанхай",
    "to": "Алматы"
-  },
-  {
-   "id": "0-2745-24",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-10",
-   "returnDate": "2026-11-18",
-   "price": 167000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T07:16:51Z",
-   "expiresAt": "2026-11-08T07:16:51Z",
-   "sourcePostID": 2745,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Фукуок"
   },
   {
    "id": "0-2790-5",
@@ -2362,20 +2343,20 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2745-29",
+   "id": "0-2776-21",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-11-12",
    "returnDate": "2026-11-20",
-   "price": 227000,
+   "price": 235000,
    "trip": "roundTrip",
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
    "postedAt": "2026-11-08T05:37:41Z",
    "expiresAt": "2026-11-09T05:37:41Z",
-   "sourcePostID": 2745,
+   "sourcePostID": 2776,
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
@@ -10950,25 +10931,6 @@
    "to": "Гоа"
   },
   {
-   "id": "0-2745-43",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-21",
-   "returnDate": "2026-12-28",
-   "price": 252000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T07:16:51Z",
-   "expiresAt": "2026-11-08T07:16:51Z",
-   "sourcePostID": 2745,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Фукуок"
-  },
-  {
    "id": "0-2747-26",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -11064,25 +11026,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2745-45",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-22",
-   "returnDate": "2026-12-29",
-   "price": 252000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T07:16:51Z",
-   "expiresAt": "2026-11-08T07:16:51Z",
-   "sourcePostID": 2745,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Фукуок"
-  },
-  {
    "id": "0-2771-10",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -11159,25 +11102,6 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-2745-47",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-23",
-   "returnDate": "2026-12-30",
-   "price": 361000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T07:16:51Z",
-   "expiresAt": "2026-11-08T07:16:51Z",
-   "sourcePostID": 2745,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Фукуок"
-  },
-  {
    "id": "0-2796-18",
    "country": "Индия",
    "fromCountry": "Индия",
@@ -11214,25 +11138,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Гоа"
-  },
-  {
-   "id": "0-2745-48",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-24",
-   "returnDate": "2026-12-31",
-   "price": 362000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T07:16:51Z",
-   "expiresAt": "2026-11-08T07:16:51Z",
-   "sourcePostID": 2745,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Фукуок"
   },
   {
    "id": "0-2771-39",
@@ -11385,25 +11290,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Нячанг"
-  },
-  {
-   "id": "0-2745-51",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-25",
-   "returnDate": "2027-01-01",
-   "price": 382000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T07:16:51Z",
-   "expiresAt": "2026-11-08T07:16:51Z",
-   "sourcePostID": 2745,
-   "seats": 2,
-   "from": "Алматы",
-   "to": "Фукуок"
   },
   {
    "id": "0-2771-40",
