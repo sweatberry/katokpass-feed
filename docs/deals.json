@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T10:30:23.857539Z",
+ "updatedAt": "2026-11-08T11:15:20.008099Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -823,25 +823,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2763-0",
-   "country": "Кыргызстан",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Кыргызстан",
-   "departure": "2026-11-10",
-   "returnDate": null,
-   "price": 78000,
-   "trip": "oneWay",
-   "airline": "Aero Nomad",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:29Z",
-   "expiresAt": "2026-11-08T11:04:29Z",
-   "sourcePostID": 2763,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Бишкек"
-  },
-  {
    "id": "0-2822-86",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -1030,25 +1011,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-2763-2",
-   "country": "Узбекистан",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Узбекистан",
-   "departure": "2026-11-10",
-   "returnDate": null,
-   "price": 141000,
-   "trip": "oneWay",
-   "airline": "Qanot Sharq",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:29Z",
-   "expiresAt": "2026-11-08T11:04:29Z",
-   "sourcePostID": 2763,
-   "seats": 3,
-   "from": "Фукуок",
-   "to": "Ташкент"
   },
   {
    "id": "0-2821-9",
@@ -2609,25 +2571,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2763-1",
-   "country": "Кыргызстан",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Кыргызстан",
-   "departure": "2026-11-12",
-   "returnDate": null,
-   "price": 100000,
-   "trip": "oneWay",
-   "airline": "Aero Nomad",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:29Z",
-   "expiresAt": "2026-11-08T11:04:29Z",
-   "sourcePostID": 2763,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Бишкек"
-  },
-  {
    "id": "0-2791-3",
    "country": "ОАЭ",
    "fromCountry": "Казахстан",
@@ -3673,25 +3616,6 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-2762-0",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-13",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
-  },
-  {
    "id": "0-2821-10",
    "country": "Турция",
    "fromCountry": "Турция",
@@ -3842,25 +3766,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-2762-7",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-13",
-   "returnDate": null,
-   "price": 175000,
-   "trip": "oneWay",
-   "airline": "Vietjet",
-   "baggage": "20 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Новосибирск"
   },
   {
    "id": "0-2790-3",
@@ -4298,25 +4203,6 @@
    "seats": 4,
    "from": "Мале",
    "to": "Алматы"
-  },
-  {
-   "id": "0-2762-1",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-14",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-2815-2",
@@ -5402,25 +5288,6 @@
    "to": "Сеул"
   },
   {
-   "id": "0-2762-2",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-16",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
-  },
-  {
    "id": "0-2783-2",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -5989,25 +5856,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
-  },
-  {
-   "id": "0-2762-3",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-17",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-2783-8",
@@ -8024,25 +7872,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-2762-4",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-20",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
-  },
-  {
    "id": "0-2768-25",
    "country": "Турция",
    "fromCountry": "Турция",
@@ -8364,25 +8193,6 @@
    "seats": null,
    "from": "Шарм-эш-Шейх",
    "to": "Астана"
-  },
-  {
-   "id": "0-2762-5",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-21",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-2790-24",
@@ -9010,25 +8820,6 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Сеул"
-  },
-  {
-   "id": "0-2762-6",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-23",
-   "returnDate": null,
-   "price": 150000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-07T11:04:19Z",
-   "expiresAt": "2026-11-08T11:04:19Z",
-   "sourcePostID": 2762,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-2783-4",
