@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T06:45:19.521131Z",
+ "updatedAt": "2026-11-10T07:00:28.314755Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -5953,25 +5953,6 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2831-0",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-12-26",
-   "returnDate": null,
-   "price": 53000,
-   "trip": "oneWay",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-09T06:47:09Z",
-   "expiresAt": "2026-11-10T06:47:09Z",
-   "sourcePostID": 2831,
-   "seats": null,
-   "from": "Нячанг",
-   "to": "Астана"
-  },
-  {
    "id": "0-2833-16",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -5989,25 +5970,6 @@
    "seats": null,
    "from": "Фукуок",
    "to": "Астана"
-  },
-  {
-   "id": "0-2831-6",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-26",
-   "returnDate": "2027-01-02",
-   "price": 365000,
-   "trip": "roundTrip",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-09T06:47:09Z",
-   "expiresAt": "2026-11-10T06:47:09Z",
-   "sourcePostID": 2831,
-   "seats": null,
-   "from": "Астана",
-   "to": "Нячанг"
   },
   {
    "id": "0-2838-14",
@@ -6065,25 +6027,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Бангкок"
-  },
-  {
-   "id": "0-2831-2",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-12-29",
-   "returnDate": null,
-   "price": 62000,
-   "trip": "oneWay",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-09T06:47:09Z",
-   "expiresAt": "2026-11-10T06:47:09Z",
-   "sourcePostID": 2831,
-   "seats": null,
-   "from": "Нячанг",
-   "to": "Астана"
   },
   {
    "id": "0-2833-18",
@@ -6162,25 +6105,6 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-2831-7",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-29",
-   "returnDate": "2027-01-05",
-   "price": 457000,
-   "trip": "roundTrip",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-09T06:47:09Z",
-   "expiresAt": "2026-11-10T06:47:09Z",
-   "sourcePostID": 2831,
-   "seats": null,
-   "from": "Астана",
-   "to": "Нячанг"
-  },
-  {
    "id": "0-2841-2",
    "country": "Индия",
    "fromCountry": "Индия",
@@ -6217,44 +6141,6 @@
    "seats": null,
    "from": "Гоа",
    "to": "Алматы"
-  },
-  {
-   "id": "0-2831-4",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-12-31",
-   "returnDate": null,
-   "price": 77000,
-   "trip": "oneWay",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-09T06:47:09Z",
-   "expiresAt": "2026-11-10T06:47:09Z",
-   "sourcePostID": 2831,
-   "seats": null,
-   "from": "Нячанг",
-   "to": "Астана"
-  },
-  {
-   "id": "0-2831-8",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-12-31",
-   "returnDate": "2027-01-07",
-   "price": 443000,
-   "trip": "roundTrip",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-09T06:47:09Z",
-   "expiresAt": "2026-11-10T06:47:09Z",
-   "sourcePostID": 2831,
-   "seats": null,
-   "from": "Астана",
-   "to": "Нячанг"
   },
   {
    "id": "0-2838-15",
