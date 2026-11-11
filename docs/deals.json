@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T13:15:21.589485Z",
+ "updatedAt": "2026-11-11T14:45:24.797085Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -538,25 +538,6 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-2905-0",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-13",
-   "returnDate": null,
-   "price": 64000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-10T14:35:48Z",
-   "expiresAt": "2026-11-11T14:35:48Z",
-   "sourcePostID": 2905,
-   "seats": null,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-2918-2",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -1049,25 +1030,6 @@
    "seats": 7,
    "from": "Пхукет",
    "to": "Алматы"
-  },
-  {
-   "id": "0-2907-2",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-14",
-   "returnDate": null,
-   "price": 81000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-10T14:36:14Z",
-   "expiresAt": "2026-11-11T14:36:14Z",
-   "sourcePostID": 2907,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-2930-18",
