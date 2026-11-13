@@ -370,6 +370,7 @@
   "70",
   "77",
   "86",
+  "9",
   "97"
  ],
  "topics": {},
@@ -461,6 +462,12 @@
   "126": {
    "seats": null,
    "price": 890000,
+   "currency": "₸",
+   "alerted": null
+  },
+  "9": {
+   "seats": null,
+   "price": 1690000,
    "currency": "₸",
    "alerted": null
   }
