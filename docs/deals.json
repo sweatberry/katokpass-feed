@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T07:45:28.524766Z",
+ "updatedAt": "2026-11-13T08:30:22.161013Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -60,25 +60,6 @@
    "sourcePostID": 2985,
    "seats": null,
    "from": "Фукуок",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-2953-2",
-   "country": "Таиланд",
-   "fromCountry": "Таиланд",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-14",
-   "returnDate": null,
-   "price": 99000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-12T08:19:04Z",
-   "expiresAt": "2026-11-13T08:19:04Z",
-   "sourcePostID": 2953,
-   "seats": 4,
-   "from": "Пхукет",
    "to": "Алматы"
   },
   {
@@ -652,25 +633,6 @@
    "to": "Астана"
   },
   {
-   "id": "0-2953-5",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-16",
-   "returnDate": null,
-   "price": 66000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T06:58:35Z",
-   "expiresAt": "2026-11-14T06:58:35Z",
-   "sourcePostID": 2953,
-   "seats": 4,
-   "from": "Фукуок",
-   "to": "Алматы"
-  },
-  {
    "id": "0-2962-0",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -726,6 +688,25 @@
    "seats": null,
    "from": "Астана",
    "to": "Фукуок"
+  },
+  {
+   "id": "0-2956-8",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-16",
+   "returnDate": null,
+   "price": 77000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T06:58:35Z",
+   "expiresAt": "2026-11-14T06:58:35Z",
+   "sourcePostID": 2956,
+   "seats": 4,
+   "from": "Фукуок",
+   "to": "Алматы"
   },
   {
    "id": "0-2964-0",
@@ -2628,25 +2609,6 @@
    "to": "Астана"
   },
   {
-   "id": "0-2954-1",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-11-20",
-   "returnDate": null,
-   "price": 151000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-12T08:21:22Z",
-   "expiresAt": "2026-11-13T08:21:22Z",
-   "sourcePostID": 2954,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Санья"
-  },
-  {
    "id": "0-2971-0",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -2721,25 +2683,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-2954-3",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-11-20",
-   "returnDate": "2026-11-28",
-   "price": 205000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-12T08:21:22Z",
-   "expiresAt": "2026-11-13T08:21:22Z",
-   "sourcePostID": 2954,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Санья"
   },
   {
    "id": "0-2960-4",
@@ -5801,25 +5744,6 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-2954-4",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-12-01",
-   "returnDate": "2026-12-08",
-   "price": 366000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-12T08:21:22Z",
-   "expiresAt": "2026-11-13T08:21:22Z",
-   "sourcePostID": 2954,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Санья"
-  },
-  {
    "id": "0-2955-12",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -6160,25 +6084,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-2954-5",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-12-04",
-   "returnDate": "2026-12-12",
-   "price": 351000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-12T08:21:22Z",
-   "expiresAt": "2026-11-13T08:21:22Z",
-   "sourcePostID": 2954,
-   "seats": 5,
-   "from": "Алматы",
-   "to": "Санья"
   },
   {
    "id": "0-2980-17",
