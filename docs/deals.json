@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T11:30:27.226935Z",
+ "updatedAt": "2026-11-13T11:45:24.531313Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -329,6 +329,25 @@
    "to": "Шымкент"
   },
   {
+   "id": "0-3021-7",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-15",
+   "returnDate": null,
+   "price": 68000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-3006-4",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -384,25 +403,6 @@
    "seats": 2,
    "from": "Шарм-эш-Шейх",
    "to": "Шымкент"
-  },
-  {
-   "id": "0-3001-0",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-15",
-   "returnDate": null,
-   "price": 90000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:56Z",
-   "expiresAt": "2026-11-14T10:19:56Z",
-   "sourcePostID": 3001,
-   "seats": 2,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3018-0",
@@ -804,6 +804,25 @@
    "to": "Санья"
   },
   {
+   "id": "0-3021-0",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-16",
+   "returnDate": null,
+   "price": 43000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-3007-3",
    "country": "Китай",
    "fromCountry": "Китай",
@@ -821,25 +840,6 @@
    "seats": 2,
    "from": "Санья",
    "to": "Астана"
-  },
-  {
-   "id": "0-3000-0",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-16",
-   "returnDate": null,
-   "price": 53000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:46Z",
-   "expiresAt": "2026-11-14T10:19:46Z",
-   "sourcePostID": 3000,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3000-5",
@@ -918,7 +918,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3012-2",
+   "id": "0-3021-12",
    "country": "Египет",
    "fromCountry": "Казахстан",
    "toCountry": "Египет",
@@ -929,9 +929,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-13T10:21:32Z",
-   "expiresAt": "2026-11-14T10:21:32Z",
-   "sourcePostID": 3012,
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
    "seats": 2,
    "from": "Шымкент",
    "to": "Шарм-эш-Шейх"
@@ -1336,6 +1336,25 @@
    "to": "Шарм-эш-Шейх"
   },
   {
+   "id": "0-3021-8",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-17",
+   "returnDate": null,
+   "price": 58000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": null,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-3003-2",
    "country": "Египет",
    "fromCountry": "Египет",
@@ -1355,25 +1374,6 @@
    "to": "Актобе"
   },
   {
-   "id": "0-3001-1",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-17",
-   "returnDate": null,
-   "price": 75000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:56Z",
-   "expiresAt": "2026-11-14T10:19:56Z",
-   "sourcePostID": 3001,
-   "seats": null,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-3006-8",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -1391,6 +1391,25 @@
    "seats": 1,
    "from": "Фукуок",
    "to": "Алматы"
+  },
+  {
+   "id": "0-3021-1",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-17",
+   "returnDate": null,
+   "price": 80000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": 7,
+   "from": "Алматы",
+   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3001-6",
@@ -1448,25 +1467,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Анталия"
-  },
-  {
-   "id": "0-3000-1",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-17",
-   "returnDate": null,
-   "price": 95000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:46Z",
-   "expiresAt": "2026-11-14T10:19:46Z",
-   "sourcePostID": 3000,
-   "seats": 7,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-2987-3",
@@ -2001,6 +2001,25 @@
    "to": "Фукуок"
   },
   {
+   "id": "0-3021-3",
+   "country": "Египет",
+   "fromCountry": "Египет",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-18",
+   "returnDate": null,
+   "price": 43000,
+   "trip": "oneWay",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": null,
+   "from": "Шарм-эш-Шейх",
+   "to": "Алматы"
+  },
+  {
    "id": "0-2986-4",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -2020,25 +2039,6 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-3000-6",
-   "country": "Египет",
-   "fromCountry": "Египет",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-18",
-   "returnDate": null,
-   "price": 58000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:46Z",
-   "expiresAt": "2026-11-14T10:19:46Z",
-   "sourcePostID": 3000,
-   "seats": null,
-   "from": "Шарм-эш-Шейх",
-   "to": "Алматы"
-  },
-  {
    "id": "0-3003-8",
    "country": "Египет",
    "fromCountry": "Египет",
@@ -2056,6 +2056,25 @@
    "seats": 1,
    "from": "Шарм-эш-Шейх",
    "to": "Шымкент"
+  },
+  {
+   "id": "0-3021-2",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-18",
+   "returnDate": null,
+   "price": 68000,
+   "trip": "oneWay",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3006-1",
@@ -2096,25 +2115,6 @@
    "to": "Астана"
   },
   {
-   "id": "0-3000-2",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-18",
-   "returnDate": null,
-   "price": 85000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:46Z",
-   "expiresAt": "2026-11-14T10:19:46Z",
-   "sourcePostID": 3000,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-3003-1",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -2153,6 +2153,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-3021-9",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-18",
+   "returnDate": null,
+   "price": 95000,
+   "trip": "oneWay",
+   "airline": "Air Cairo",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-2988-2",
    "country": "Китай",
    "fromCountry": "Китай",
@@ -2189,25 +2208,6 @@
    "seats": 9,
    "from": "Пхукет",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3001-2",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-18",
-   "returnDate": null,
-   "price": 106000,
-   "trip": "oneWay",
-   "airline": "Air Cairo",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:56Z",
-   "expiresAt": "2026-11-14T10:19:56Z",
-   "sourcePostID": 3001,
-   "seats": 1,
-   "from": "Астана",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-2980-5",
@@ -2799,6 +2799,25 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-3021-6",
+   "country": "Египет",
+   "fromCountry": "Египет",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-19",
+   "returnDate": null,
+   "price": 80000,
+   "trip": "oneWay",
+   "airline": "Red Sea",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
+   "sourcePostID": 3021,
+   "seats": 2,
+   "from": "Шарм-эш-Шейх",
+   "to": "Алматы"
+  },
+  {
    "id": "0-3001-8",
    "country": "Египет",
    "fromCountry": "Египет",
@@ -2834,25 +2853,6 @@
    "sourcePostID": 2997,
    "seats": 5,
    "from": "Шарджа",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-3000-9",
-   "country": "Египет",
-   "fromCountry": "Египет",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-19",
-   "returnDate": null,
-   "price": 90000,
-   "trip": "oneWay",
-   "airline": "Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T10:19:46Z",
-   "expiresAt": "2026-11-14T10:19:46Z",
-   "sourcePostID": 3000,
-   "seats": 2,
-   "from": "Шарм-эш-Шейх",
    "to": "Алматы"
   },
   {
@@ -3437,10 +3437,10 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-11-13T10:19:56Z",
-   "expiresAt": "2026-11-14T10:19:56Z",
+   "postedAt": "2026-11-13T11:32:08Z",
+   "expiresAt": "2026-11-14T11:32:08Z",
    "sourcePostID": 2963,
-   "seats": null,
+   "seats": 1,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
   },
