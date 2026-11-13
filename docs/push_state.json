@@ -1,25 +1,6 @@
 {
  "day": "2026-11-13",
  "seenDeals": [
-  "0-2946-1",
-  "0-2946-10",
-  "0-2946-11",
-  "0-2946-12",
-  "0-2946-13",
-  "0-2946-14",
-  "0-2946-15",
-  "0-2946-16",
-  "0-2946-17",
-  "0-2946-18",
-  "0-2946-19",
-  "0-2946-2",
-  "0-2946-3",
-  "0-2946-4",
-  "0-2946-5",
-  "0-2946-6",
-  "0-2946-7",
-  "0-2946-8",
-  "0-2946-9",
   "0-2947-0",
   "0-2947-1",
   "0-2947-10",
@@ -108,6 +89,7 @@
   "0-2952-1",
   "0-2952-2",
   "0-2952-3",
+  "0-2953-1",
   "0-2953-5",
   "0-2953-6",
   "0-2954-1",
@@ -373,7 +355,188 @@
   "9",
   "97"
  ],
- "topics": {},
+ "topics": {
+  "f_4ba103f275a005ed37fd290e": {
+   "instant": true
+  },
+  "f_2f409f8e65db27cea9f8c49b": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "ru"
+  },
+  "f_830fdc9f040712ee4e9057ef": {
+   "instant": true
+  },
+  "f_ddd06bd8d44b0882a9c93375": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "kk"
+  },
+  "f_d3a4d25318144bb32f1c309a": {
+   "instant": true
+  },
+  "f_da3bbd2ffa433b93adb55673": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "ru"
+  },
+  "f_41a5839d7f839fb50cf1d18f": {
+   "instant": true
+  },
+  "f_b4df9869daf8e88c3b7e33e8": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "kk"
+  },
+  "f_fd92602f92ddbae536f21f79": {
+   "instant": true
+  },
+  "f_374f05fec252733efd07bc4f": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "ru"
+  },
+  "f_8132bc358b295378f77440d0": {
+   "instant": true
+  },
+  "f_595b9826b1976189b56ef527": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "kk"
+  },
+  "f_4cfe86511a3c89e24531759e": {
+   "instant": true
+  },
+  "f_06fb89ff0c4eced72ec7e02f": {
+   "instant": true
+  },
+  "f_ed6fadb8d493c64f21ddb7f0": {
+   "instant": true
+  },
+  "f_bfa68e56120ca2434c6dc368": {
+   "instant": true
+  },
+  "f_9bb59e4e2e7634d23bc5a454": {
+   "instant": true
+  },
+  "f_294544151399bdd4dca177fd": {
+   "instant": true
+  },
+  "f_9885c424d219b1548f8ba1f0": {
+   "instant": true
+  },
+  "f_abe7cbb2625d1bd3285cf7fe": {
+   "instant": true
+  },
+  "f_1ee6e1031e8762cc1e75be55": {
+   "instant": true
+  },
+  "f_6f1db35fd69dbc86ae71f6c7": {
+   "instant": true
+  },
+  "f_f5fdaeaa8868e9da22dde650": {
+   "instant": true
+  },
+  "f_215fe616e85e33dea32e101b": {
+   "instant": true
+  },
+  "f_b3105fc90d5cb08a8aabe618": {
+   "instant": true
+  },
+  "f_8113e230f50df0b07475fd45": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "ru"
+  },
+  "f_a79510bc19c94b9be25c3d4b": {
+   "instant": true
+  },
+  "f_4fbde59eb2772a000dcb6a91": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "kk"
+  },
+  "f_491d23fa7089ce4741412b06": {
+   "instant": true
+  },
+  "f_6a902929247aaed4bda2c35d": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "ru"
+  },
+  "f_f46d5eb3ea01091327048a7c": {
+   "instant": true
+  },
+  "f_cbafe398799010e94b758bc2": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "kk"
+  },
+  "f_3f6cf90c9b76c51fb4c4f90b": {
+   "instant": true
+  },
+  "f_4de89678dc79e1080457f139": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "ru"
+  },
+  "f_ff8319262d9c748172be849e": {
+   "instant": true
+  },
+  "f_00285921ceb86e830ebbbb00": {
+   "held": [
+    "0-2953-1"
+   ],
+   "lang": "kk"
+  },
+  "f_fb5819df0cc95051d3452e64": {
+   "instant": true
+  },
+  "f_14bd2a187d10390291f56aa4": {
+   "instant": true
+  },
+  "f_aaf838c0c79b59938200cfeb": {
+   "instant": true
+  },
+  "f_879f01a6f1b2424c4c5ed5ad": {
+   "instant": true
+  },
+  "f_d4e3ca093fdc7963dd595333": {
+   "instant": true
+  },
+  "f_ff775caf6cd43cb953b3d207": {
+   "instant": true
+  },
+  "f_7328a5a4fa264054927e3ddc": {
+   "instant": true
+  },
+  "f_bcc701a0fcba7af0bc37a93f": {
+   "instant": true
+  },
+  "f_650f3de8705082e30c4f134e": {
+   "instant": true
+  },
+  "f_f2dab72fc39b496e7724b5bc": {
+   "instant": true
+  },
+  "f_9c10800bfafd75005d3e0ab4": {
+   "instant": true
+  },
+  "f_df572e5c10ba157261eb0b65": {
+   "instant": true
+  }
+ },
  "tourSnap": {
   "25": {
    "seats": null,
