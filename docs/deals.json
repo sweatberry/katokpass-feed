@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T12:00:28.431328Z",
+ "updatedAt": "2026-11-14T13:15:21.639796Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -55,8 +55,8 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-14T10:59:57Z",
-   "expiresAt": "2026-11-15T10:59:57Z",
+   "postedAt": "2026-11-14T13:02:28Z",
+   "expiresAt": "2026-11-15T13:02:28Z",
    "sourcePostID": 3058,
    "seats": 1,
    "from": "Астана",
@@ -1119,8 +1119,8 @@
    "airline": "Vietjet",
    "baggage": "20 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-14T08:04:17Z",
-   "expiresAt": "2026-11-15T08:04:17Z",
+   "postedAt": "2026-11-14T13:02:28Z",
+   "expiresAt": "2026-11-15T13:02:28Z",
    "sourcePostID": 3036,
    "seats": null,
    "from": "Астана",
