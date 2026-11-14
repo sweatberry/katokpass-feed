@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T13:15:21.639796Z",
+ "updatedAt": "2026-11-14T14:15:20.223206Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -251,25 +251,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Урумчи"
-  },
-  {
-   "id": "0-3025-1",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-15",
-   "returnDate": "2026-11-20",
-   "price": 186000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T14:06:59Z",
-   "expiresAt": "2026-11-14T14:06:59Z",
-   "sourcePostID": 3025,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Фукуок"
   },
   {
    "id": "0-3036-22",
@@ -536,25 +517,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Джидда"
-  },
-  {
-   "id": "0-3025-2",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-16",
-   "returnDate": "2026-11-24",
-   "price": 209000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T14:06:59Z",
-   "expiresAt": "2026-11-14T14:06:59Z",
-   "sourcePostID": 3025,
-   "seats": 3,
-   "from": "Алматы",
-   "to": "Фукуок"
   },
   {
    "id": "0-3037-13",
