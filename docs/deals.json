@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T11:45:21.798417Z",
+ "updatedAt": "2026-11-14T12:00:28.431328Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -156,25 +156,6 @@
    "seats": null,
    "from": "Шарджа",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3023-0",
-   "country": "Мальдивы",
-   "fromCountry": "Казахстан",
-   "toCountry": "Мальдивы",
-   "departure": "2026-11-15",
-   "returnDate": null,
-   "price": 122000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T11:54:07Z",
-   "expiresAt": "2026-11-14T11:54:07Z",
-   "sourcePostID": 3023,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Мале"
   },
   {
    "id": "0-3056-0",
@@ -346,25 +327,6 @@
    "seats": 1,
    "from": "Шарм-эш-Шейх",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3022-1",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-16",
-   "returnDate": null,
-   "price": 92000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-13T11:53:57Z",
-   "expiresAt": "2026-11-14T11:53:57Z",
-   "sourcePostID": 3022,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-3037-3",
@@ -840,25 +802,6 @@
    "seats": 7,
    "from": "Шарм-эш-Шейх",
    "to": "Астана"
-  },
-  {
-   "id": "0-3022-2",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-17",
-   "returnDate": null,
-   "price": 92000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-13T11:53:57Z",
-   "expiresAt": "2026-11-14T11:53:57Z",
-   "sourcePostID": 3022,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-3028-1",
@@ -1906,25 +1849,6 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-3022-3",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-20",
-   "returnDate": null,
-   "price": 92000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-13T11:53:57Z",
-   "expiresAt": "2026-11-14T11:53:57Z",
-   "sourcePostID": 3022,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
-  },
-  {
    "id": "0-3037-8",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -2132,25 +2056,6 @@
    "seats": 1,
    "from": "Пхукет",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3022-6",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-20",
-   "returnDate": null,
-   "price": 148000,
-   "trip": "oneWay",
-   "airline": "Vietjet",
-   "baggage": "20 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-13T11:53:57Z",
-   "expiresAt": "2026-11-14T11:53:57Z",
-   "sourcePostID": 3022,
-   "seats": 2,
-   "from": "Фукуок",
-   "to": "Новосибирск"
   },
   {
    "id": "0-3044-4",
@@ -2398,25 +2303,6 @@
    "seats": 3,
    "from": "Фукуок",
    "to": "Костанай"
-  },
-  {
-   "id": "0-3022-4",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-21",
-   "returnDate": null,
-   "price": 114000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-13T11:53:57Z",
-   "expiresAt": "2026-11-14T11:53:57Z",
-   "sourcePostID": 3022,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-3028-7",
@@ -2873,25 +2759,6 @@
    "seats": 2,
    "from": "Фукуок",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3022-5",
-   "country": "Россия",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Россия",
-   "departure": "2026-11-23",
-   "returnDate": null,
-   "price": 114000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "уточняйте",
-   "agency": "",
-   "postedAt": "2026-11-13T11:53:57Z",
-   "expiresAt": "2026-11-14T11:53:57Z",
-   "sourcePostID": 3022,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Москва"
   },
   {
    "id": "0-3048-11",
