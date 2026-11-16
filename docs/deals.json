@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T07:30:26.567734Z",
+ "updatedAt": "2026-11-16T07:45:22.646933Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -671,7 +671,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-3070-1",
+   "id": "0-3108-0",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
@@ -682,9 +682,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-15T10:19:18Z",
-   "expiresAt": "2026-11-16T10:19:18Z",
-   "sourcePostID": 3070,
+   "postedAt": "2026-11-16T07:38:26Z",
+   "expiresAt": "2026-11-17T07:38:26Z",
+   "sourcePostID": 3108,
    "seats": 1,
    "from": "Фукуок",
    "to": "Шымкент"
@@ -2924,10 +2924,10 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-15T10:19:18Z",
-   "expiresAt": "2026-11-16T10:19:18Z",
+   "postedAt": "2026-11-16T07:38:26Z",
+   "expiresAt": "2026-11-17T07:38:26Z",
    "sourcePostID": 3070,
-   "seats": 3,
+   "seats": null,
    "from": "Фукуок",
    "to": "Шымкент"
   },
