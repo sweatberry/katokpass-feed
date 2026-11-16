@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T11:15:21.642086Z",
+ "updatedAt": "2026-11-16T11:45:29.266170Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -25,6 +25,25 @@
    "to": "Актобе"
   },
   {
+   "id": "0-3121-0",
+   "country": "Турция",
+   "fromCountry": "Казахстан",
+   "toCountry": "Турция",
+   "departure": "2026-11-17",
+   "returnDate": null,
+   "price": 47000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T11:43:25Z",
+   "expiresAt": "2026-11-17T11:43:25Z",
+   "sourcePostID": 3121,
+   "seats": 8,
+   "from": "Алматы",
+   "to": "Анталия"
+  },
+  {
    "id": "0-3118-0",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -42,25 +61,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-3112-0",
-   "country": "Турция",
-   "fromCountry": "Казахстан",
-   "toCountry": "Турция",
-   "departure": "2026-11-17",
-   "returnDate": null,
-   "price": 59000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-16T09:24:00Z",
-   "expiresAt": "2026-11-17T09:24:00Z",
-   "sourcePostID": 3112,
-   "seats": 4,
-   "from": "Алматы",
-   "to": "Анталия"
   },
   {
    "id": "0-3107-1",
