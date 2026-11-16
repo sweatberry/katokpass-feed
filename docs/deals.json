@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T05:45:27.230713Z",
+ "updatedAt": "2026-11-16T06:00:29.731520Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1013,7 +1013,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3063-3",
+   "id": "0-3102-5",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -1024,9 +1024,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": 1,
    "from": "Пхукет",
    "to": "Астана"
@@ -1315,6 +1315,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Будапешт"
+  },
+  {
+   "id": "0-3102-10",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-11-18",
+   "returnDate": "2026-11-25",
+   "price": 358000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
+   "seats": 1,
+   "from": "Астана",
+   "to": "Пхукет"
   },
   {
    "id": "0-3097-0",
@@ -1765,8 +1784,8 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
    "sourcePostID": 3065,
    "seats": null,
    "from": "Шымкент",
@@ -1944,7 +1963,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3065-7",
+   "id": "0-3103-8",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -1955,9 +1974,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": 1,
    "from": "Бангкок",
    "to": "Шымкент"
@@ -2248,7 +2267,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3063-5",
+   "id": "0-3102-6",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -2259,9 +2278,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": 1,
    "from": "Пхукет",
    "to": "Астана"
@@ -2552,6 +2571,25 @@
    "to": "Шарджа"
   },
   {
+   "id": "0-3103-6",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-11-21",
+   "returnDate": null,
+   "price": 136000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Бангкок"
+  },
+  {
    "id": "0-3079-4",
    "country": "Мальдивы",
    "fromCountry": "Мальдивы",
@@ -2571,26 +2609,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3065-5",
-   "country": "Таиланд",
-   "fromCountry": "Казахстан",
-   "toCountry": "Таиланд",
-   "departure": "2026-11-21",
-   "returnDate": null,
-   "price": 137000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Бангкок"
-  },
-  {
-   "id": "0-3063-6",
+   "id": "0-3102-7",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -2601,9 +2620,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": 3,
    "from": "Пхукет",
    "to": "Астана"
@@ -2856,7 +2875,7 @@
    "to": "Астана"
   },
   {
-   "id": "0-3065-8",
+   "id": "0-3103-9",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -2867,9 +2886,9 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": 3,
    "from": "Бангкок",
    "to": "Шымкент"
@@ -3065,6 +3084,25 @@
    "to": "Прага"
   },
   {
+   "id": "0-3102-8",
+   "country": "Таиланд",
+   "fromCountry": "Таиланд",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-22",
+   "returnDate": null,
+   "price": 162000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
+   "seats": 1,
+   "from": "Пхукет",
+   "to": "Астана"
+  },
+  {
    "id": "0-3100-16",
    "country": "Турция",
    "fromCountry": "Турция",
@@ -3082,25 +3120,6 @@
    "seats": 1,
    "from": "Анталия",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3063-7",
-   "country": "Таиланд",
-   "fromCountry": "Таиланд",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-22",
-   "returnDate": null,
-   "price": 162000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
-   "seats": 1,
-   "from": "Пхукет",
-   "to": "Астана"
   },
   {
    "id": "0-3074-5",
@@ -3350,20 +3369,20 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3065-6",
+   "id": "0-3103-7",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
    "departure": "2026-11-23",
    "returnDate": null,
-   "price": 137000,
+   "price": 136000,
    "trip": "oneWay",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": null,
    "from": "Шымкент",
    "to": "Бангкок"
@@ -3540,6 +3559,25 @@
    "to": "Сеул"
   },
   {
+   "id": "0-3103-10",
+   "country": "Таиланд",
+   "fromCountry": "Таиланд",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-24",
+   "returnDate": null,
+   "price": 76000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
+   "seats": null,
+   "from": "Бангкок",
+   "to": "Шымкент"
+  },
+  {
    "id": "0-3072-5",
    "country": "Китай",
    "fromCountry": "Китай",
@@ -3557,25 +3595,6 @@
    "seats": null,
    "from": "Санья",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3065-9",
-   "country": "Таиланд",
-   "fromCountry": "Таиланд",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-24",
-   "returnDate": null,
-   "price": 77000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
-   "seats": null,
-   "from": "Бангкок",
-   "to": "Шымкент"
   },
   {
    "id": "0-3095-7",
@@ -3958,7 +3977,7 @@
    "to": "Анталия"
   },
   {
-   "id": "0-3063-8",
+   "id": "0-3102-9",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -3969,9 +3988,9 @@
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": 1,
    "from": "Пхукет",
    "to": "Астана"
@@ -4376,7 +4395,7 @@
    "to": "Урумчи"
   },
   {
-   "id": "0-3063-1",
+   "id": "0-3102-0",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -4387,9 +4406,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": null,
    "from": "Астана",
    "to": "Пхукет"
@@ -4547,7 +4566,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-3063-10",
+   "id": "0-3102-11",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -4558,9 +4577,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": null,
    "from": "Астана",
    "to": "Пхукет"
@@ -5345,7 +5364,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-3063-11",
+   "id": "0-3102-12",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -5356,9 +5375,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": null,
    "from": "Астана",
    "to": "Пхукет"
@@ -5478,7 +5497,7 @@
    "to": "Санья"
   },
   {
-   "id": "0-3063-12",
+   "id": "0-3102-13",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -5489,9 +5508,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": 1,
    "from": "Астана",
    "to": "Пхукет"
@@ -6675,7 +6694,7 @@
    "to": "Будапешт"
   },
   {
-   "id": "0-3063-2",
+   "id": "0-3102-1",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -6686,9 +6705,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": null,
    "from": "Астана",
    "to": "Пхукет"
@@ -6827,7 +6846,7 @@
    "to": "Белград"
   },
   {
-   "id": "0-3063-14",
+   "id": "0-3102-14",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -6838,9 +6857,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": 3,
    "from": "Астана",
    "to": "Пхукет"
@@ -7359,7 +7378,7 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-3063-16",
+   "id": "0-3102-15",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -7370,9 +7389,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": 5,
    "from": "Астана",
    "to": "Пхукет"
@@ -7587,7 +7606,7 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-3063-17",
+   "id": "0-3102-16",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -7598,9 +7617,9 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-15T09:00:45Z",
-   "expiresAt": "2026-11-16T09:00:45Z",
-   "sourcePostID": 3063,
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
    "seats": null,
    "from": "Астана",
    "to": "Пхукет"
@@ -8176,6 +8195,25 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-3102-2",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-12-09",
+   "returnDate": null,
+   "price": 180000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
+   "seats": null,
+   "from": "Астана",
+   "to": "Пхукет"
+  },
+  {
    "id": "0-3087-14",
    "country": "Сербия",
    "fromCountry": "Сербия",
@@ -8269,6 +8307,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Белград"
+  },
+  {
+   "id": "0-3102-17",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-12-09",
+   "returnDate": "2026-12-16",
+   "price": 317000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
+   "seats": null,
+   "from": "Астана",
+   "to": "Пхукет"
   },
   {
    "id": "0-3091-26",
@@ -8575,20 +8632,20 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3065-1",
+   "id": "0-3103-1",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
    "departure": "2026-12-13",
    "returnDate": null,
-   "price": 162000,
+   "price": 151000,
    "trip": "oneWay",
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": 8,
    "from": "Бангкок",
    "to": "Алматы"
@@ -8974,6 +9031,25 @@
    "to": "Будапешт"
   },
   {
+   "id": "0-3102-3",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-12-16",
+   "returnDate": null,
+   "price": 180000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
+   "seats": null,
+   "from": "Астана",
+   "to": "Пхукет"
+  },
+  {
    "id": "0-3100-13",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -9009,6 +9085,25 @@
    "sourcePostID": 3100,
    "seats": 9,
    "from": "Анталия",
+   "to": "Алматы"
+  },
+  {
+   "id": "0-3103-2",
+   "country": "Таиланд",
+   "fromCountry": "Таиланд",
+   "toCountry": "Казахстан",
+   "departure": "2026-12-18",
+   "returnDate": null,
+   "price": 151000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "уточняйте",
+   "agency": "",
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
+   "seats": 8,
+   "from": "Бангкок",
    "to": "Алматы"
   },
   {
@@ -9126,6 +9221,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-3102-4",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-12-23",
+   "returnDate": null,
+   "price": 180000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 10 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:53:01Z",
+   "expiresAt": "2026-11-17T05:53:01Z",
+   "sourcePostID": 3102,
+   "seats": null,
+   "from": "Астана",
+   "to": "Пхукет"
+  },
+  {
    "id": "0-3100-30",
    "country": "Турция",
    "fromCountry": "Турция",
@@ -9221,7 +9335,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3065-3",
+   "id": "0-3103-4",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -9232,9 +9346,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": null,
    "from": "Алматы",
    "to": "Бангкок"
@@ -9278,7 +9392,7 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3065-0",
+   "id": "0-3103-0",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -9289,15 +9403,15 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": null,
    "from": "Алматы",
    "to": "Бангкок"
   },
   {
-   "id": "0-3065-4",
+   "id": "0-3103-5",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
@@ -9308,9 +9422,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": null,
    "from": "Алматы",
    "to": "Бангкок"
@@ -9487,7 +9601,7 @@
    "to": "Нячанг"
   },
   {
-   "id": "0-3065-2",
+   "id": "0-3103-3",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
@@ -9498,9 +9612,9 @@
    "airline": "Чартер",
    "baggage": "уточняйте",
    "agency": "",
-   "postedAt": "2026-11-15T09:01:03Z",
-   "expiresAt": "2026-11-16T09:01:03Z",
-   "sourcePostID": 3065,
+   "postedAt": "2026-11-16T06:00:13Z",
+   "expiresAt": "2026-11-17T06:00:13Z",
+   "sourcePostID": 3103,
    "seats": null,
    "from": "Бангкок",
    "to": "Алматы"
