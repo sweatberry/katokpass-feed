@@ -278,7 +278,8 @@
   "0-3120-6",
   "0-3120-7",
   "0-3120-9",
-  "0-3121-0"
+  "0-3121-0",
+  "0-3122-0"
  ],
  "seenTours": [
   "108",
@@ -17512,6 +17513,174 @@
     "0-3121-0"
    ],
    "lang": "kk"
+  },
+  "f_5dd3b0a2615262e794d86202": {
+   "instant": true
+  },
+  "f_091aa245b96fd268b5dabd90": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "ru"
+  },
+  "f_b0f23344a45d29caa6b336c7": {
+   "instant": true
+  },
+  "f_184347c5df87c4fabfb98d46": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "kk"
+  },
+  "f_a60f68a5cd52dc18e786cd7d": {
+   "instant": true
+  },
+  "f_9128c4efbaf63b84215a8267": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "ru"
+  },
+  "f_c86de59fd4129d2744a6d08b": {
+   "instant": true
+  },
+  "f_b4197bb0003fec6144e9e55f": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "kk"
+  },
+  "f_9d94509181104bc94d08b1cd": {
+   "instant": true
+  },
+  "f_d05814ace8b66ec8616e2102": {
+   "instant": true
+  },
+  "f_e9cfc3300ce0d7ac3b2fcfd0": {
+   "instant": true
+  },
+  "f_113709176eff22d9a5f7d1ed": {
+   "instant": true
+  },
+  "f_b9055e6ab3f3a82a819bccee": {
+   "instant": true
+  },
+  "f_0e52790c2d5aca50deafc0ed": {
+   "instant": true
+  },
+  "f_be2e7a312e3a1ec926247f38": {
+   "instant": true
+  },
+  "f_e4c63b07007188665dcb202e": {
+   "instant": true
+  },
+  "f_499db143f10767bd228b45a6": {
+   "instant": true
+  },
+  "f_641ee9e700a5f1ed8eb3f75b": {
+   "instant": true
+  },
+  "f_e825ad3f45b89aae07c373e9": {
+   "instant": true
+  },
+  "f_e206cc705091ef689f5ed436": {
+   "instant": true
+  },
+  "f_b5361a53f79a54645ebaf299": {
+   "instant": true
+  },
+  "f_6cfa220477686bd323560e66": {
+   "instant": true
+  },
+  "f_e6870ded5ca83582321396c7": {
+   "instant": true
+  },
+  "f_a3b3784d758950b2c085fef8": {
+   "instant": true
+  },
+  "f_3846bdee683190ce21266a9e": {
+   "instant": true
+  },
+  "f_dfc344bda269cb8728e8be7a": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "ru"
+  },
+  "f_9063045ec74a303c1e5361a0": {
+   "instant": true
+  },
+  "f_d3b6e1ef943e7099906007e8": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "kk"
+  },
+  "f_ee7f243230882d3fa1c3922d": {
+   "instant": true
+  },
+  "f_c9f788227dcd76cc01f1d3b1": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "ru"
+  },
+  "f_9c8688f4be6f027ec64e88bd": {
+   "instant": true
+  },
+  "f_0cc058261c5f2a3c036cc6a2": {
+   "held": [
+    "0-3122-0"
+   ],
+   "lang": "kk"
+  },
+  "f_eb944edc691b3775a5c70bf6": {
+   "instant": true
+  },
+  "f_ef162d95b9a6059e96d647cd": {
+   "instant": true
+  },
+  "f_eba98dfd10396f8c8dc594ea": {
+   "instant": true
+  },
+  "f_0e48205946a7ac53d89d56b7": {
+   "instant": true
+  },
+  "f_519858577b85dee44f82ee4e": {
+   "instant": true
+  },
+  "f_1858281c06cbfbb2b027e2cf": {
+   "instant": true
+  },
+  "f_d4bf6f32097725f780ecdedd": {
+   "instant": true
+  },
+  "f_a1fc51737a873a70a9c33f33": {
+   "instant": true
+  },
+  "f_04028fabe024f428b7d77d88": {
+   "instant": true
+  },
+  "f_60bcf36df367f3feb98ada0e": {
+   "instant": true
+  },
+  "f_6a137eccfd3f97c537f911f8": {
+   "instant": true
+  },
+  "f_1e5c00090af24484e13d45e5": {
+   "instant": true
+  },
+  "f_26b2d73810694d50e645ebee": {
+   "instant": true
+  },
+  "f_98268b1e08a33581d06312c5": {
+   "instant": true
+  },
+  "f_93bb81baaf692997bd3dbeb8": {
+   "instant": true
+  },
+  "f_cb1a018f1331437a5ff0bf7b": {
+   "instant": true
   }
  },
  "tourSnap": {

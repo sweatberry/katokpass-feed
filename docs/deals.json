@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T11:45:29.266170Z",
+ "updatedAt": "2026-11-16T12:45:22.194411Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -441,6 +441,25 @@
    "seats": 1,
    "from": "Шарм-эш-Шейх",
    "to": "Алматы"
+  },
+  {
+   "id": "0-3122-0",
+   "country": "Мальдивы",
+   "fromCountry": "Казахстан",
+   "toCountry": "Мальдивы",
+   "departure": "2026-11-18",
+   "returnDate": null,
+   "price": 124000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T12:35:38Z",
+   "expiresAt": "2026-11-17T12:35:38Z",
+   "sourcePostID": 3122,
+   "seats": 6,
+   "from": "Алматы",
+   "to": "Мале"
   },
   {
    "id": "0-3110-0",
