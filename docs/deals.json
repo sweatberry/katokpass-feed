@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T07:45:22.646933Z",
+ "updatedAt": "2026-11-16T09:00:32.754362Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -120,20 +120,20 @@
    "to": "Астана"
   },
   {
-   "id": "0-3061-0",
+   "id": "0-3100-0",
    "country": "Турция",
    "fromCountry": "Казахстан",
    "toCountry": "Турция",
    "departure": "2026-11-17",
    "returnDate": null,
-   "price": 88000,
+   "price": 93000,
    "trip": "oneWay",
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
    "postedAt": "2026-11-16T05:40:41Z",
    "expiresAt": "2026-11-17T05:40:41Z",
-   "sourcePostID": 3061,
+   "sourcePostID": 3100,
    "seats": null,
    "from": "Алматы",
    "to": "Анталия"
@@ -3008,25 +3008,6 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3061-2",
-   "country": "Турция",
-   "fromCountry": "Казахстан",
-   "toCountry": "Турция",
-   "departure": "2026-11-22",
-   "returnDate": null,
-   "price": 109000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-16T05:40:41Z",
-   "expiresAt": "2026-11-17T05:40:41Z",
-   "sourcePostID": 3061,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Анталия"
-  },
-  {
    "id": "0-3077-15",
    "country": "ОАЭ",
    "fromCountry": "ОАЭ",
@@ -3044,6 +3025,25 @@
    "seats": null,
    "from": "Шарджа",
    "to": "Алматы"
+  },
+  {
+   "id": "0-3100-2",
+   "country": "Турция",
+   "fromCountry": "Казахстан",
+   "toCountry": "Турция",
+   "departure": "2026-11-22",
+   "returnDate": null,
+   "price": 120000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:40:41Z",
+   "expiresAt": "2026-11-17T05:40:41Z",
+   "sourcePostID": 3100,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Анталия"
   },
   {
    "id": "0-3078-2",
@@ -3882,25 +3882,6 @@
    "to": "Анталия"
   },
   {
-   "id": "0-3061-9",
-   "country": "Турция",
-   "fromCountry": "Турция",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-24",
-   "returnDate": null,
-   "price": 124000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-16T05:40:41Z",
-   "expiresAt": "2026-11-17T05:40:41Z",
-   "sourcePostID": 3061,
-   "seats": null,
-   "from": "Анталия",
-   "to": "Алматы"
-  },
-  {
    "id": "0-3090-2",
    "country": "Венгрия",
    "fromCountry": "Казахстан",
@@ -3918,6 +3899,25 @@
    "seats": null,
    "from": "Шымкент",
    "to": "Будапешт"
+  },
+  {
+   "id": "0-3100-17",
+   "country": "Турция",
+   "fromCountry": "Турция",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-24",
+   "returnDate": null,
+   "price": 152000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-16T05:40:41Z",
+   "expiresAt": "2026-11-17T05:40:41Z",
+   "sourcePostID": 3100,
+   "seats": null,
+   "from": "Анталия",
+   "to": "Алматы"
   },
   {
    "id": "0-3107-7",
@@ -5913,25 +5913,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Урумчи"
-  },
-  {
-   "id": "0-3061-18",
-   "country": "Турция",
-   "fromCountry": "Казахстан",
-   "toCountry": "Турция",
-   "departure": "2026-11-29",
-   "returnDate": "2026-12-06",
-   "price": 209000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-15T09:00:15Z",
-   "expiresAt": "2026-11-16T09:00:15Z",
-   "sourcePostID": 3061,
-   "seats": 4,
-   "from": "Алматы",
-   "to": "Анталия"
   },
   {
    "id": "0-3094-17",
