@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T11:45:19.402824Z",
+ "updatedAt": "2026-11-17T17:15:20.635215Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -139,6 +139,25 @@
    "to": "Фукуок"
   },
   {
+   "id": "0-3173-0",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-18",
+   "returnDate": null,
+   "price": 62000,
+   "trip": "oneWay",
+   "airline": "Vietjet",
+   "baggage": "20 + 7 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T17:10:26Z",
+   "expiresAt": "2026-11-18T17:10:26Z",
+   "sourcePostID": 3173,
+   "seats": 1,
+   "from": "Фукуок",
+   "to": "Астана"
+  },
+  {
    "id": "0-3166-1",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -156,25 +175,6 @@
    "seats": 3,
    "from": "Астана",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-3133-11",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-18",
-   "returnDate": null,
-   "price": 76000,
-   "trip": "oneWay",
-   "airline": "Vietjet",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-17T06:33:43Z",
-   "expiresAt": "2026-11-18T06:33:43Z",
-   "sourcePostID": 3133,
-   "seats": null,
-   "from": "Фукуок",
-   "to": "Астана"
   },
   {
    "id": "0-3138-1",
