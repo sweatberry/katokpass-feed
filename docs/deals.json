@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T06:45:30.550418Z",
+ "updatedAt": "2026-11-17T07:00:29.095521Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -55,8 +55,8 @@
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
-   "postedAt": "2026-11-16T09:24:07Z",
-   "expiresAt": "2026-11-17T09:24:07Z",
+   "postedAt": "2026-11-17T06:46:50Z",
+   "expiresAt": "2026-11-18T06:46:50Z",
    "sourcePostID": 3113,
    "seats": 1,
    "from": "Фукуок",
@@ -1233,10 +1233,10 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-16T07:38:26Z",
-   "expiresAt": "2026-11-17T07:38:26Z",
+   "postedAt": "2026-11-17T06:46:50Z",
+   "expiresAt": "2026-11-18T06:46:50Z",
    "sourcePostID": 3108,
-   "seats": null,
+   "seats": 9,
    "from": "Фукуок",
    "to": "Шымкент"
   },
@@ -1333,6 +1333,25 @@
    "sourcePostID": 3132,
    "seats": null,
    "from": "Астана",
+   "to": "Фукуок"
+  },
+  {
+   "id": "0-3135-3",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-22",
+   "returnDate": "2026-12-02",
+   "price": 248000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T06:46:50Z",
+   "expiresAt": "2026-11-18T06:46:50Z",
+   "sourcePostID": 3135,
+   "seats": null,
+   "from": "Костанай",
    "to": "Фукуок"
   },
   {
@@ -1885,6 +1904,25 @@
    "seats": null,
    "from": "Уральск",
    "to": "Пхукет"
+  },
+  {
+   "id": "0-3135-2",
+   "country": "Вьетнам",
+   "fromCountry": "Вьетнам",
+   "toCountry": "Казахстан",
+   "departure": "2026-11-25",
+   "returnDate": null,
+   "price": 86000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T06:46:50Z",
+   "expiresAt": "2026-11-18T06:46:50Z",
+   "sourcePostID": 3135,
+   "seats": 1,
+   "from": "Фукуок",
+   "to": "Актобе"
   },
   {
    "id": "0-3118-7",
