@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T08:45:33.506577Z",
+ "updatedAt": "2026-11-17T08:58:56.454658Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -690,6 +690,25 @@
    "to": "Шанхай"
   },
   {
+   "id": "0-3151-4",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-19",
+   "returnDate": "2026-11-27",
+   "price": 289000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Сеул"
+  },
+  {
    "id": "0-3142-4",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -726,6 +745,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Шанхай"
+  },
+  {
+   "id": "0-3151-0",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-19",
+   "returnDate": "2026-11-27",
+   "price": 330000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Астана",
+   "to": "Сеул"
   },
   {
    "id": "0-3126-13",
@@ -1982,6 +2020,25 @@
    "to": "Фукуок"
   },
   {
+   "id": "0-3151-5",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-23",
+   "returnDate": "2026-12-01",
+   "price": 289000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Сеул"
+  },
+  {
    "id": "0-3126-16",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -2037,6 +2094,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Шанхай"
+  },
+  {
+   "id": "0-3151-1",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-23",
+   "returnDate": "2026-12-01",
+   "price": 330000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Астана",
+   "to": "Сеул"
   },
   {
    "id": "0-3128-10",
@@ -2761,6 +2837,25 @@
    "to": "Шанхай"
   },
   {
+   "id": "0-3151-6",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-26",
+   "returnDate": "2026-12-04",
+   "price": 289000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Сеул"
+  },
+  {
    "id": "0-3142-6",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -2816,6 +2911,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Фукуок"
+  },
+  {
+   "id": "0-3151-2",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-26",
+   "returnDate": "2026-12-04",
+   "price": 330000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Астана",
+   "to": "Сеул"
   },
   {
    "id": "0-3126-21",
@@ -3673,6 +3787,25 @@
    "to": "Фукуок"
   },
   {
+   "id": "0-3151-7",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-30",
+   "returnDate": "2026-12-08",
+   "price": 289000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Шымкент",
+   "to": "Сеул"
+  },
+  {
    "id": "0-3142-7",
    "country": "Китай",
    "fromCountry": "Казахстан",
@@ -3728,6 +3861,25 @@
    "seats": null,
    "from": "Алматы",
    "to": "Пхукет"
+  },
+  {
+   "id": "0-3151-3",
+   "country": "Южная Корея",
+   "fromCountry": "Казахстан",
+   "toCountry": "Южная Корея",
+   "departure": "2026-11-30",
+   "returnDate": "2026-12-08",
+   "price": 330000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-17T08:58:13Z",
+   "expiresAt": "2026-11-18T08:58:13Z",
+   "sourcePostID": 3151,
+   "seats": null,
+   "from": "Астана",
+   "to": "Сеул"
   },
   {
    "id": "0-3120-7",
