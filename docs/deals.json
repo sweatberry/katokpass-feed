@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T08:30:32.534488Z",
+ "updatedAt": "2026-11-18T08:38:11.517391Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1106,25 +1106,6 @@
    "seats": null,
    "from": "Фукуок",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3150-0",
-   "country": "Турция",
-   "fromCountry": "Казахстан",
-   "toCountry": "Турция",
-   "departure": "2026-11-22",
-   "returnDate": null,
-   "price": 84000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-17T08:37:49Z",
-   "expiresAt": "2026-11-18T08:37:49Z",
-   "sourcePostID": 3150,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Анталия"
   },
   {
    "id": "0-3184-1",
