@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T13:15:23.697722Z",
+ "updatedAt": "2026-11-19T16:15:32.692994Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -7167,25 +7167,6 @@
    "seats": null,
    "from": "Анталия",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3217-0",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2027-10-19",
-   "returnDate": null,
-   "price": 31000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-18T16:04:20Z",
-   "expiresAt": "2026-11-19T16:04:20Z",
-   "sourcePostID": 3217,
-   "seats": null,
-   "from": "Шымкент",
-   "to": "Фукуок"
   }
  ]
 }
