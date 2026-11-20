@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T12:30:26.638520Z",
+ "updatedAt": "2026-11-20T13:15:22.971764Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -61,6 +61,25 @@
    "seats": 9,
    "from": "Шымкент",
    "to": "Бангкок"
+  },
+  {
+   "id": "0-3284-0",
+   "country": "Китай",
+   "fromCountry": "Казахстан",
+   "toCountry": "Китай",
+   "departure": "2026-11-21",
+   "returnDate": null,
+   "price": 94000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-20T13:03:12Z",
+   "expiresAt": "2026-11-21T13:03:12Z",
+   "sourcePostID": 3284,
+   "seats": 5,
+   "from": "Астана",
+   "to": "Санья"
   },
   {
    "id": "0-3268-21",
