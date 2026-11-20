@@ -95,7 +95,6 @@
   "0-3263-0",
   "0-3263-1",
   "0-3263-10",
-  "0-3263-11",
   "0-3263-12",
   "0-3263-13",
   "0-3263-2",
@@ -174,12 +173,7 @@
   "0-3268-9",
   "0-3269-0",
   "0-3269-3",
-  "0-3270-0",
-  "0-3270-1",
-  "0-3270-2",
   "0-3270-3",
-  "0-3270-4",
-  "0-3270-5",
   "0-3271-0",
   "0-3271-1",
   "0-3271-10",
@@ -315,8 +309,16 @@
   "0-3282-7",
   "0-3282-9",
   "0-3284-0",
-  "0-3285-0",
-  "0-3285-1"
+  "0-3285-1",
+  "0-3286-0",
+  "0-3287-0",
+  "0-3287-1",
+  "0-3287-2",
+  "0-3287-3",
+  "0-3287-5",
+  "0-3287-6",
+  "0-3287-7",
+  "0-3287-8"
  ],
  "seenTours": [
   "108",
@@ -977,7 +979,8 @@
   "f_d84965ef9bda4e1f95d442c0": {
    "held": [],
    "lang": "ru",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_a52bf8320fd4b703b5a974d7": {
    "instant": true,
@@ -988,7 +991,8 @@
   "f_f443a24463a026b767ca4f31": {
    "held": [],
    "lang": "kk",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_63e8fa7c21cff484c3d597bb": {
    "instant": true,
@@ -999,7 +1003,8 @@
   "f_f907bd8a5e9b19eafb60af2f": {
    "held": [],
    "lang": "ru",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_d514ba916f778e652c84b4b1": {
    "instant": true,
@@ -1010,7 +1015,8 @@
   "f_78c2b6078a1c058b2af94f11": {
    "held": [],
    "lang": "kk",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_267909aecf6b2134b49987d8": {
    "instant": true,
@@ -1211,7 +1217,8 @@
   "f_608bef767454a674f5d4ff21": {
    "held": [],
    "lang": "ru",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_bff3e971839c5b536f71b273": {
    "instant": true,
@@ -1222,7 +1229,8 @@
   "f_f76ac6df80479a12bfb09c84": {
    "held": [],
    "lang": "kk",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_8bf721b7ef783deaafb5b8de": {
    "instant": true,
@@ -1233,7 +1241,8 @@
   "f_bb9fa474ee36a467750096a3": {
    "held": [],
    "lang": "ru",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_ba4661b825c32e1c04a5ecd9": {
    "instant": true,
@@ -1244,7 +1253,8 @@
   "f_50b0abbdb582c4faf1e0f98c": {
    "held": [],
    "lang": "kk",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_e5b8debb0d1d579e3e972cb8": {
    "instant": true,
@@ -2039,7 +2049,8 @@
   "f_fe55141f4296168ec1459a71": {
    "held": [],
    "lang": "ru",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_b3362f09315ef63c5920a08c": {
    "instant": true,
@@ -2050,7 +2061,8 @@
   "f_b53b5e7e06c1d482b659db8b": {
    "held": [],
    "lang": "kk",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_dfba438441bb1089081975c0": {
    "instant": true,
@@ -2632,7 +2644,8 @@
   "f_871d276c2eefebf55ad34e02": {
    "held": [],
    "lang": "ru",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_ef7cb609e8e5e6d7062e8a36": {
    "instant": true,
@@ -2642,7 +2655,8 @@
   "f_ad16fe416be12a2758758fa0": {
    "held": [],
    "lang": "kk",
-   "digest": true
+   "digest": true,
+   "instant": true
   },
   "f_11d5b95ac924a84b8e2e517c": {
    "instant": true,
@@ -6612,6 +6626,228 @@
    "held": []
   },
   "f_17aced0113acee37477030d4": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_a4bc636fe5488a80250d8894": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_3d5e0998c4272960759c3678": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_cd9e3dccb996e27258b95973": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_a708b8bdbc97f806ce083818": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_163306c41897e9b3fbe6b6af": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_793875dcbd36c9215a9c80a3": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_cfbc5551497b79109caf4c54": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_90f8c57ea255243e924c4024": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_0a2b3895c705a603501c9397": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_bcd960ac5ca345c26d699e04": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_07f2b0f37147b1c3e94de324": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_3086f9981a2d4a7057d6d77a": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_f1ffce915bf2c092a134cd2e": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_252125a7158a7a75e1e1f004": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_b34d29feab4c45b5715510a1": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_8e49e7a71f13bc8ddf7e8c2c": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_8192817cf1dd0c613a2b3bee": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_427bad5003296e15f4b671d0": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_aece534cc788e3dbae91d93c": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_41e5edffc9bd4fe670e9b991": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_6d26f501d754158de6f95bd5": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_1daf5bfa5ecddef5be866488": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_8db5365acfca12135f9ec813": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_142b6d636d928f75c16bf059": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_3c121b9f0e01ca4c09ad67ee": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_158c727dd39e61fc3c9455f8": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_5e758d0612b3b19c3f85bb05": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_15e88fd83515c28d4b0ccb52": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_ecc0afa615e7c4760aed2bfc": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_29124da1dbe8b34283bdc84b": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_e47f8d87a80b128f068b518f": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_5cb12fa17b0429e1a4f9301b": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_28ef8b5ff0d8644b1861ba0c": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_ff6b0f1a4d775b0c5fdf7fbb": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_0c5e82124f9e693e5bf6c834": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_4ac22e809806c54c4a38d32a": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_e7d72084fff60017efa97b7a": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_e388b0f48769bc4d349a4a93": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_2fab2ac96ea8d47edb7ba27e": {
+   "instant": true,
+   "digest": true,
+   "held": []
+  },
+  "f_9067fb9ee8309c54a38babfa": {
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_ffc4958f7d146b8cdd4b21aa": {
+   "instant": true,
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_35cfd8cf7f86932d368166dc": {
+   "held": [],
+   "lang": "ru",
+   "digest": true
+  },
+  "f_2b47ce620ecd9ea09245fe6c": {
+   "instant": true,
+   "held": [],
+   "lang": "kk",
+   "digest": true
+  },
+  "f_ce472ebd3fe7d7f34d7957d4": {
    "held": [],
    "lang": "kk",
    "digest": true
