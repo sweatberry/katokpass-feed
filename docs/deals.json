@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T12:00:30.252442Z",
+ "updatedAt": "2026-11-20T12:30:26.638520Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -557,25 +557,6 @@
    "to": "Бангкок"
   },
   {
-   "id": "0-3256-3",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-11-23",
-   "returnDate": null,
-   "price": 147000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-20T09:20:17Z",
-   "expiresAt": "2026-11-21T09:20:17Z",
-   "sourcePostID": 3256,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Санья"
-  },
-  {
    "id": "0-3269-0",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -593,6 +574,25 @@
    "seats": 6,
    "from": "Шымкент",
    "to": "Фукуок"
+  },
+  {
+   "id": "0-3271-0",
+   "country": "Китай",
+   "fromCountry": "Казахстан",
+   "toCountry": "Китай",
+   "departure": "2026-11-23",
+   "returnDate": null,
+   "price": 150000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-20T09:20:17Z",
+   "expiresAt": "2026-11-21T09:20:17Z",
+   "sourcePostID": 3271,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Санья"
   },
   {
    "id": "0-3268-27",
@@ -1108,20 +1108,20 @@
    "to": "Алматы"
   },
   {
-   "id": "0-3256-2",
+   "id": "0-3266-13",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
    "departure": "2026-11-25",
    "returnDate": null,
-   "price": 123000,
+   "price": 124000,
    "trip": "oneWay",
    "airline": "Vietjet",
    "baggage": "20 + 5 кг",
    "agency": "",
    "postedAt": "2026-11-20T07:25:26Z",
    "expiresAt": "2026-11-21T07:25:26Z",
-   "sourcePostID": 3256,
+   "sourcePostID": 3266,
    "seats": 3,
    "from": "Фукуок",
    "to": "Астана"
@@ -2609,20 +2609,20 @@
    "to": "Анталия"
   },
   {
-   "id": "0-3256-4",
+   "id": "0-3259-16",
    "country": "Турция",
    "fromCountry": "Турция",
    "toCountry": "Казахстан",
    "departure": "2026-12-01",
    "returnDate": null,
-   "price": 125000,
+   "price": 126000,
    "trip": "oneWay",
    "airline": "Чартер",
    "baggage": "23 + 8 кг",
    "agency": "",
    "postedAt": "2026-11-20T05:16:49Z",
    "expiresAt": "2026-11-21T05:16:49Z",
-   "sourcePostID": 3256,
+   "sourcePostID": 3259,
    "seats": null,
    "from": "Анталия",
    "to": "Алматы"
