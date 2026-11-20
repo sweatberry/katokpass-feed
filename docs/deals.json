@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T14:45:26.085694Z",
+ "updatedAt": "2026-11-20T17:30:31.211680Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -25,20 +25,20 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-3258-4",
+   "id": "0-3268-8",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
    "departure": "2026-11-21",
    "returnDate": null,
-   "price": 48000,
+   "price": 49000,
    "trip": "oneWay",
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
    "postedAt": "2026-11-20T07:25:49Z",
    "expiresAt": "2026-11-21T07:25:49Z",
-   "sourcePostID": 3258,
+   "sourcePostID": 3268,
    "seats": 1,
    "from": "Фукуок",
    "to": "Алматы"
@@ -177,20 +177,20 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-3258-10",
+   "id": "0-3268-20",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-11-21",
    "returnDate": "2026-11-28",
-   "price": 203000,
+   "price": 205000,
    "trip": "roundTrip",
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
    "postedAt": "2026-11-20T07:25:49Z",
    "expiresAt": "2026-11-21T07:25:49Z",
-   "sourcePostID": 3258,
+   "sourcePostID": 3268,
    "seats": 7,
    "from": "Алматы",
    "to": "Фукуок"
@@ -519,20 +519,20 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-3258-6",
+   "id": "0-3268-10",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
    "departure": "2026-11-23",
    "returnDate": null,
-   "price": 66000,
+   "price": 67000,
    "trip": "oneWay",
    "airline": "SCAT",
    "baggage": "23 + 10 кг",
    "agency": "",
    "postedAt": "2026-11-20T07:25:49Z",
    "expiresAt": "2026-11-21T07:25:49Z",
-   "sourcePostID": 3258,
+   "sourcePostID": 3268,
    "seats": 1,
    "from": "Фукуок",
    "to": "Алматы"
