@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T14:15:24.719196Z",
+ "updatedAt": "2026-11-21T14:45:19.853039Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1089,25 +1089,6 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-3288-1",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-24",
-   "returnDate": null,
-   "price": 44000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-21T12:45:06Z",
-   "expiresAt": "2026-11-22T12:45:06Z",
-   "sourcePostID": 3288,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
-  },
-  {
    "id": "0-3329-5",
    "country": "Египет",
    "fromCountry": "Египет",
@@ -1144,6 +1125,25 @@
    "seats": 1,
    "from": "Бангкок",
    "to": "Шымкент"
+  },
+  {
+   "id": "0-3338-43",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-24",
+   "returnDate": null,
+   "price": 78000,
+   "trip": "oneWay",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-21T12:45:06Z",
+   "expiresAt": "2026-11-22T12:45:06Z",
+   "sourcePostID": 3338,
+   "seats": 1,
+   "from": "Алматы",
+   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3289-1",
