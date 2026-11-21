@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T12:45:23.275132Z",
+ "updatedAt": "2026-11-21T14:15:24.719196Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -137,25 +137,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-3287-1",
-   "country": "Таиланд",
-   "fromCountry": "Казахстан",
-   "toCountry": "Таиланд",
-   "departure": "2026-11-22",
-   "returnDate": null,
-   "price": 101000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 10 кг",
-   "agency": "",
-   "postedAt": "2026-11-20T14:01:52Z",
-   "expiresAt": "2026-11-21T14:01:52Z",
-   "sourcePostID": 3287,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Пхукет"
   },
   {
    "id": "0-3291-9",
@@ -1146,20 +1127,20 @@
    "to": "Актобе"
   },
   {
-   "id": "0-3287-8",
+   "id": "0-3338-5",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
    "toCountry": "Казахстан",
    "departure": "2026-11-24",
    "returnDate": null,
-   "price": 54000,
+   "price": 67000,
    "trip": "oneWay",
    "airline": "SCAT",
-   "baggage": "23 + 10 кг",
+   "baggage": "23 + 5 кг",
    "agency": "",
    "postedAt": "2026-11-21T12:45:06Z",
    "expiresAt": "2026-11-22T12:45:06Z",
-   "sourcePostID": 3287,
+   "sourcePostID": 3338,
    "seats": 1,
    "from": "Бангкок",
    "to": "Шымкент"
