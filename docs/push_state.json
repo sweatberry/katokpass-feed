@@ -149,6 +149,7 @@
   "0-3266-7",
   "0-3266-8",
   "0-3267-0",
+  "0-3268-10",
   "0-3268-12",
   "0-3268-14",
   "0-3268-18",
@@ -313,6 +314,7 @@
   "122",
   "126",
   "17",
+  "25",
   "28",
   "30",
   "39",
@@ -325,7 +327,332 @@
   "9",
   "97"
  ],
- "topics": {},
+ "topics": {
+  "f_0104031fbe29c054ee82aaf1": {
+   "instant": true
+  },
+  "f_e105926f6fc18c77defd52a3": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_a3f132f9127c60492b173618": {
+   "instant": true
+  },
+  "f_271978b04a72a9b69bd19d1f": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_0ce74b3dce310f6b31cff332": {
+   "instant": true
+  },
+  "f_46c3713243a762991dfe4f6c": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_825536d26c6099c144abe577": {
+   "instant": true
+  },
+  "f_cce7c64c9c21440f87a78142": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_17b30a81f2c2bfc4dc5ef88e": {
+   "instant": true
+  },
+  "f_be72d1d3b2a771434c991615": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_f8ff9fda4da7dd3cccd646a2": {
+   "instant": true
+  },
+  "f_4f703561e998f9b35a4197e6": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_bcf476bc70ead3d27ca5ea7d": {
+   "instant": true
+  },
+  "f_89ac5f85a21e238e4c6c88ee": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_35f6233edf7be1fc2c266479": {
+   "instant": true
+  },
+  "f_a4c8fe1d574885544d150458": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_230dc2cc52b7700b42555491": {
+   "instant": true
+  },
+  "f_87f83e0fd70d14d50ac52b34": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_83ea37d6bc8712b08dde8cac": {
+   "instant": true
+  },
+  "f_35e0fceced377b9d8705884c": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_c1d2476037217a804e80f2ba": {
+   "instant": true
+  },
+  "f_1a71f7e828e311ce58dec9e2": {
+   "instant": true
+  },
+  "f_5e888e7b4cb3a26c2358f532": {
+   "instant": true
+  },
+  "f_4d6f9dffd140240eb7efb2e6": {
+   "instant": true
+  },
+  "f_f25e50b2b84baa74d677cc80": {
+   "instant": true
+  },
+  "f_0baffa5c46e4c52708b7002d": {
+   "instant": true
+  },
+  "f_3894a1ae7aa0160a1817452d": {
+   "instant": true
+  },
+  "f_d776c0ef948492afd572a850": {
+   "instant": true
+  },
+  "f_1c0bfc3cf126199428da844a": {
+   "instant": true
+  },
+  "f_410e09bdcb522654a782e828": {
+   "instant": true
+  },
+  "f_e9153c7231eeb9aa79b4297a": {
+   "instant": true
+  },
+  "f_bc06db3add015f6d87e7bdf3": {
+   "instant": true
+  },
+  "f_a9ab9dd33ae11301ddd3c668": {
+   "instant": true
+  },
+  "f_202fdde1cfd91a913273dbf0": {
+   "instant": true
+  },
+  "f_2008f1055943ef14e5041572": {
+   "instant": true
+  },
+  "f_79a5c611ab34557ba46415e7": {
+   "instant": true
+  },
+  "f_050d2b40b794a9a64c5ee62a": {
+   "instant": true
+  },
+  "f_cd629c6e6e2a26642fa952f4": {
+   "instant": true
+  },
+  "f_1cfc089fc5b2f18b52df6ef2": {
+   "instant": true
+  },
+  "f_867bd6a1120fe24771ceb84e": {
+   "instant": true
+  },
+  "f_5ff9b5312598e00ed2c13ec3": {
+   "instant": true
+  },
+  "f_68bc03bfa9616410f2378f14": {
+   "instant": true
+  },
+  "f_6e0976ea2ade5525fe5cf6d3": {
+   "instant": true
+  },
+  "f_771505daabab08f170ef3ec5": {
+   "instant": true
+  },
+  "f_3204e21ab89079a87a26de02": {
+   "instant": true
+  },
+  "f_effb889a91ab69ab80ab47cb": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_f799ac8770599175ece86f47": {
+   "instant": true
+  },
+  "f_9f982d5b86c65dacb1d73ef8": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_3f97d6ef423df88cfca3bdc9": {
+   "instant": true
+  },
+  "f_a80d0b71a0e0a96057b27ba4": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_c088154919c2b7b4b8df48df": {
+   "instant": true
+  },
+  "f_69c946c74256f97a52b937fc": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_f7ec08ef43e05808e2b24626": {
+   "instant": true
+  },
+  "f_a5eb87089c2709e60adca668": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_ea8e8edbc700c58ae6512b93": {
+   "instant": true
+  },
+  "f_3bde25ddfe120c24644dd80d": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_a621f2971563fac123821533": {
+   "instant": true
+  },
+  "f_94fc8520daeba7d10c96e422": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_c85fe0e0cd759953c9aa7f98": {
+   "instant": true
+  },
+  "f_49b6f3ae6fef402a3183d4e7": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_3b9ea67d6375e80e7009ee8b": {
+   "instant": true
+  },
+  "f_27d40faacb806b2578653dc4": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "ru"
+  },
+  "f_8cd336744d3891819b35cca8": {
+   "instant": true
+  },
+  "f_637c8810c9fbf7cce5d3a318": {
+   "held": [
+    "0-3268-10"
+   ],
+   "lang": "kk"
+  },
+  "f_b3105fc90d5cb08a8aabe618": {
+   "instant": true
+  },
+  "f_8113e230f50df0b07475fd45": {
+   "instant": true
+  },
+  "f_a79510bc19c94b9be25c3d4b": {
+   "instant": true
+  },
+  "f_4fbde59eb2772a000dcb6a91": {
+   "instant": true
+  },
+  "f_491d23fa7089ce4741412b06": {
+   "instant": true
+  },
+  "f_6a902929247aaed4bda2c35d": {
+   "instant": true
+  },
+  "f_f46d5eb3ea01091327048a7c": {
+   "instant": true
+  },
+  "f_cbafe398799010e94b758bc2": {
+   "instant": true
+  },
+  "f_3f6cf90c9b76c51fb4c4f90b": {
+   "instant": true
+  },
+  "f_4de89678dc79e1080457f139": {
+   "instant": true
+  },
+  "f_ff8319262d9c748172be849e": {
+   "instant": true
+  },
+  "f_00285921ceb86e830ebbbb00": {
+   "instant": true
+  },
+  "f_fb5819df0cc95051d3452e64": {
+   "instant": true
+  },
+  "f_14bd2a187d10390291f56aa4": {
+   "instant": true
+  },
+  "f_aaf838c0c79b59938200cfeb": {
+   "instant": true
+  },
+  "f_879f01a6f1b2424c4c5ed5ad": {
+   "instant": true
+  },
+  "f_d4e3ca093fdc7963dd595333": {
+   "instant": true
+  },
+  "f_ff775caf6cd43cb953b3d207": {
+   "instant": true
+  },
+  "f_7328a5a4fa264054927e3ddc": {
+   "instant": true
+  },
+  "f_bcc701a0fcba7af0bc37a93f": {
+   "instant": true
+  },
+  "f_650f3de8705082e30c4f134e": {
+   "instant": true
+  },
+  "f_f2dab72fc39b496e7724b5bc": {
+   "instant": true
+  },
+  "f_9c10800bfafd75005d3e0ab4": {
+   "instant": true
+  },
+  "f_df572e5c10ba157261eb0b65": {
+   "instant": true
+  }
+ },
  "tourSnap": {
   "41": {
    "seats": null,
@@ -415,6 +742,12 @@
    "seats": null,
    "price": 1690000,
    "currency": "₸",
+   "alerted": null
+  },
+  "25": {
+   "seats": null,
+   "price": 4000,
+   "currency": "$",
    "alerted": null
   }
  }
