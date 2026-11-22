@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T07:00:28.557092Z",
+ "updatedAt": "2026-11-22T07:15:23.053841Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -2039,25 +2039,6 @@
    "to": "Дубай"
   },
   {
-   "id": "0-3305-22",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-26",
-   "returnDate": "2026-12-06",
-   "price": 215000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-21T07:03:43Z",
-   "expiresAt": "2026-11-22T07:03:43Z",
-   "sourcePostID": 3305,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Дубай"
-  },
-  {
    "id": "0-3313-11",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
@@ -3840,25 +3821,6 @@
    "expiresAt": "2026-11-23T06:51:17Z",
    "sourcePostID": 3353,
    "seats": 9,
-   "from": "Алматы",
-   "to": "Дубай"
-  },
-  {
-   "id": "0-3305-25",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-29",
-   "returnDate": "2026-12-06",
-   "price": 215000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-21T07:03:43Z",
-   "expiresAt": "2026-11-22T07:03:43Z",
-   "sourcePostID": 3305,
-   "seats": 1,
    "from": "Алматы",
    "to": "Дубай"
   },
