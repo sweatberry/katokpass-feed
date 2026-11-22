@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T10:15:23.129183Z",
+ "updatedAt": "2026-11-22T11:00:31.450155Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -568,10 +568,10 @@
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-22T05:38:04Z",
-   "expiresAt": "2026-11-23T05:38:04Z",
+   "postedAt": "2026-11-22T10:51:52Z",
+   "expiresAt": "2026-11-23T10:51:52Z",
    "sourcePostID": 3338,
-   "seats": 1,
+   "seats": 2,
    "from": "Пхукет",
    "to": "Алматы"
   },
@@ -2373,10 +2373,10 @@
    "airline": "Sun Phuquoc Airlines",
    "baggage": "23 + 7 кг",
    "agency": "",
-   "postedAt": "2026-11-22T05:38:55Z",
-   "expiresAt": "2026-11-23T05:38:55Z",
+   "postedAt": "2026-11-22T10:51:52Z",
+   "expiresAt": "2026-11-23T10:51:52Z",
    "sourcePostID": 3346,
-   "seats": null,
+   "seats": 2,
    "from": "Астана",
    "to": "Фукуок"
   },
@@ -2419,6 +2419,25 @@
    "to": "Дубай"
   },
   {
+   "id": "0-3376-1",
+   "country": "ОАЭ",
+   "fromCountry": "Казахстан",
+   "toCountry": "ОАЭ",
+   "departure": "2026-11-27",
+   "returnDate": "2026-12-09",
+   "price": 227000,
+   "trip": "roundTrip",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-22T10:51:52Z",
+   "expiresAt": "2026-11-23T10:51:52Z",
+   "sourcePostID": 3376,
+   "seats": 1,
+   "from": "Алматы",
+   "to": "Дубай"
+  },
+  {
    "id": "0-3346-24",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -2455,25 +2474,6 @@
    "seats": 2,
    "from": "Астана",
    "to": "Шарм-эш-Шейх"
-  },
-  {
-   "id": "0-3353-17",
-   "country": "ОАЭ",
-   "fromCountry": "Казахстан",
-   "toCountry": "ОАЭ",
-   "departure": "2026-11-27",
-   "returnDate": "2026-12-09",
-   "price": 237000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-22T06:51:17Z",
-   "expiresAt": "2026-11-23T06:51:17Z",
-   "sourcePostID": 3353,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Дубай"
   },
   {
    "id": "0-3367-8",
