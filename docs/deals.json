@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T12:45:30.184773Z",
+ "updatedAt": "2026-11-23T13:15:24.536863Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -177,21 +177,21 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-3426-0",
+   "id": "0-3429-0",
    "country": "Таиланд",
    "fromCountry": "Казахстан",
    "toCountry": "Таиланд",
    "departure": "2026-11-24",
    "returnDate": null,
-   "price": 81000,
+   "price": 70000,
    "trip": "oneWay",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
-   "postedAt": "2026-11-23T12:11:48Z",
-   "expiresAt": "2026-11-24T12:11:48Z",
-   "sourcePostID": 3426,
-   "seats": null,
+   "postedAt": "2026-11-23T13:01:04Z",
+   "expiresAt": "2026-11-24T13:01:04Z",
+   "sourcePostID": 3429,
+   "seats": 1,
    "from": "Алматы",
    "to": "Пхукет"
   },
