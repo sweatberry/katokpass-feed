@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T19:00:44.766408Z",
+ "updatedAt": "2026-11-24T19:00:29.915550Z",
  "tours": [
   {
    "id": "41",
@@ -1054,8 +1054,8 @@
     {
      "route": "Япония и Южная Корея",
      "departure": "2027-11-12",
-     "returnDate": "2026-11-24",
-     "nights": -353,
+     "returnDate": "2027-11-24",
+     "nights": 12,
      "datesNote": null,
      "explicitYear": false,
      "priceFrom": 1890000,
