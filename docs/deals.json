@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T10:15:21.190137Z",
+ "updatedAt": "2026-11-24T10:30:28.148362Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -2001,25 +2001,6 @@
    "to": "Шымкент"
   },
   {
-   "id": "0-3420-13",
-   "country": "Китай",
-   "fromCountry": "Китай",
-   "toCountry": "Казахстан",
-   "departure": "2026-11-29",
-   "returnDate": null,
-   "price": 52000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-23T10:28:21Z",
-   "expiresAt": "2026-11-24T10:28:21Z",
-   "sourcePostID": 3420,
-   "seats": 1,
-   "from": "Санья",
-   "to": "Шымкент"
-  },
-  {
    "id": "0-3440-0",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
@@ -3557,25 +3538,6 @@
    "seats": null,
    "from": "Астана",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-3420-7",
-   "country": "Китай",
-   "fromCountry": "Казахстан",
-   "toCountry": "Китай",
-   "departure": "2026-12-02",
-   "returnDate": "2026-12-14",
-   "price": 239000,
-   "trip": "roundTrip",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-23T10:28:21Z",
-   "expiresAt": "2026-11-24T10:28:21Z",
-   "sourcePostID": 3420,
-   "seats": 2,
-   "from": "Астана",
-   "to": "Санья"
   },
   {
    "id": "0-3469-6",
