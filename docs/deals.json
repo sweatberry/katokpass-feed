@@ -1,10 +1,29 @@
 {
- "updatedAt": "2026-11-25T11:45:24.453238Z",
+ "updatedAt": "2026-11-25T12:15:21.505493Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
  },
  "deals": [
+  {
+   "id": "0-3513-1",
+   "country": "Вьетнам",
+   "fromCountry": "Казахстан",
+   "toCountry": "Вьетнам",
+   "departure": "2026-11-26",
+   "returnDate": null,
+   "price": 54000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "уточняйте",
+   "agency": "",
+   "postedAt": "2026-11-25T12:14:47Z",
+   "expiresAt": "2026-11-26T12:14:47Z",
+   "sourcePostID": 3513,
+   "seats": 4,
+   "from": "Алматы",
+   "to": "Фукуок"
+  },
   {
    "id": "0-3505-3",
    "country": "Египет",
@@ -79,25 +98,6 @@
    "sourcePostID": 3495,
    "seats": 1,
    "from": "Шымкент",
-   "to": "Фукуок"
-  },
-  {
-   "id": "0-3490-2",
-   "country": "Вьетнам",
-   "fromCountry": "Казахстан",
-   "toCountry": "Вьетнам",
-   "departure": "2026-11-26",
-   "returnDate": null,
-   "price": 102000,
-   "trip": "oneWay",
-   "airline": "Sun Phuquoc Airlines",
-   "baggage": "23 + 7 кг",
-   "agency": "",
-   "postedAt": "2026-11-25T06:51:08Z",
-   "expiresAt": "2026-11-26T06:51:08Z",
-   "sourcePostID": 3490,
-   "seats": 1,
-   "from": "Алматы",
    "to": "Фукуок"
   },
   {
