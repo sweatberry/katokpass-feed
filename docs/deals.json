@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T07:45:20.757397Z",
+ "updatedAt": "2026-11-25T08:00:33.830597Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -3065,20 +3065,20 @@
    "to": "Санья"
   },
   {
-   "id": "0-3462-3",
+   "id": "0-3488-2",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
    "departure": "2026-12-07",
    "returnDate": null,
-   "price": 150000,
+   "price": 151000,
    "trip": "oneWay",
    "airline": "SCAT",
    "baggage": "23 + 5 кг",
    "agency": "",
    "postedAt": "2026-11-25T06:15:08Z",
    "expiresAt": "2026-11-26T06:15:08Z",
-   "sourcePostID": 3462,
+   "sourcePostID": 3488,
    "seats": 1,
    "from": "Нячанг",
    "to": "Алматы"
