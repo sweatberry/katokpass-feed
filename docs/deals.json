@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T09:45:19.977014Z",
+ "updatedAt": "2026-11-26T10:00:31.138652Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -384,6 +384,25 @@
    "seats": 2,
    "from": "Алматы",
    "to": "Мале"
+  },
+  {
+   "id": "0-3558-0",
+   "country": "Таиланд",
+   "fromCountry": "Казахстан",
+   "toCountry": "Таиланд",
+   "departure": "2026-11-27",
+   "returnDate": "2026-12-05",
+   "price": 158000,
+   "trip": "roundTrip",
+   "airline": "SCAT",
+   "baggage": "23 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-26T09:59:11Z",
+   "expiresAt": "2026-11-27T09:59:11Z",
+   "sourcePostID": 3558,
+   "seats": 1,
+   "from": "Алматы",
+   "to": "Пхукет"
   },
   {
    "id": "0-3509-8",
