@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T10:00:31.138652Z",
+ "updatedAt": "2026-11-26T10:30:24.989760Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -82,6 +82,25 @@
    "to": "Костанай"
   },
   {
+   "id": "0-3560-0",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-27",
+   "returnDate": null,
+   "price": 54000,
+   "trip": "oneWay",
+   "airline": "Red Sea",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-26T10:25:32Z",
+   "expiresAt": "2026-11-27T10:25:32Z",
+   "sourcePostID": 3560,
+   "seats": 1,
+   "from": "Алматы",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-3557-0",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
@@ -118,25 +137,6 @@
    "seats": 4,
    "from": "Алматы",
    "to": "Анталия"
-  },
-  {
-   "id": "0-3550-0",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-27",
-   "returnDate": null,
-   "price": 78000,
-   "trip": "oneWay",
-   "airline": "Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-26T08:35:05Z",
-   "expiresAt": "2026-11-27T08:35:05Z",
-   "sourcePostID": 3550,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3540-0",
@@ -975,6 +975,25 @@
    "to": "Алматы"
   },
   {
+   "id": "0-3560-1",
+   "country": "Египет",
+   "fromCountry": "Казахстан",
+   "toCountry": "Египет",
+   "departure": "2026-11-29",
+   "returnDate": null,
+   "price": 83000,
+   "trip": "oneWay",
+   "airline": "Red Sea",
+   "baggage": "20 + 5 кг",
+   "agency": "",
+   "postedAt": "2026-11-26T10:25:32Z",
+   "expiresAt": "2026-11-27T10:25:32Z",
+   "sourcePostID": 3560,
+   "seats": null,
+   "from": "Алматы",
+   "to": "Шарм-эш-Шейх"
+  },
+  {
    "id": "0-3506-2",
    "country": "Египет",
    "fromCountry": "Казахстан",
@@ -1011,25 +1030,6 @@
    "seats": 5,
    "from": "Алматы",
    "to": "Фукуок"
-  },
-  {
-   "id": "0-3550-1",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-29",
-   "returnDate": null,
-   "price": 102000,
-   "trip": "oneWay",
-   "airline": "Red Sea",
-   "baggage": "20 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-26T08:35:05Z",
-   "expiresAt": "2026-11-27T08:35:05Z",
-   "sourcePostID": 3550,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3557-1",
@@ -2533,6 +2533,25 @@
    "to": "Ташкент"
   },
   {
+   "id": "0-3559-1",
+   "country": "Китай",
+   "fromCountry": "Китай",
+   "toCountry": "Казахстан",
+   "departure": "2026-12-02",
+   "returnDate": null,
+   "price": 102000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-26T10:25:23Z",
+   "expiresAt": "2026-11-27T10:25:23Z",
+   "sourcePostID": 3559,
+   "seats": 2,
+   "from": "Санья",
+   "to": "Астана"
+  },
+  {
    "id": "0-3553-1",
    "country": "Египет",
    "fromCountry": "Египет",
@@ -2645,25 +2664,6 @@
    "seats": null,
    "from": "Алматы",
    "to": "Абу-Даби"
-  },
-  {
-   "id": "0-3527-4",
-   "country": "Китай",
-   "fromCountry": "Китай",
-   "toCountry": "Казахстан",
-   "departure": "2026-12-02",
-   "returnDate": null,
-   "price": 127000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-26T05:29:48Z",
-   "expiresAt": "2026-11-27T05:29:48Z",
-   "sourcePostID": 3527,
-   "seats": 2,
-   "from": "Санья",
-   "to": "Астана"
   },
   {
    "id": "0-3523-19",
@@ -4395,6 +4395,25 @@
    "to": "Санья"
   },
   {
+   "id": "0-3559-0",
+   "country": "Китай",
+   "fromCountry": "Китай",
+   "toCountry": "Казахстан",
+   "departure": "2026-12-06",
+   "returnDate": null,
+   "price": 102000,
+   "trip": "oneWay",
+   "airline": "Чартер",
+   "baggage": "23 + 8 кг",
+   "agency": "",
+   "postedAt": "2026-11-26T10:25:23Z",
+   "expiresAt": "2026-11-27T10:25:23Z",
+   "sourcePostID": 3559,
+   "seats": null,
+   "from": "Санья",
+   "to": "Алматы"
+  },
+  {
    "id": "0-3516-4",
    "country": "Турция",
    "fromCountry": "Казахстан",
@@ -4507,25 +4526,6 @@
    "seats": 3,
    "from": "Фукуок",
    "to": "Шымкент"
-  },
-  {
-   "id": "0-3526-2",
-   "country": "Китай",
-   "fromCountry": "Китай",
-   "toCountry": "Казахстан",
-   "departure": "2026-12-06",
-   "returnDate": null,
-   "price": 151000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-26T05:29:39Z",
-   "expiresAt": "2026-11-27T05:29:39Z",
-   "sourcePostID": 3526,
-   "seats": null,
-   "from": "Санья",
-   "to": "Алматы"
   },
   {
    "id": "0-3557-4",
