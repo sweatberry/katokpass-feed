@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T06:45:24.296769Z",
+ "updatedAt": "2026-11-26T07:00:38.876712Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -1184,20 +1184,20 @@
    "to": "Шарм-эш-Шейх"
   },
   {
-   "id": "0-3490-18",
+   "id": "0-3523-16",
    "country": "Вьетнам",
    "fromCountry": "Вьетнам",
    "toCountry": "Казахстан",
    "departure": "2026-11-30",
    "returnDate": null,
-   "price": 99000,
+   "price": 100000,
    "trip": "oneWay",
    "airline": "Sun Phuquoc Airlines",
    "baggage": "23 + 7 кг",
    "agency": "",
    "postedAt": "2026-11-26T05:00:38Z",
    "expiresAt": "2026-11-27T05:00:38Z",
-   "sourcePostID": 3490,
+   "sourcePostID": 3523,
    "seats": 1,
    "from": "Фукуок",
    "to": "Алматы"
@@ -2628,20 +2628,20 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-3490-37",
+   "id": "0-3523-41",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-12-03",
    "returnDate": "2026-12-10",
-   "price": 292000,
+   "price": 326000,
    "trip": "roundTrip",
    "airline": "Sun Phuquoc Airlines",
    "baggage": "23 + 7 кг",
    "agency": "",
    "postedAt": "2026-11-26T05:00:38Z",
    "expiresAt": "2026-11-27T05:00:38Z",
-   "sourcePostID": 3490,
+   "sourcePostID": 3523,
    "seats": 1,
    "from": "Алматы",
    "to": "Фукуок"
@@ -4756,20 +4756,20 @@
    "to": "Фукуок"
   },
   {
-   "id": "0-3490-49",
+   "id": "0-3523-50",
    "country": "Вьетнам",
    "fromCountry": "Казахстан",
    "toCountry": "Вьетнам",
    "departure": "2026-12-10",
    "returnDate": "2026-12-17",
-   "price": 331000,
+   "price": 332000,
    "trip": "roundTrip",
    "airline": "Sun Phuquoc Airlines",
    "baggage": "23 + 7 кг",
    "agency": "",
    "postedAt": "2026-11-26T05:00:38Z",
    "expiresAt": "2026-11-27T05:00:38Z",
-   "sourcePostID": 3490,
+   "sourcePostID": 3523,
    "seats": 3,
    "from": "Алматы",
    "to": "Фукуок"
