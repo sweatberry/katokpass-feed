@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T11:00:31.301927Z",
+ "updatedAt": "2026-11-28T11:45:22.300991Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -137,25 +137,6 @@
    "seats": 1,
    "from": "Алматы",
    "to": "Пхукет"
-  },
-  {
-   "id": "0-3625-0",
-   "country": "Мальдивы",
-   "fromCountry": "Казахстан",
-   "toCountry": "Мальдивы",
-   "departure": "2026-11-29",
-   "returnDate": "2026-12-06",
-   "price": 173000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-27T11:39:09Z",
-   "expiresAt": "2026-11-28T11:39:09Z",
-   "sourcePostID": 3625,
-   "seats": 1,
-   "from": "Алматы",
-   "to": "Мале"
   },
   {
    "id": "0-3633-24",
@@ -709,25 +690,6 @@
    "to": "Пхукет"
   },
   {
-   "id": "0-3625-1",
-   "country": "Мальдивы",
-   "fromCountry": "Казахстан",
-   "toCountry": "Мальдивы",
-   "departure": "2026-12-02",
-   "returnDate": "2026-12-09",
-   "price": 217000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-27T11:39:09Z",
-   "expiresAt": "2026-11-28T11:39:09Z",
-   "sourcePostID": 3625,
-   "seats": 5,
-   "from": "Алматы",
-   "to": "Мале"
-  },
-  {
    "id": "0-3634-11",
    "country": "Таиланд",
    "fromCountry": "Таиланд",
@@ -840,25 +802,6 @@
    "seats": 5,
    "from": "Пхукет",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3625-2",
-   "country": "Мальдивы",
-   "fromCountry": "Казахстан",
-   "toCountry": "Мальдивы",
-   "departure": "2026-12-03",
-   "returnDate": "2026-12-10",
-   "price": 217000,
-   "trip": "roundTrip",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-27T11:39:09Z",
-   "expiresAt": "2026-11-28T11:39:09Z",
-   "sourcePostID": 3625,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Мале"
   },
   {
    "id": "0-3634-25",
