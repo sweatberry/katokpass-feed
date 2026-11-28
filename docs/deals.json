@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T09:00:30.089240Z",
+ "updatedAt": "2026-11-28T09:15:24.050675Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -232,25 +232,6 @@
    "seats": null,
    "from": "Шарм-эш-Шейх",
    "to": "Алматы"
-  },
-  {
-   "id": "0-3615-0",
-   "country": "Египет",
-   "fromCountry": "Казахстан",
-   "toCountry": "Египет",
-   "departure": "2026-11-30",
-   "returnDate": null,
-   "price": 52000,
-   "trip": "oneWay",
-   "airline": "Чартер",
-   "baggage": "23 + 8 кг",
-   "agency": "",
-   "postedAt": "2026-11-27T09:07:16Z",
-   "expiresAt": "2026-11-28T09:07:16Z",
-   "sourcePostID": 3615,
-   "seats": null,
-   "from": "Алматы",
-   "to": "Шарм-эш-Шейх"
   },
   {
    "id": "0-3630-0",
