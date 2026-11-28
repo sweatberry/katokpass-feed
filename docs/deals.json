@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T10:45:22.206765Z",
+ "updatedAt": "2026-11-28T11:00:31.301927Z",
  "settings": {
   "whatsApp": "77001112070",
   "ttlHours": 24.0
@@ -2017,25 +2017,6 @@
    "sourcePostID": 3636,
    "seats": 6,
    "from": "Бангкок",
-   "to": "Алматы"
-  },
-  {
-   "id": "0-3622-1",
-   "country": "Вьетнам",
-   "fromCountry": "Вьетнам",
-   "toCountry": "Казахстан",
-   "departure": "2026-12-13",
-   "returnDate": null,
-   "price": 122000,
-   "trip": "oneWay",
-   "airline": "SCAT",
-   "baggage": "23 + 5 кг",
-   "agency": "",
-   "postedAt": "2026-11-27T10:48:50Z",
-   "expiresAt": "2026-11-28T10:48:50Z",
-   "sourcePostID": 3622,
-   "seats": null,
-   "from": "Фукуок",
    "to": "Алматы"
   },
   {
